@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Contact / Demo
+lang: sr
+title: Kontakt / Demo
 permalink: /contact/
-description: See Tefter in Action — Book Your Demo
+description: Vidi Tefter u akciji — zakaži demo
 ---
 
 <section class="section">
@@ -119,21 +120,6 @@ description: See Tefter in Action — Book Your Demo
         <h3>{% t contact.q3 %}</h3>
         <p>{% t contact.a3 %}</p>
       </div>
-      
-      <div class="card">
-        <h3>{% t contact.q4 %}</h3>
-        <p>{% t contact.a4 %}</p>
-      </div>
-      
-      <div class="card">
-        <h3>{% t contact.q5 %}</h3>
-      <p>{% t contact.a5 %} <a href="{{ '/security/' | relative_url }}" style="color: #0066cc;">{% t contact.q5_link %}</a> {% t contact.q5_end %}</p>
-      </div>
-      
-      <div class="card">
-        <h3>{% t contact.q6 %}</h3>
-        <p>{% t contact.a6 %}</p>
-      </div>
     </div>
   </div>
 </section>
@@ -141,11 +127,14 @@ description: See Tefter in Action — Book Your Demo
 <section class="section">
   <div class="wrapper">
     <div class="cta-box">
-      <h2>{% t cta.ready_to_start %}</h2>
+      <h2>{% t contact.ready_title %}</h2>
+      <p>{% t contact.ready_desc %}</p>
       <div class="cta-buttons">
-        <a href="mailto:demo@tefter.com?subject=Demo Request" class="btn btn-primary">{% t global.book_demo %}</a>
-        <a href="{{ '/' | relative_url }}" class="btn btn-secondary">{% t global.back_home %}</a>
+        <a href="mailto:demo@tefter.com?subject=Demo Request" class="btn btn-primary">{% t cta.schedule_demo %}</a>
+        <a href="mailto:experts@tefter.com?subject=Expert Consultation" class="btn btn-secondary">{% t cta.request_consultation %}</a>
       </div>
     </div>
   </div>
 </section>
+
+

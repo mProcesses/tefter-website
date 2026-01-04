@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: sr
 title: Partner Edge (white‑label)
 permalink: /partner-edge/
 description: Partner portal bez integracije pod tvojim domenom — ubrzaj uključivanje dobavljača i usvajanje kod partnera.

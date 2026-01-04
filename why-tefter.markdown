@@ -127,8 +127,8 @@ description: One Platform. Two Layers. Any Scale. Not middleware. Operational in
     <div class="cta-box">
       <h2>Experience the Difference</h2>
       <div class="cta-buttons">
-        <a href="/contact/" class="btn btn-primary">Book a demo</a>
-        <a href="/platform/" class="btn btn-secondary">Explore the platform</a>
+        <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Book a demo</a>
+        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">Explore the platform</a>
       </div>
     </div>
   </div>

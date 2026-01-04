@@ -85,8 +85,8 @@ description: A zero-integration partner portal under your domain — accelerate 
     <div class="cta-box">
       <h2>See Partner Edge in action</h2>
       <div class="cta-buttons">
-        <a href="/contact/" class="btn btn-primary">Book a demo</a>
-        <a href="/platform/" class="btn btn-secondary">Back to platform</a>
+        <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Book a demo</a>
+        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">Back to platform</a>
       </div>
     </div>
   </div>

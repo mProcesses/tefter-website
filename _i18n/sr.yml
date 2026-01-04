@@ -2,7 +2,7 @@
 nav:
   home: "Početna"
   platform: "Platforma"
-  tx: "Tefter Exchange (TX)"
+  tx: "Exchange (TX)"
   apps: "Aplikacije"
   solutions: "Rešenja"
   why: "Zašto Tefter"
@@ -118,7 +118,7 @@ home:
   tx_example_title: "Primer"
   tx_example: "Pošalješ porudžbinu sa stavkom “Proizvod A / pakovanje 24,” ali kupac očekuje šifru “PA-24.” TX označi nepoklapanje, predloži mapiranje, poslovni vlasnik odobri, TX sačuva pravilo i transakcija se ponovi i završi — bez IT tiketa."
   tx_start_quick: "<strong>Kreni za par minuta:</strong> registruješ organizaciju, dobiješ kredencijale i odmah kreneš sa transakcijama. Mapiranja i prosleđivanje u ERP doteruješ usput."
-  tx_edi_bridge: "<strong>EDI-friendly:</strong> TX može da stabilizuje postojeće EDI tokove ili da postepeno zameni legacy EDI — smanjujući IT opterećenje i povećavajući operativnu pouzdanost."
+  tx_edi_bridge: "<strong>Kompatibilno sa EDI‑jem:</strong> TX može da stabilizuje postojeće EDI tokove ili da postepeno zameni legacy EDI — smanjujući IT opterećenje i povećavajući operativnu pouzdanost."
 
   tx_enables_title: "Šta TX Omogućava (Operativni Sloj)"
   
@@ -147,7 +147,7 @@ home:
   e2e_label_issue: "Problem"
   e2e_label_recovery: "Oporavak"
   e2e_order: "Porudžbina se pošalje ka partnerskom sistemu."
-  e2e_issue: "Detektuje se nepoklapanje mapiranja — i endpoint partnera je privremeno nedostupan."
+  e2e_issue: "Detektuje se nepoklapanje mapiranja — i krajnja tačka partnera je privremeno nedostupna."
   e2e_recovery: "TX čuva transakciju bezbednom, automatski pokušava ponovo i traži poslovni unos samo kada je potrebna odluka o mapiranju."
   e2e_outcome: "Transakcija se nastavlja čim se partner vrati online — isporuka ostaje po planu, bez ručnog ponovnog unosa."
   

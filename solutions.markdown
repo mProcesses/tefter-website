@@ -80,7 +80,7 @@ description: Operational Continuity Across Industries - Built for FMCG, proven f
     <p class="section-copy">
       Tefter starts with TX: a continuity layer for transactions. Once exchange becomes recoverable and business-operable, operational execution can run safely on top.
     </p>
-    <a href="/tefter-exchange/" class="arrow-link" style="display: block; text-align: center; margin-top: 30px;">Explore TX</a>
+    <a href="{{ '/tefter-exchange/' | relative_url }}" class="arrow-link" style="display: block; text-align: center; margin-top: 30px;">Explore TX</a>
   </div>
 </section>
 
@@ -163,8 +163,8 @@ description: Operational Continuity Across Industries - Built for FMCG, proven f
     <div class="cta-box">
       <h2>Find Your Solution</h2>
       <div class="cta-buttons">
-        <a href="/contact/" class="btn btn-primary">Talk to an expert</a>
-        <a href="/platform/" class="btn btn-secondary">Explore the platform</a>
+        <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Talk to an expert</a>
+        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">Explore the platform</a>
       </div>
     </div>
   </div>

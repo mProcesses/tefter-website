@@ -2,12 +2,12 @@
 nav:
   home: "Home"
   platform: "Platform"
-  tx: "Tefter Exchange (TX)"
-  apps: "Tefter Apps"
+  tx: "Exchange (TX)"
+  apps: "Apps"
   solutions: "Solutions"
   why: "Why Tefter"
-  security: "Security & Governance"
-  contact: "Contact / Demo"
+  security: "Security"
+  contact: "Contact"
 
 global:
   book_demo: "Book a demo"

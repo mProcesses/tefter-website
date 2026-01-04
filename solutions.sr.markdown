@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: sr
 title: Rešenja
 permalink: /solutions/
 description: Operativni kontinuitet kroz industrije — napravljeno za FMCG, provereno u veleprodaji, proizvodnji i logistici

@@ -18,7 +18,7 @@
   <link rel="shortcut icon" href="{{ '/assets/icons/favicon.ico' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<body>
+<body data-baseurl="{{ site.baseurl }}" data-default-lang="{{ site.default_lang }}">
   <header class="site-header">
     <div class="wrapper">
       <a class="site-title" href="{{ '/' | relative_url }}" aria-label="Tefter">
@@ -64,15 +64,40 @@
           </svg>
         </button>
         <div class="language-dropdown-content">
+          {%- comment -%}
+          Polyglot may render `page.url` with a language prefix (e.g. `/sr/...`) on non-default languages.
+          Normalize it so the language switcher doesn't generate `/sr/sr/...` or keep users on the same language.
+          {%- endcomment -%}
+          {% assign base_page_url = page.permalink | default: page.url %}
+          {% for l in site.languages %}
+            {% if l != site.default_lang %}
+              {% assign prefix = '/' | append: l %}
+              {% assign prefix_slash = prefix | append: '/' %}
+              {% assign prefix_no_slash = l | append: '/' %}
+              {%- comment -%}
+              Handle both `/sr/...` and `sr/...` (some generators can omit the leading slash).
+              {%- endcomment -%}
+              {% if base_page_url == prefix or base_page_url contains prefix_slash %}
+                {% assign base_page_url = base_page_url | remove_first: prefix %}
+              {% elsif base_page_url == l or base_page_url contains prefix_no_slash %}
+                {% assign base_page_url = '/' | append: base_page_url %}
+                {% assign base_page_url = base_page_url | remove_first: prefix %}
+              {% endif %}
+              {% if base_page_url == '' %}
+                {% assign base_page_url = '/' %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
           {% for lang in site.languages %}
             {% if lang == site.default_lang %}
-              {% assign lang_href = page.url %}
+              {% assign lang_href = base_page_url %}
             {% else %}
-              {% assign lang_href = '/' | append: lang | append: page.url %}
+              {% assign lang_href = '/' | append: lang | append: base_page_url %}
             {% endif %}
-            <a href="{{ lang_href | replace: '//', '/' | relative_url }}" 
+            <a href="{{ lang_href | replace: '//', '/' }}" 
                class="language-option {% if active_lang == lang %}active{% endif %}"
-               title="{{ site.language_names[lang] }}">
+               title="{{ site.language_names[lang] }}"
+               data-lang="{{ lang }}">
               <span class="flag">
                 {% if lang == 'en' %}🇬🇧
                 {% elsif lang == 'sr' %}🇷🇸

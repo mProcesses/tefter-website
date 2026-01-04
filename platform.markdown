@@ -52,7 +52,7 @@ description: A Platform for Operations and Exchange — Built for Enterprise Rel
       </ul>
     </div>
 
-    <a href="/tefter-exchange/" class="arrow-link" style="display: block; text-align: center; margin-top: 30px;">Explore TX</a>
+    <a href="{{ '/tefter-exchange/' | relative_url }}" class="arrow-link" style="display: block; text-align: center; margin-top: 30px;">Explore TX</a>
   </div>
 </section>
 
@@ -83,7 +83,7 @@ description: A Platform for Operations and Exchange — Built for Enterprise Rel
         <li>Partner management</li>
         <li>Shipping optimization</li>
       </ul>
-      <a href="/tefter-apps/" class="arrow-link" style="display: inline-block; margin-top: 10px;">Explore apps</a>
+      <a href="{{ '/tefter-apps/' | relative_url }}" class="arrow-link" style="display: inline-block; margin-top: 10px;">Explore apps</a>
     </div>
   </div>
 </section>
@@ -100,21 +100,21 @@ description: A Platform for Operations and Exchange — Built for Enterprise Rel
         <h3>TX Control Plane</h3>
         <p><strong>Who:</strong> CIOs, integration teams, platform operators</p>
         <p><strong>What:</strong> Partner connectivity, exchange configuration, monitoring, recovery, audit</p>
-        <a href="/tefter-exchange/" class="arrow-link" style="display: inline-block; margin-top: 10px;">Explore TX</a>
+        <a href="{{ '/tefter-exchange/' | relative_url }}" class="arrow-link" style="display: inline-block; margin-top: 10px;">Explore TX</a>
       </div>
 
       <div class="card">
         <h3>Apps Workspace</h3>
         <p><strong>Who:</strong> Sales, procurement, warehouse, operations</p>
         <p><strong>What:</strong> Execution workflows for daily work — powered by TX underneath</p>
-        <a href="/tefter-apps/" class="arrow-link" style="display: inline-block; margin-top: 10px;">Explore apps</a>
+        <a href="{{ '/tefter-apps/' | relative_url }}" class="arrow-link" style="display: inline-block; margin-top: 10px;">Explore apps</a>
       </div>
 
       <div class="card">
         <h3>Partner Edge (White‑label)</h3>
         <p><strong>Who:</strong> Suppliers and non-technical partners</p>
         <p><strong>What:</strong> A zero-integration portal under your domain for procurement flows</p>
-        <a href="/partner-edge/" class="arrow-link" style="display: inline-block; margin-top: 10px;">Explore Partner Edge</a>
+        <a href="{{ '/partner-edge/' | relative_url }}" class="arrow-link" style="display: inline-block; margin-top: 10px;">Explore Partner Edge</a>
       </div>
     </div>
   </div>
@@ -158,9 +158,9 @@ description: A Platform for Operations and Exchange — Built for Enterprise Rel
     <div class="cta-box">
       <h2>See the Platform in Action</h2>
       <div class="cta-buttons">
-        <a href="/contact/" class="btn btn-primary">Book a demo</a>
-        <a href="/tefter-exchange/" class="btn btn-secondary">Explore TX</a>
-        <a href="/tefter-apps/" class="btn btn-secondary">Explore apps</a>
+        <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Book a demo</a>
+        <a href="{{ '/tefter-exchange/' | relative_url }}" class="btn btn-secondary">Explore TX</a>
+        <a href="{{ '/tefter-apps/' | relative_url }}" class="btn btn-secondary">Explore apps</a>
       </div>
     </div>
   </div>

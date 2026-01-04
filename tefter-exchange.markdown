@@ -144,7 +144,7 @@ description: Resilient, Self-Healing Exchange for Mission-Critical Operations
     </div>
 
     <div class="highlight-box" style="margin-top: 30px;">
-      <p><strong>Security:</strong> Encryption, access control, auditability, and governance are covered in depth on the <a href="/security/">Security &amp; Governance</a> page.</p>
+      <p><strong>Security:</strong> Encryption, access control, auditability, and governance are covered in depth on the <a href="{{ '/security/' | relative_url }}">Security &amp; Governance</a> page.</p>
     </div>
   </div>
 </section>
@@ -177,8 +177,8 @@ description: Resilient, Self-Healing Exchange for Mission-Critical Operations
     <div class="cta-box">
       <h2>Book a technical demo</h2>
       <div class="cta-buttons">
-        <a href="/contact/" class="btn btn-primary">Book a demo</a>
-        <a href="/platform/" class="btn btn-secondary">See full platform</a>
+        <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Book a demo</a>
+        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">See full platform</a>
       </div>
     </div>
   </div>

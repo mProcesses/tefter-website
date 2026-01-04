@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: sr
 title: Platforma
 permalink: /platform/
 description: Platforma za operacije i razmenu — napravljena za enterprise pouzdanost

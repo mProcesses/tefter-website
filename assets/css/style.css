@@ -184,17 +184,20 @@ body {
 .trigger {
   display: flex;
   align-items: center;
-  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px 10px; /* row-gap, column-gap */
 }
 
 .page-link {
   color: #424242;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 8px 12px;
   border-radius: 4px;
   transition: all 0.2s ease;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 .page-link:hover {
@@ -205,9 +208,9 @@ body {
 .page-link.cta {
   background-color: #0066cc;
   color: #fff;
-  padding: 10px 20px;
+  padding: 8px 14px;
   border-radius: 6px;
-  margin-left: 10px;
+  margin-left: 0;
 }
 
 .page-link.cta:hover {

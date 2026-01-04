@@ -34,7 +34,7 @@ description: Your Business in Your Pocket — Mobile-First, Task-Optimized
     <p class="section-copy">
       Tefter Apps are execution surfaces on top of TX. Because TX guarantees continuity, teams can move at business speed — while exchange stays reliable underneath. Apps augment your ERP by making day-to-day work simpler, mobile, and recoverable.
     </p>
-    <a href="/tefter-exchange/" class="arrow-link" style="display: block; text-align: center; margin-top: 30px;">Explore TX</a>
+    <a href="{{ '/tefter-exchange/' | relative_url }}" class="arrow-link" style="display: block; text-align: center; margin-top: 30px;">Explore TX</a>
   </div>
 </section>
 
@@ -116,8 +116,8 @@ description: Your Business in Your Pocket — Mobile-First, Task-Optimized
     <div class="cta-box">
       <h2>Experience Tefter Apps</h2>
       <div class="cta-buttons">
-        <a href="/contact/" class="btn btn-primary">Book a demo</a>
-        <a href="/platform/" class="btn btn-secondary">See full platform</a>
+        <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Book a demo</a>
+        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">See full platform</a>
       </div>
     </div>
   </div>

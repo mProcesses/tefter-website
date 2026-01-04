@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: sr
 title: Zašto Tefter
 permalink: /why-tefter/
 description: Jedna platforma. Dva sloja. Bilo koja veličina. Nije middleware. Operativna infrastruktura.

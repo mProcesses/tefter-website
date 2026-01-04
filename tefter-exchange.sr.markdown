@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: sr
 title: Tefter Exchange (TX)
 permalink: /tefter-exchange/
 description: Otporna, samopopravljajuća razmena za misija-kritične operacije

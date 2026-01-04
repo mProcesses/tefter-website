@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Home
-description: Run Operations. Exchange Data. Keep Business Moving. Tefter combines operational modules with resilient exchange for seamless business operations.
+title: Početna
+description: Vodite operacije. Razmenjujte podatke. Održavajte poslovanje u pokretu. Tefter spaja operativne module sa otpornom razmenom podataka.
 ---
 
 <section class="hero">
@@ -201,3 +201,5 @@ description: Run Operations. Exchange Data. Keep Business Moving. Tefter combine
     </div>
   </div>
 </section>
+
+

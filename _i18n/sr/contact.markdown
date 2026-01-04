@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Contact / Demo
+title: Kontakt / Demo
 permalink: /contact/
-description: See Tefter in Action — Book Your Demo
+description: Vidi Tefter u akciji — zakaži demo
 ---
 
 <section class="section">
@@ -127,7 +127,7 @@ description: See Tefter in Action — Book Your Demo
       
       <div class="card">
         <h3>{% t contact.q5 %}</h3>
-      <p>{% t contact.a5 %} <a href="{{ '/security/' | relative_url }}" style="color: #0066cc;">{% t contact.q5_link %}</a> {% t contact.q5_end %}</p>
+        <p>{% t contact.a5 %} <a href="{{ '/security/' | relative_url }}" style="color: #0066cc;">{% t contact.q5_link %}</a> {% t contact.q5_end %}</p>
       </div>
       
       <div class="card">
@@ -149,3 +149,5 @@ description: See Tefter in Action — Book Your Demo
     </div>
   </div>
 </section>
+
+

@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: sr
 title: Bezbednost i upravljanje
 permalink: /security/
 description: Enterprise bezbednost i governance za svaku transakciju

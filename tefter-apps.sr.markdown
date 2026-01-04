@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: sr
 title: Tefter aplikacije
 permalink: /tefter-apps/
 description: Tvoj biznis u džepu — mobile-first, optimizovano po zadacima
