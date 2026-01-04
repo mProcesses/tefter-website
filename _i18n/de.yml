@@ -1,0 +1,47 @@
+# German translations / Deutsche Übersetzungen
+nav:
+  home: "Startseite"
+  platform: "Plattform"
+  tx: "Tefter Exchange (TX)"
+  apps: "Tefter Apps"
+  solutions: "Lösungen"
+  why: "Warum Tefter"
+  security: "Sicherheit & Governance"
+  contact: "Kontakt / Demo"
+
+global:
+  book_demo: "Demo buchen"
+  see_how: "Sehen Sie wie es funktioniert"
+  see_product: "Produktübersicht ansehen"
+  learn_more: "Mehr erfahren"
+  back_home: "Zurück zur Startseite"
+  explore_platform: "Plattform erkunden"
+  talk_expert: "Mit Experten sprechen"
+  explore_apps: "Alle Apps erkunden"
+  find_solution: "Finden Sie Ihre Lösung"
+  
+footer:
+  copyright: "© %{year} Tefter Exchange Platform. Alle Rechte vorbehalten."
+  
+hero:
+  tagline: "Eine Plattform. Zwei Schichten. Jede Größe."
+  exchange_layer: "Exchange-Schicht (TX):"
+  exchange_desc: "Zuverlässiger, selbstheilender Datenaustausch für geschäftskritische Operationen."
+  ops_layer: "Betriebsschicht:"
+  ops_desc: "Führen Sie Ihr Geschäft direkt oder ergänzen Sie Ihr ERP."
+
+cta:
+  book_demo: "Demo buchen"
+  talk_expert: "Mit Experten sprechen"
+  see_action: "Sehen Sie Tefter in Aktion"
+  experience: "Erleben Sie Tefter Apps"
+  get_started: "Bereit anzufangen?"
+  
+common:
+  projection: "Projizierte Ergebnisse basierend auf Kundenszenarien"
+  outcome: "Ergebnis"
+  challenge: "Herausforderung"
+  solution: "Lösung"
+  features: "Funktionen"
+  benefits: "Vorteile"
+

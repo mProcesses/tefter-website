@@ -1,0 +1,253 @@
+# English translations
+nav:
+  home: "Home"
+  platform: "Platform"
+  tx: "Tefter Exchange (TX)"
+  apps: "Tefter Apps"
+  solutions: "Solutions"
+  why: "Why Tefter"
+  security: "Security & Governance"
+  contact: "Contact / Demo"
+
+global:
+  book_demo: "Book a demo"
+  see_how: "See how it works"
+  see_product: "See product overview"
+  learn_more: "Learn more"
+  back_home: "Back to home"
+  explore_platform: "Explore the platform"
+  talk_expert: "Talk to an expert"
+  explore_apps: "Explore all apps"
+  find_solution: "Find your solution"
+  see_full_platform: "See full platform"
+  
+footer:
+  copyright: "© %{year} Tefter Exchange Platform. All rights reserved."
+  
+hero:
+  tagline: "One platform. Two layers. Any scale."
+  exchange_layer: "Exchange Layer (TX):"
+  exchange_desc: "Reliable, self-healing data exchange for mission-critical operations."
+  ops_layer: "Operational Layer:"
+  ops_desc: "Run business directly or augment your ERP."
+
+cta:
+  book_demo: "Book a demo"
+  talk_expert: "Talk to an expert"
+  see_action: "See Tefter in Action"
+  experience: "Experience Tefter Apps"
+  get_started: "Ready to Get Started?"
+  see_tx: "Learn about TX"
+  talk_security: "Talk to security team"
+  platform_overview: "Platform overview"
+  find_your_solution: "Find Your Solution"
+  experience_difference: "Experience the Difference"
+  experience_tx: "Experience TX in Action"
+  experience_apps: "Experience Tefter Apps"
+  security_questions: "Security Questions?"
+  ready_to_start: "Ready to Get Started?"
+  schedule_demo: "Schedule a demo"
+  request_consultation: "Request consultation"
+
+tx:
+  getting_started_title: "Getting started"
+  getting_started_desc: "Start transacting quickly, then refine mappings and ERP forwarding as needed:"
+  getting_started_step_1: "Register your organization and generate credentials"
+  getting_started_step_2: "Connect partner exchange (EDI, API, files, or email)"
+  getting_started_step_3: "Begin receiving/sending transactions immediately"
+  getting_started_step_4: "Refine mappings and forward to your ERP on the fly (AI-assisted when formats or data don’t match)"
+  
+common:
+  projection: "Projected outcomes based on customer scenarios"
+  outcome: "Outcome"
+  challenge: "Challenge"
+  solution: "Solution"
+  features: "Features"
+  benefits: "Benefits"
+  yes: "Yes"
+  no: "No"
+  limited: "Limited"
+  sometimes: "Sometimes"
+  varies: "Varies"
+  unlimited: "Unlimited"
+  complete: "Complete"
+  
+# Home page
+home:
+  title: "Home"
+  description: "Run Operations. Exchange Data. Keep Business Moving. Tefter combines operational modules with resilient exchange for seamless business operations."
+  main_heading: "Run Operations. Exchange Data. Keep Business Moving."
+  main_subheading: "Tefter combines a resilient exchange layer with operational modules for sales, procurement, warehouse, partner management, and shipping optimization — so companies can manage orders, invoices, and deliveries while connecting seamlessly to ERPs, partners, and government systems, even when data is wrong or systems fail."
+  
+  new_category_title: "A New Category: Business Operations Integration"
+  new_category_desc: "Traditional EDI connects systems. Traditional ERP runs business processes. Tefter bridges both worlds — it's a platform that operates your business AND ensures data flows reliably across your entire ecosystem, even when partners change formats, networks fail, or data doesn't match."
+  
+  problem_title: "The Problem We Solve"
+  problem_intro: "Most companies connect partners using one of these familiar approaches — each with serious drawbacks:"
+  
+  path_erp_title: "The ERP-Centric Path"
+  path_erp_desc: "Rely on your ERP for both operations and partner connections."
+  path_erp_reality: "Complex and expensive, requires IT for every partner change, onboarding becomes a project (weeks, not hours), rigid requirements, and manual/opaque recovery when exchange fails."
+  
+  path_edi_title: "The EDI Service Path"
+  path_edi_desc: "Purchase an EDI/integration service to connect partners while using separate systems for operations."
+  path_edi_reality: "Moves data formats, but doesn’t deliver continuity — mappings and exceptions still depend on specialists, cost scales per partner, business users can’t resolve issues quickly, and onboarding still takes weeks."
+  
+  path_custom_title: "The Custom Integration Path"
+  path_custom_desc: "Build your own middleware and integrations between systems."
+  path_custom_reality: "High build and maintenance costs, brittle connections, inconsistent standards, a dedicated team required, and every new partner becomes a bespoke project."
+  
+  path_manual_title: "The Manual Process Path"
+  path_manual_desc: "Rely on phone, email, spreadsheets, and manual data entry."
+  path_manual_reality: "Doesn’t scale, error-prone, no clear visibility or ownership, and recovery is entirely manual — leading to delays and disputes."
+
+  problem_missing: "<strong>What’s missing in all of them:</strong> a system of continuity for transactions — recoverable execution, automatic retry/resume, and business-operable resolution when data is wrong."
+  
+  breakthrough_title: "The Breakthrough: Tefter Exchange (TX)"
+  solution_highlight: "We built <strong>Tefter Exchange (TX)</strong> — a system of continuity for business transactions. It keeps execution recoverable, resumes automatically after failures, and routes data decisions to the business with full traceability."
+  
+  how_works_title: "How Tefter Works — Quick Overview"
+  
+  tx_subtitle: "Tefter Exchange (TX)"
+  tx_desc: "TX is the exchange/continuity layer that keeps transactions safe through failures and mismatches."
+  tx_feature_1: "<strong>Recoverable execution:</strong> pause safely, retry automatically, and resume without re-entry or duplication"
+  tx_feature_2: "<strong>Business-operable fixes:</strong> when data doesn’t match, route the decision to the right role (not an IT queue) and replay the transaction"
+  tx_feature_3: "<strong>Partner reality:</strong> connect via EDI, API, files, or email — without forcing a new “standard”"
+  tx_feature_4: "<strong>Audit + visibility:</strong> see every transaction state, owner, and next action with traceability end-to-end"
+  
+  tx_example_title: "Example"
+  tx_example: "An order is sent with item “Product A / case of 24,” but the customer expects code “PA-24.” TX flags the mismatch, suggests a mapping, the business owner approves, TX stores the rule, and the transaction is replayed and completes — without an IT ticket."
+  tx_start_quick: "<strong>Start in minutes:</strong> register your organization, get credentials, and begin transacting. Refine mappings and ERP forwarding as you go."
+
+  tx_enables_title: "What TX Enables (Operational Layer)"
+  
+  ops_subtitle: "Operational Layer — Where Work Happens"
+  ops_desc: "Five integrated modules for daily operations:"
+  
+  ops_sales_title: "1. Sales"
+  ops_sales_desc: "Sales teams capture orders (mobile or web) → real-time sync to customer ERP via TX"
+  
+  ops_procurement_title: "2. Procurement"
+  ops_procurement_desc: "Create purchase orders → suppliers receive via TX or email"
+  
+  ops_warehouse_title: "3. Warehouse"
+  ops_warehouse_desc: "Manage picking, packing, shipping → inventory updates propagate automatically"
+  
+  ops_partner_title: "4. Partner Management"
+  ops_partner_desc: "Onboard suppliers/customers, define rules, manage mappings — no IT required"
+  
+  ops_shipping_title: "5. Shipping Optimization"
+  ops_shipping_desc: "Optimize delivery routes, reduce costs, improve schedules"
+  
+  see_all_modules: "See all modules in detail"
+
+  end_to_end_title: "One End-to-End Scenario"
+  e2e_label_order: "Order"
+  e2e_label_issue: "Issue"
+  e2e_label_recovery: "Recovery"
+  e2e_order: "An order is submitted and sent to a partner system."
+  e2e_issue: "A mapping mismatch is detected — and the partner endpoint is temporarily unreachable."
+  e2e_recovery: "TX keeps the transaction safe, retries automatically, and only asks for business input when a mapping decision is needed."
+  e2e_outcome: "The transaction resumes as soon as the partner is back online — delivery stays on schedule, without manual re-entry."
+  
+  outcomes_title: "Quick Outcomes — Projected Impact"
+  outcome_onboarding: "6 weeks → same-day"
+  outcome_onboarding_desc: "Reduce partner onboarding time"
+  outcome_tickets: "90% reduction"
+  outcome_tickets_desc: "Eliminate EDI support tickets"
+  outcome_close: "40% faster"
+  outcome_close_desc: "Cut month-end close time"
+  outcome_entry: "75% reduction"
+  outcome_entry_desc: "Reduce manual data entry"
+
+  who_for_title: "Who This Is For"
+  who_cio_title: "CIO"
+  who_cio_1: "Governance and stability across partner exchange"
+  who_cio_2: "Fewer fragile integrations and fewer fire-drills"
+  who_coo_title: "COO"
+  who_coo_1: "Continuity when partners fail and data is wrong"
+  who_coo_2: "Business-speed resolution without waiting on IT"
+  
+  fmcg_title: "Built for FMCG Operations — From Field to Fulfillment"
+  
+  fmcg_distributor_title: "Distributor Order Management"
+  fmcg_distributor_desc: "Field rep visits retail store, takes order on mobile. Order instantly routed to distributor's ERP via TX. Distributor confirms availability, schedules delivery."
+  fmcg_distributor_outcome: "No phone calls, no order entry errors, same-day processing"
+  
+  fmcg_promo_title: "Promotional Campaigns"
+  fmcg_promo_desc: "Marketing launches promotion with special pricing. TX maps promotional SKUs to distributor systems automatically. Invoicing reflects promotional terms without manual adjustment."
+  fmcg_promo_outcome: "Faster go-to-market, fewer billing disputes"
+  
+  fmcg_multi_title: "Multi-Distributor Management"
+  fmcg_multi_desc: "Single order split across 3 distributors based on product availability. TX handles format differences (one uses EDI, one uses XML, one uses email)."
+  fmcg_multi_outcome: "Simplified operations despite complex partner ecosystem"
+  
+  fmcg_retail_title: "Retail Compliance"
+  fmcg_retail_desc: "Large retailer requires specific invoice formats and delivery windows. TX automatically formats invoices per retailer requirements."
+  fmcg_retail_outcome: "Maintain retail partnerships without manual compliance work"
+  
+  see_more_solutions: "See more FMCG solutions"
+
+# About page
+about:
+  title: "About"
+  content_1: "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at"
+  content_2: "You can find the source code for Minima at GitHub:"
+  content_3: "You can find the source code for Jekyll at GitHub:"
+
+# Contact page  
+contact:
+  title: "Contact / Demo"
+  description: "See Tefter in Action — Book Your Demo"
+  main_heading: "See Tefter in Action — Book Your Demo"
+  intro: "Discover how Tefter can transform your operations in a personalized 30-minute demo. We'll show you:"
+  show_1: "How TX handles your specific partner integration scenarios"
+  show_2: "Mobile apps for your field teams"
+  show_3: "AI-assisted error resolution in real-time"
+  show_4: "Your projected ROI based on your current operations"
+  
+  format_title: "Demo Format"
+  live_demo_title: "Book a Live Demo"
+  live_demo_desc: "30-minute video call with Tefter solution expert, customized to your industry (FMCG, wholesale, manufacturing, logistics)."
+  expect_title: "What to expect:"
+  expect_1: "Live demonstration of platform features"
+  expect_2: "Customized to your use cases"
+  expect_3: "Q&A session with technical and business experts"
+  expect_4: "Follow-up with proposal and implementation timeline"
+  expect_5: "No sales pressure"
+  
+  expert_title: "Talk to an Expert"
+  expert_desc: "Have specific questions about architecture, security, or implementation? Connect with one of our technical experts."
+  discuss_title: "We can discuss:"
+  discuss_1: "Integration architecture"
+  discuss_2: "Security and compliance"
+  discuss_3: "Deployment options"
+  discuss_4: "Pricing and licensing"
+  discuss_5: "Migration planning"
+  
+  direct_title: "Or get in touch directly"
+  sales_title: "Sales Inquiries"
+  sales_desc: "Questions about pricing, licensing, or commercial terms."
+  tech_title: "Technical Questions"
+  tech_desc: "Architecture, integration, or implementation questions."
+  partners_title: "Partnership Opportunities"
+  partners_desc: "Interested in partnering with Tefter?"
+  general_title: "General Information"
+  general_desc: "Any other inquiries or questions."
+  
+  faq_title: "Common Questions Before Demo"
+  q1: "How long does implementation take?"
+  a1: "You can start transacting in minutes: register your organization, get credentials, and begin receiving/sending transactions. Connecting forwarding to your ERP and refining mappings typically takes hours (sometimes days) depending on how custom the partner formats and data rules are."
+  q2: "Can Tefter work alongside our existing EDI system?"
+  a2: "Yes. Tefter can run in parallel with existing systems, allowing gradual migration or permanent coexistence depending on your needs."
+  q3: "What integration formats do you support?"
+  a3: "All major EDI standards (EDIFACT, X12), XML (UBL, GS1), JSON, CSV, email, and custom formats. If you can parse it, Tefter can process it."
+  q4: "Is training required for business users?"
+  a4: "Basic training takes 1-2 hours. The interface is designed for business users, not technical experts. Most users are productive immediately."
+  q5: "What about security and compliance?"
+  a5: "Enterprise-grade security built in. GDPR-compliant, hosted in EU (Brussels). SOC 2 Type II and ISO 27001 in progress. Full details on our"
+  q5_link: "Security & Governance"
+  q5_end: "page."
+  q6: "Do you have a mobile app?"
+  a6: "Yes! All operational modules are mobile-first with offline support. Field sales reps, warehouse teams, and logistics managers can work from their mobile devices."
+

@@ -1,0 +1,127 @@
+---
+layout: page
+title: Platforma
+permalink: /platform/
+description: Platforma za operacije i razmenu — napravljena za enterprise pouzdanost
+---
+
+<section class="section">
+  <div class="wrapper section-center">
+    <h1 class="section-title">Operativna infrastruktura — ne aplikacija</h1>
+    <p class="section-copy">
+      Tefter je napravljen da drži realne operacije u pokretu kada razmena pukne. Kombinuje sloj razmene (TX) za kontinuitet sa operativnim slojem koji pomaže timovima da izvršavaju svakodnevni posao — uz tvoj ERP, ne protiv njega.
+    </p>
+    <div class="highlight-box">
+      <p>Jedna platforma. Dva sloja. Bilo koja veličina.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="section-title">Zašto tradicionalne arhitekture pucaju</h2>
+    <p class="section-copy">
+      Većina “integracija” puca na predvidljive načine — jer pretpostavlja stabilan svet.
+    </p>
+    <ul class="feature-list">
+      <li>Point-to-point veze se množe — i svaka promena postaje projekat</li>
+      <li>ERP workflow-i pretpostavljaju savršene ulaze i stabilne partnerske sisteme</li>
+      <li>Oporavak je ručan, spor i nevidljiv dok biznis ne oseti posledice</li>
+      <li>Poslovni timovi ne mogu da reše problem bez IT-a u sredini</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="section-title">TX kao sistem kontinuiteta</h2>
+    <p class="section-copy">
+      Tefter Exchange (TX) je jezgro: recovery-first sloj razmene za poslovne transakcije. Tretira prekide kao normalne, čuva stanje izvršavanja i nastavlja rad kada se sistemi oporave — uz poslovno-operativno rešavanje kada su podaci pogrešni.
+    </p>
+    <div class="highlight-box">
+      <p><strong>TX nije “integracija”.</strong> To je motor kontinuiteta za realne operacije.</p>
+    </div>
+
+    <a href="/tefter-exchange/" class="arrow-link" style="display: block; text-align: center; margin-top: 30px;">Istraži TX</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="section-title">Dva sloja, jedna platforma</h2>
+    <p class="section-copy">
+      TX garantuje kontinuitet i “istinu” transakcija kroz partnere. Operativni sloj pretvara taj kontinuitet u brzinu izvršavanja za timove.
+    </p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Sloj razmene (TX)</h3>
+        <p>Kontinuitet i istina za transakcije kroz partnere, ERP-ove i eksterne sisteme.</p>
+      </div>
+      <div class="card">
+        <h3>Operativni sloj</h3>
+        <p>Površine za izvršavanje svakodnevnog posla — dizajnirane da nadograde tvoj ERP i rade u brzini biznisa.</p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top: 30px;">
+      <h3>Operativni moduli (ukratko)</h3>
+      <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
+        <li>Prodaja</li>
+        <li>Nabavka</li>
+        <li>Skladište</li>
+        <li>Partneri</li>
+        <li>Optimizacija dostave</li>
+      </ul>
+      <a href="/tefter-apps/" class="arrow-link" style="display: inline-block; margin-top: 10px;">Istraži aplikacije</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="section-title">Scenario u većoj skali</h2>
+    <div class="card" style="margin: 30px 0; background: #f8f9fa;">
+      <p><strong>Kontekst:</strong> Distribucija iz više skladišta kroz desetine partnera.</p>
+      <p><strong>Delimičan prekid:</strong> Jedan partner je “down”, drugi šalje nepoklapanje SKU-a, a treći podržava samo razmenu preko email-a.</p>
+      <p><strong>Šta ostaje tačno:</strong> Transakcije ne nestaju, biznis vidi šta traži pažnju, i rad se čisto nastavlja kada se sistemi oporave.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="section-title">Za koga je</h2>
+    <div class="two-column" style="margin-top: 30px;">
+      <div class="column">
+        <h3>Za CIO</h3>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
+          <li>Governance i stabilnost kroz razmenu sa partnerima</li>
+          <li>Predvidive operacije i manje “iznenađenja” u integracijama</li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3>Za COO</h3>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
+          <li>Kontinuitet kada prekidi nastanu</li>
+          <li>Brzina i kontrola bez čekanja na IT</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <div class="cta-box">
+      <h2>Pogledaj platformu u akciji</h2>
+      <div class="cta-buttons">
+        <a href="/contact/" class="btn btn-primary">Zakaži demo</a>
+        <a href="/tefter-exchange/" class="btn btn-secondary">Istraži TX</a>
+        <a href="/tefter-apps/" class="btn btn-secondary">Istraži aplikacije</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+

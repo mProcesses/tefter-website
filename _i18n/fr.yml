@@ -1,0 +1,47 @@
+# French translations / Traductions françaises
+nav:
+  home: "Accueil"
+  platform: "Plateforme"
+  tx: "Tefter Exchange (TX)"
+  apps: "Applications Tefter"
+  solutions: "Solutions"
+  why: "Pourquoi Tefter"
+  security: "Sécurité et Gouvernance"
+  contact: "Contact / Démo"
+
+global:
+  book_demo: "Réserver une démo"
+  see_how: "Voir comment ça marche"
+  see_product: "Voir l'aperçu du produit"
+  learn_more: "En savoir plus"
+  back_home: "Retour à l'accueil"
+  explore_platform: "Explorer la plateforme"
+  talk_expert: "Parler à un expert"
+  explore_apps: "Explorer toutes les applications"
+  find_solution: "Trouvez votre solution"
+  
+footer:
+  copyright: "© %{year} Tefter Exchange Platform. Tous droits réservés."
+  
+hero:
+  tagline: "Une plateforme. Deux couches. Toute échelle."
+  exchange_layer: "Couche d'échange (TX):"
+  exchange_desc: "Échange de données fiable et auto-réparant pour opérations critiques."
+  ops_layer: "Couche opérationnelle:"
+  ops_desc: "Gérez directement votre entreprise ou complétez votre ERP."
+
+cta:
+  book_demo: "Réserver une démo"
+  talk_expert: "Parler à un expert"
+  see_action: "Voir Tefter en action"
+  experience: "Découvrez les applications Tefter"
+  get_started: "Prêt à commencer?"
+  
+common:
+  projection: "Résultats projetés basés sur des scénarios clients"
+  outcome: "Résultat"
+  challenge: "Défi"
+  solution: "Solution"
+  features: "Fonctionnalités"
+  benefits: "Avantages"
+

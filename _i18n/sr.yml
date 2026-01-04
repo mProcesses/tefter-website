@@ -1,0 +1,253 @@
+# Serbian translations / Srpski prevodi
+nav:
+  home: "Početna"
+  platform: "Platforma"
+  tx: "Tefter Exchange (TX)"
+  apps: "Aplikacije"
+  solutions: "Rešenja"
+  why: "Zašto Tefter"
+  security: "Bezbednost"
+  contact: "Kontakt"
+
+global:
+  book_demo: "Zakaži demo"
+  see_how: "Vidi kako radi"
+  see_product: "Vidi proizvod"
+  learn_more: "Saznaj više"
+  back_home: "Nazad na početnu"
+  explore_platform: "Istraži platformu"
+  talk_expert: "Razgovaraj sa stručnjakom"
+  explore_apps: "Istraži aplikacije"
+  find_solution: "Pronađi rešenje"
+  see_full_platform: "Vidi celu platformu"
+  
+footer:
+  copyright: "© %{year} Tefter Exchange Platform. Sva prava zadržana."
+  
+hero:
+  tagline: "Jedna platforma. Dva sloja. Za svaku firmu."
+  exchange_layer: "Sloj razmene (TX):"
+  exchange_desc: "Pouzdan prenos podataka koji se sam popravlja kada nešto krene naopako."
+  ops_layer: "Operativni sloj:"
+  ops_desc: "Vodi poslovanje direktno ili nadogradi postojeći ERP."
+
+cta:
+  book_demo: "Zakaži demo"
+  talk_expert: "Razgovaraj sa stručnjakom"
+  see_action: "Vidi Tefter u akciji"
+  experience: "Iskusi Tefter aplikacije"
+  get_started: "Kreni odmah?"
+  see_tx: "Saznaj više o TX-u"
+  talk_security: "Razgovaraj o bezbednosti"
+  platform_overview: "Pregled platforme"
+  find_your_solution: "Pronađi Svoje Rešenje"
+  experience_difference: "Vidi Razliku"
+  experience_tx: "Vidi TX u Akciji"
+  experience_apps: "Isprobaj Aplikacije"
+  security_questions: "Pitanja o Bezbednosti?"
+  ready_to_start: "Spreman da Počneš?"
+  schedule_demo: "Zakaži demo"
+  request_consultation: "Zatraži konsultacije"
+
+tx:
+  getting_started_title: "Kako da kreneš"
+  getting_started_desc: "Kreneš brzo sa transakcijama, a zatim doteruješ mapiranja i prosleđivanje u ERP po potrebi:"
+  getting_started_step_1: "Registruješ organizaciju i generišeš kredencijale"
+  getting_started_step_2: "Povežeš razmenu sa partnerima (EDI, API, fajlovi ili email)"
+  getting_started_step_3: "Odmah počneš prijem/slanje transakcija"
+  getting_started_step_4: "Doteruješ mapiranja i prosleđuješ u ERP „u hodu“ (AI pomaže kada se format ili podaci ne poklapaju)"
+  
+common:
+  projection: "Rezultati na osnovu iskustava naših klijenata"
+  outcome: "Rezultat"
+  challenge: "Izazov"
+  solution: "Rešenje"
+  features: "Mogućnosti"
+  benefits: "Prednosti"
+  yes: "Da"
+  no: "Ne"
+  limited: "Ograničeno"
+  sometimes: "Ponekad"
+  varies: "Varira"
+  unlimited: "Neograničeno"
+  complete: "Kompletno"
+  
+# Home page / Početna strana
+home:
+  title: "Početna"
+  description: "Vodi poslovanje. Razmenjuj podatke. Drži sve u pokretu. Tefter spaja operativne module sa pouzdanom razmenom podataka za besprekoran rad firme."
+  main_heading: "Vodi Poslovanje. Razmenjuj Podatke. Drži Sve u Pokretu."
+  main_subheading: "Tefter spaja pouzdan prenos podataka sa modulima za prodaju, nabavku, skladište, rad sa partnerima i optimizaciju isporuke — tako da možeš da upravljaš narudžbinama, fakturama i isporukama dok se sve automatski povezuje sa ERP-om, partnerima i državnim sistemima, čak i kada su podaci krivi ili sistemi otkažu."
+  
+  new_category_title: "Nova Kategorija: Integrisane Poslovne Operacije"
+  new_category_desc: "EDI povezuje sisteme. ERP vodi procese. Tefter spaja oba — to je platforma koja vodi tvoje poslovanje I garantuje pouzdan protok podataka kroz ceo ekosistem, čak i kada partneri menjaju formate, mreža otkaže ili se podaci ne poklapaju."
+  
+  problem_title: "Problem Koji Rešavamo"
+  problem_intro: "Većina firmi povezuje partnere kroz jedan od ovih uobičajenih pristupa — svaki ima ozbiljne mane:"
+  
+  path_erp_title: "Sve preko ERP-a"
+  path_erp_desc: "Koristiš ERP i za operacije i za povezivanje sa partnerima."
+  path_erp_reality: "Komplikovano i skupo, IT je uvek u sredini za svaku izmenu, uključivanje partnera postaje projekat (nedelje, ne sati), kruti zahtevi, a oporavak kada razmena pukne je ručan i nevidljiv."
+  
+  path_edi_title: "EDI Usluga"
+  path_edi_desc: "Kupuješ EDI/integracionu uslugu za povezivanje partnera, a operacije vodiš u drugim sistemima."
+  path_edi_reality: "Prenosi formate, ali ne daje kontinuitet — mapiranja i izuzetci i dalje zavise od specijalista, skupo je po partneru, poslovni korisnici ne mogu brzo da reše probleme, a uključivanje partnera i dalje traje nedeljama."
+  
+  path_custom_title: "Sopstvene Integracije"
+  path_custom_desc: "Praviš svoj middleware i integracije između sistema."
+  path_custom_reality: "Visoki troškovi razvoja i održavanja, krhke veze koje često pucaju, neujednačeni standardi, treba ti posvećen tim, a svaki novi partner postaje poseban projekat."
+  
+  path_manual_title: "Ručno"
+  path_manual_desc: "Telefon, email, tabele i ručan unos podataka."
+  path_manual_reality: "Ne može da se skalira, puno grešaka, nema jasne vidljivosti ni vlasništva, a oporavak je u potpunosti ručan — što vodi ka kašnjenjima i sporovima."
+
+  problem_missing: "<strong>Šta svima nedostaje:</strong> sistem kontinuiteta za transakcije — oporavljivo izvršavanje, automatsko ponavljanje i nastavak, i da posao može da reši pogrešne podatke bez čekanja na IT."
+  
+  breakthrough_title: "Proboj: Tefter Exchange (TX)"
+  solution_highlight: "Napravili smo <strong>Tefter Exchange (TX)</strong> — sistem kontinuiteta za poslovne transakcije. Čuva izvršavanje oporavljivim, automatski nastavlja posle prekida i šalje odluke o podacima pravim poslovnim ulogama, uz potpunu sledljivost."
+  
+  how_works_title: "Kako Tefter Radi — Ukratko"
+  
+  tx_subtitle: "Tefter Exchange (TX)"
+  tx_desc: "TX je sloj razmene/kontinuiteta koji čuva transakcije kroz prekide i nepoklapanja."
+  tx_feature_1: "<strong>Oporavljivo izvršavanje:</strong> bezbedno pauzira, automatski pokušava ponovo i nastavlja bez dupliranja ili ponovnog unosa"
+  tx_feature_2: "<strong>Poslovno-operativna korekcija:</strong> kada se podaci ne poklapaju, odluka ide pravoj ulozi (ne u IT red) i transakcija se ponovo odigra"
+  tx_feature_3: "<strong>Realnost partnera:</strong> povezuje EDI, API, fajlove ili email — bez nametanja novog “standarda”"
+  tx_feature_4: "<strong>Audit + vidljivost:</strong> vidiš stanje svake transakcije, vlasnika i sledeći korak, sa sledljivošću od početka do kraja"
+  
+  tx_example_title: "Primer"
+  tx_example: "Pošalješ porudžbinu sa stavkom “Proizvod A / pakovanje 24,” ali kupac očekuje šifru “PA-24.” TX označi nepoklapanje, predloži mapiranje, poslovni vlasnik odobri, TX sačuva pravilo i transakcija se ponovi i završi — bez IT tiketa."
+  tx_start_quick: "<strong>Kreni za par minuta:</strong> registruješ organizaciju, dobiješ kredencijale i odmah kreneš sa transakcijama. Mapiranja i prosleđivanje u ERP doteruješ usput."
+
+  tx_enables_title: "Šta TX Omogućava (Operativni Sloj)"
+  
+  ops_subtitle: "Operativni Sloj — Gde Se Radi"
+  ops_desc: "Pet povezanih modula za svakodnevni rad:"
+  
+  ops_sales_title: "1. Prodaja"
+  ops_sales_desc: "Prodajni timovi unose porudžbine (mobilno ili web) → sinhronizacija u realnom vremenu sa ERP-om kupca preko TX-a"
+  
+  ops_procurement_title: "2. Nabavka"
+  ops_procurement_desc: "Pravi porudžbine → dobavljači dobijaju preko TX-a ili email-a"
+  
+  ops_warehouse_title: "3. Skladište"
+  ops_warehouse_desc: "Vodi komisioniranje, pakovanje, isporuku → zalihe se automatski ažuriraju"
+  
+  ops_partner_title: "4. Partneri"
+  ops_partner_desc: "Uključi dobavljače/kupce, definiši pravila, podesi mapiranja — bez IT-a"
+  
+  ops_shipping_title: "5. Optimizacija Dostave"
+  ops_shipping_desc: "Optimizuj rute, smanji troškove, poboljšaj dinamiku isporuke"
+  
+  see_all_modules: "Vidi sve module detaljno"
+
+  end_to_end_title: "Jedan End-to-End Scenario"
+  e2e_label_order: "Porudžbina"
+  e2e_label_issue: "Problem"
+  e2e_label_recovery: "Oporavak"
+  e2e_order: "Porudžbina se pošalje ka partnerskom sistemu."
+  e2e_issue: "Detektuje se nepoklapanje mapiranja — i endpoint partnera je privremeno nedostupan."
+  e2e_recovery: "TX čuva transakciju bezbednom, automatski pokušava ponovo i traži poslovni unos samo kada je potrebna odluka o mapiranju."
+  e2e_outcome: "Transakcija se nastavlja čim se partner vrati online — isporuka ostaje po planu, bez ručnog ponovnog unosa."
+  
+  outcomes_title: "Brzi Rezultati — Projektovani Uticaj"
+  outcome_onboarding: "6 nedelja → isti dan"
+  outcome_onboarding_desc: "Skrati vreme uključivanja partnera"
+  outcome_tickets: "90% manje"
+  outcome_tickets_desc: "Eliminiši EDI tikete"
+  outcome_close: "40% brže"
+  outcome_close_desc: "Skrati zatvaranje meseca"
+  outcome_entry: "75% manje"
+  outcome_entry_desc: "Smanji ručan unos podataka"
+
+  who_for_title: "Za Koga Je"
+  who_cio_title: "CIO"
+  who_cio_1: "Upravljanje i stabilnost kroz razmenu sa partnerima"
+  who_cio_2: "Manje krhkih integracija i manje hitnih intervencija"
+  who_coo_title: "COO"
+  who_coo_1: "Kontinuitet kada partneri otkažu i kada su podaci pogrešni"
+  who_coo_2: "Rešavanje u brzini biznisa bez čekanja na IT"
+  
+  fmcg_title: "Napravljeno za FMCG — Od Terena do Isporuke"
+  
+  fmcg_distributor_title: "Narudžbine Distributera"
+  fmcg_distributor_desc: "Terenski predstavnik poseti prodavnicu, uzme narudžbinu na mobilnom. Sve odmah ide u ERP distributera preko TX-a. Distributer potvrdi dostupnost i zakaže isporuku."
+  fmcg_distributor_outcome: "Bez poziva, bez grešaka pri unosu, procesira se isti dan"
+  
+  fmcg_promo_title: "Promocije"
+  fmcg_promo_desc: "Marketing pokrene promociju sa posebnim cenama. TX automatski mapira promotivne artikle u sisteme distributera. Fakture odmah odražavaju akcijske cene bez ručnog rada."
+  fmcg_promo_outcome: "Brže na tržište, manje sporova oko računa"
+  
+  fmcg_multi_title: "Više Distributera"
+  fmcg_multi_desc: "Jedna narudžbina podeljena na 3 distributera prema dostupnosti robe. TX rešava razlike u formatima (jedan koristi EDI, drugi XML, treći email)."
+  fmcg_multi_outcome: "Jednostavno uprkos složenom ekosistemu partnera"
+  
+  fmcg_retail_title: "Usklađenost sa Trgovcima"
+  fmcg_retail_desc: "Veliki trgovac traži specifične formate faktura i vremenske okvire isporuke. TX automatski formatira fakture kako trgovac traži."
+  fmcg_retail_outcome: "Održavaš partnerstva sa trgovcima bez ručnog rada"
+  
+  see_more_solutions: "Vidi još FMCG rešenja"
+
+# About page / O nama strana
+about:
+  title: "O nama"
+  content_1: "Ovo je osnovna Jekyll tema. Više informacija o prilagođavanju vaše Jekyll teme, kao i osnovnu Jekyll dokumentaciju možete naći na"
+  content_2: "Izvorni kod za Minima možete naći na GitHub-u:"
+  content_3: "Izvorni kod za Jekyll možete naći na GitHub-u:"
+
+# Contact page / Kontakt strana
+contact:
+  title: "Kontakt / Demo"
+  description: "Vidi Tefter u Akciji — Zakaži Demo"
+  main_heading: "Vidi Tefter u Akciji — Zakaži Demo"
+  intro: "Otkrij kako Tefter može da transformiše tvoje operacije u personalizovanom 30-minutnom demo-u. Pokazaćemo ti:"
+  show_1: "Kako TX rešava tvoje specifične scenarije integracije sa partnerima"
+  show_2: "Mobilne aplikacije za terenske timove"
+  show_3: "AI-asistirano popravljanje grešaka u realnom vremenu"
+  show_4: "Tvoj projektovani ROI na osnovu trenutnih operacija"
+  
+  format_title: "Format Demo-a"
+  live_demo_title: "Zakaži Demo Uživo"
+  live_demo_desc: "30-minutni video poziv sa Tefter stručnjakom, prilagođen tvojoj industriji (FMCG, veleprodaja, proizvodnja, logistika)."
+  expect_title: "Šta očekivati:"
+  expect_1: "Demonstracija funkcija platforme uživo"
+  expect_2: "Prilagođeno tvojim slučajevima"
+  expect_3: "Pitanja i odgovori sa tehničkim i poslovnim stručnjacima"
+  expect_4: "Nastavak sa predlogom i planom implementacije"
+  expect_5: "Bez pritiska prodaje"
+  
+  expert_title: "Razgovaraj sa Stručnjakom"
+  expert_desc: "Imaš specifična pitanja o arhitekturi, bezbednosti ili implementaciji? Poveži se sa jednim od naših tehničkih stručnjaka."
+  discuss_title: "Možemo da razgovaramo o:"
+  discuss_1: "Arhitekturi integracije"
+  discuss_2: "Bezbednosti i usklađenosti"
+  discuss_3: "Opcijama implementacije"
+  discuss_4: "Cenama i licenciranju"
+  discuss_5: "Planiranju migracije"
+  
+  direct_title: "Ili se javi direktno"
+  sales_title: "Prodaja"
+  sales_desc: "Pitanja o cenama, licenciranju ili komercijalnim uslovima."
+  tech_title: "Tehnička Pitanja"
+  tech_desc: "Pitanja o arhitekturi, integraciji ili implementaciji."
+  partners_title: "Partnerstvo"
+  partners_desc: "Zainteresovan si za partnerstvo sa Tefter-om?"
+  general_title: "Opšte Informacije"
+  general_desc: "Bilo koja druga pitanja."
+  
+  faq_title: "Česta Pitanja Pre Demo-a"
+  q1: "Koliko traje implementacija?"
+  a1: "Možeš da počneš sa transakcijama za par minuta: registruješ organizaciju, dobiješ kredencijale i odmah krene prijem/slanje transakcija. Povezivanje prosleđivanja u tvoj ERP i doterivanje mapiranja obično traje nekoliko sati (ponekad i danima), u zavisnosti koliko su format(i) i pravila podataka specifični."
+  q2: "Može li Tefter da radi uz naš postojeći EDI sistem?"
+  a2: "Da. Tefter može da radi paralelno sa postojećim sistemima, omogućavajući postepenu migraciju ili trajnu koegzistenciju u zavisnosti od tvojih potreba."
+  q3: "Koje formate integracije podržavate?"
+  a3: "Sve glavne EDI standarde (EDIFACT, X12), XML (UBL, GS1), JSON, CSV, email, i prilagođene formate. Ako može da se parsuje, Tefter može da ga procesira."
+  q4: "Da li je potrebna obuka za poslovne korisnike?"
+  a4: "Osnovna obuka traje 1-2 sata. Interfejs je dizajniran za poslovne korisnike, ne tehničke stručnjake. Većina korisnika je odmah produktivna."
+  q5: "Šta je sa bezbednošću i usklađenošću?"
+  a5: "Ugrađena enterprise-level bezbednost. Usklađeno sa GDPR-om, hostovano u EU (Brisel). SOC 2 Type II i ISO 27001 u toku. Potpuni detalji na našoj"
+  q5_link: "Bezbednost i Upravljanje"
+  q5_end: "stranici."
+  q6: "Da li imate mobilnu aplikaciju?"
+  a6: "Da! Svi operativni moduli su mobile-first sa offline podrškom. Terenski prodavci, skladišni timovi i menadžeri logistike mogu da rade sa svojih mobilnih uređaja."
+
