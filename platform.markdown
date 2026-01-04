@@ -42,6 +42,16 @@ description: A Platform for Operations and Exchange — Built for Enterprise Rel
       <p><strong>TX is not “integration.”</strong> It’s a continuity engine for real-world operations.</p>
     </div>
 
+    <div class="card" style="margin-top: 20px;">
+      <h3>EDI, modernized — without a rewrite</h3>
+      <p>TX can stabilize existing EDI flows, or gradually replace legacy EDI over time — reducing IT workload while increasing operational reliability.</p>
+      <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8; margin-top: 10px;">
+        <li><strong>Stabilize EDI transactions:</strong> pause/retry/resume with visibility and clear ownership</li>
+        <li><strong>Lower total cost:</strong> fewer partner-specific projects and less manual firefighting</li>
+        <li><strong>Offload IT:</strong> business teams resolve data exceptions; IT focuses on governance</li>
+      </ul>
+    </div>
+
     <a href="/tefter-exchange/" class="arrow-link" style="display: block; text-align: center; margin-top: 30px;">Explore TX</a>
   </div>
 </section>

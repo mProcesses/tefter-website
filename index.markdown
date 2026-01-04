@@ -85,6 +85,9 @@ description: Run Operations. Exchange Data. Keep Business Moving. Tefter combine
     <p class="section-copy" style="margin-top: 20px;">
       {% t home.tx_start_quick %}
     </p>
+    <p class="section-copy">
+      {% t home.tx_edi_bridge %}
+    </p>
 
     <div class="card" style="margin: 30px 0; background: #f8f9fa;">
       <h3>{% t home.tx_example_title %}</h3>

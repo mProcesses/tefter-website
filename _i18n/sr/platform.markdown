@@ -42,6 +42,16 @@ description: Platforma za operacije i razmenu — napravljena za enterprise pouz
       <p><strong>TX nije “integracija”.</strong> To je motor kontinuiteta za realne operacije.</p>
     </div>
 
+    <div class="card" style="margin-top: 20px;">
+      <h3>EDI modernizovan — bez “rewite”-a</h3>
+      <p>TX može da stabilizuje postojeće EDI tokove ili da postepeno zameni legacy EDI — smanjujući IT opterećenje i povećavajući operativnu pouzdanost.</p>
+      <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8; margin-top: 10px;">
+        <li><strong>Stabilizuje EDI transakcije:</strong> pauza/ponavljanje/nastavak uz vidljivost i jasno vlasništvo</li>
+        <li><strong>Smanjuje ukupne troškove:</strong> manje partner-specifičnih projekata i manje ručnog “gašenja požara”</li>
+        <li><strong>Rasterećuje IT:</strong> biznis rešava izuzetke u podacima; IT drži governance</li>
+      </ul>
+    </div>
+
     <a href="/tefter-exchange/" class="arrow-link" style="display: block; text-align: center; margin-top: 30px;">Istraži TX</a>
   </div>
 </section>

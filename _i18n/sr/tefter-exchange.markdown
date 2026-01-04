@@ -29,6 +29,20 @@ description: Otporna, samopopravljajuća razmena za misija-kritične operacije
 
 <section class="section">
   <div class="wrapper">
+    <h2 class="section-title">TX uz postojeći EDI</h2>
+    <p class="section-copy">
+      Ako danas koristiš EDI, TX može da radi uz njega da stabilizuje transakcije i smanji operativnu buku. A ako želiš da postepeno zameniš legacy EDI, TX podržava gradualnu migraciju bez “big bang” prelaska.
+    </p>
+    <ul class="feature-list">
+      <li><strong>Stabilizuje EDI transakcije:</strong> oporavljivo izvršavanje sa pauza/ponavljanje/nastavak i jasnim vlasništvom</li>
+      <li><strong>Smanjuje troškove:</strong> manje partner-specifičnih projekata i manje ručnog “gašenja požara”</li>
+      <li><strong>Rasterećuje IT:</strong> biznis rešava izuzetke u podacima; IT drži governance</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
     <h2 class="section-title">Prekid je normalan (ne izuzetak)</h2>
     <p class="section-copy">
       Realne operacije žive u “neredu”: mreže pucaju, partneri odlaze offline, formati driftuju, a delimičan uspeh je čest.

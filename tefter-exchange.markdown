@@ -29,6 +29,20 @@ description: Resilient, Self-Healing Exchange for Mission-Critical Operations
 
 <section class="section">
   <div class="wrapper">
+    <h2 class="section-title">TX with existing EDI</h2>
+    <p class="section-copy">
+      If you’re running EDI today, TX can sit alongside it to stabilize transactions and reduce operational noise. And if you’re looking to replace legacy EDI over time, TX supports a gradual migration path without forcing a “big bang” cutover.
+    </p>
+    <ul class="feature-list">
+      <li><strong>Stabilize EDI transactions:</strong> recoverable execution with pause/retry/resume and clear ownership</li>
+      <li><strong>Lower cost:</strong> fewer partner-specific projects and less manual firefighting</li>
+      <li><strong>Offload IT:</strong> business teams resolve data exceptions; IT focuses on governance</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
     <h2 class="section-title">Failure Is Normal (Not Exceptional)</h2>
     <p class="section-copy">
       Real operations live in the mess: networks break, partners go offline, formats drift, and partial success is common.
