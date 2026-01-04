@@ -102,17 +102,17 @@ description: Jedna platforma. Dva sloja. Bilo koja veličina. Nije middleware. O
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Za koga je</h2>
+    <h2 class="section-title">Ishodi po odgovornostima</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>CIO</h3>
+        <h3>Upravljački ishodi (governance)</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Stabilnost i governance kroz razmenu sa partnerima</li>
           <li>Manje krhkih integracija i manje hitnih intervencija</li>
         </ul>
       </div>
       <div class="column">
-        <h3>COO</h3>
+        <h3>Operativni ishodi</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Kontinuitet i brzina u dnevnom izvršavanju</li>
           <li>Operativna kontrola bez zavisnosti od IT-a</li>

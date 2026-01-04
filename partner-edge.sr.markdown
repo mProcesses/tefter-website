@@ -52,7 +52,7 @@ description: Partner portal bez integracije pod tvojim domenom — ubrzaj uklju�
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Nabavka i operativa</li>
           <li>Integracioni/IT timovi koji žele manje tiketa i izuzetaka</li>
-          <li>CIO/COO koji žele usvajanje bez rizika</li>
+          <li>Rukovodstvo koje želi usvajanje bez rizika</li>
         </ul>
       </div>
     </div>

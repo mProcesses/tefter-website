@@ -51,7 +51,7 @@ description: A zero-integration partner portal under your domain — accelerate 
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Procurement and operations teams</li>
           <li>Integration/IT teams that want fewer tickets and exceptions</li>
-          <li>CIO/COO stakeholders who want adoption without risk</li>
+          <li>Leadership stakeholders who want adoption without risk</li>
         </ul>
       </div>
     </div>

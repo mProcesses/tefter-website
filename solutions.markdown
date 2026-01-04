@@ -138,17 +138,17 @@ description: Operational Continuity Across Industries - Built for FMCG, proven f
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Who It’s For</h2>
+    <h2 class="section-title">Outcomes by responsibility</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>CIO</h3>
+        <h3>Governance outcomes</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Reduce integration fragility across many partners</li>
           <li>Improve governance, visibility, and stability</li>
         </ul>
       </div>
       <div class="column">
-        <h3>COO</h3>
+        <h3>Operational outcomes</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Continuity in daily execution</li>
           <li>Faster issue resolution and fewer escalations</li>

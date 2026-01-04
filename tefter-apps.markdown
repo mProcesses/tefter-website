@@ -91,17 +91,17 @@ description: Your Business in Your Pocket — Mobile-First, Task-Optimized
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Who This Is For</h2>
+    <h2 class="section-title">Outcomes by responsibility</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>COO and operators</h3>
+        <h3>Operational outcomes</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Field sales, procurement, warehouse, logistics</li>
           <li>Fast execution and fewer exception escalations</li>
         </ul>
       </div>
       <div class="column">
-        <h3>CIO and IT</h3>
+        <h3>Governance outcomes</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Less operational noise caused by brittle exchange</li>
           <li>Clear separation: TX handles continuity, apps handle execution</li>

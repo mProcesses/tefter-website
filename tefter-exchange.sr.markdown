@@ -152,10 +152,10 @@ description: Otporna, samopopravljajuća razmena za misija-kritične operacije
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Ishodi + za koga je</h2>
+    <h2 class="section-title">Ishodi</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>Ishodi</h3>
+        <h3>Operativni ishodi</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Nula izgubljenih transakcija</li>
           <li>Predvidiv oporavak umesto ručnog “gašenja požara”</li>
@@ -163,10 +163,11 @@ description: Otporna, samopopravljajuća razmena za misija-kritične operacije
         </ul>
       </div>
       <div class="column">
-        <h3>Za koga je</h3>
+        <h3>Upravljački ishodi (governance)</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-          <li><strong>CIO:</strong> governance, stabilnost, observability, manji integracioni rizik</li>
-          <li><strong>COO:</strong> kontinuitet, brzina i kontrola kroz dnevno izvršavanje</li>
+          <li>Governance i stabilnost kroz razmenu sa partnerima</li>
+          <li>Observability, auditabilnost i jasnije vlasništvo kroz prekide</li>
+          <li>Manji integracioni rizik bez pretvaranja svakog izuzetka u IT tiket</li>
         </ul>
       </div>
     </div>

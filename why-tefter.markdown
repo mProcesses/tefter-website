@@ -102,17 +102,17 @@ description: One Platform. Two Layers. Any Scale. Not middleware. Operational in
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Who This Is For</h2>
+    <h2 class="section-title">Outcomes by responsibility</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>CIO</h3>
+        <h3>Governance outcomes</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Stability and governance across partner exchange</li>
           <li>Fewer brittle integrations and fewer fire-drills</li>
         </ul>
       </div>
       <div class="column">
-        <h3>COO</h3>
+        <h3>Operational outcomes</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Continuity and speed in daily execution</li>
           <li>Operational control without IT dependency</li>

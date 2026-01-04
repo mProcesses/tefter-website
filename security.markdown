@@ -105,17 +105,17 @@ description: Enterprise-Grade Security and Governance for Every Transaction
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Who This Is For</h2>
+    <h2 class="section-title">Outcomes by responsibility</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>Security & IT (CIO)</h3>
+        <h3>Security & governance outcomes</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Clear controls, auditability, and governance</li>
           <li>Defensible security posture for partner exchange</li>
         </ul>
       </div>
       <div class="column">
-        <h3>Operations (COO)</h3>
+        <h3>Operational outcomes</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Continuity without uncontrolled workarounds</li>
           <li>Clear ownership and escalation paths</li>

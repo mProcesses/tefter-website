@@ -151,10 +151,10 @@ description: Resilient, Self-Healing Exchange for Mission-Critical Operations
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Outcomes + Who This Is For</h2>
+    <h2 class="section-title">Outcomes</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>Outcomes</h3>
+        <h3>Operational outcomes</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Zero lost transactions</li>
           <li>Predictable recovery instead of manual firefighting</li>
@@ -162,10 +162,11 @@ description: Resilient, Self-Healing Exchange for Mission-Critical Operations
         </ul>
       </div>
       <div class="column">
-        <h3>Who it’s for</h3>
+        <h3>Governance outcomes</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-          <li><strong>CIO:</strong> governance, stability, observability, reduced integration risk</li>
-          <li><strong>COO:</strong> continuity, speed, and control across daily execution</li>
+          <li>Governance and stability across partner exchange</li>
+          <li>Observability, auditability, and clearer ownership across failures</li>
+          <li>Reduced integration risk without turning every exception into an IT ticket</li>
         </ul>
       </div>
     </div>

@@ -161,13 +161,13 @@ home:
   outcome_entry: "75% reduction"
   outcome_entry_desc: "Reduce manual data entry"
 
-  who_for_title: "Who This Is For"
-  who_cio_title: "CIO"
+  who_for_title: "Outcomes by responsibility"
+  who_cio_title: "Governance outcomes"
   who_cio_1: "Governance and stability across partner exchange"
-  who_cio_2: "Fewer fragile integrations and fewer fire-drills"
-  who_coo_title: "COO"
+  who_cio_2: "Visibility, ownership, and auditability through failures"
+  who_coo_title: "Operational outcomes"
   who_coo_1: "Continuity when partners fail and data is wrong"
-  who_coo_2: "Business-speed resolution without waiting on IT"
+  who_coo_2: "Business-speed resolution without IT tickets"
   
   fmcg_title: "Built for FMCG Operations — From Field to Fulfillment"
   

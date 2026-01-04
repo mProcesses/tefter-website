@@ -138,17 +138,17 @@ description: Operativni kontinuitet kroz industrije — napravljeno za FMCG, pro
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Za koga je</h2>
+    <h2 class="section-title">Ishodi po odgovornostima</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>CIO</h3>
+        <h3>Upravljački ishodi (governance)</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Smanji krhkost integracija kroz mnoge partnere</li>
           <li>Bolji governance, vidljivost i stabilnost</li>
         </ul>
       </div>
       <div class="column">
-        <h3>COO</h3>
+        <h3>Operativni ishodi</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Kontinuitet u svakodnevnom izvršavanju</li>
           <li>Brže rešavanje i manje eskalacija</li>

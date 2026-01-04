@@ -134,20 +134,20 @@ description: Platforma za operacije i razmenu — napravljena za enterprise pouz
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Za koga je</h2>
+    <h2 class="section-title">Ishodi po odgovornostima</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>Za CIO</h3>
+        <h3>Upravljački ishodi (governance)</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Governance i stabilnost kroz razmenu sa partnerima</li>
-          <li>Predvidive operacije i manje “iznenađenja” u integracijama</li>
+          <li>Manje “iznenađenja” kroz vidljivost, jasno vlasništvo i oporavak</li>
         </ul>
       </div>
       <div class="column">
-        <h3>Za COO</h3>
+        <h3>Operativni ishodi</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Kontinuitet kada prekidi nastanu</li>
-          <li>Brzina i kontrola bez čekanja na IT</li>
+          <li>Brzina i kontrola kroz poslovno rešavanje izuzetaka (ne IT tiketi)</li>
         </ul>
       </div>
     </div>

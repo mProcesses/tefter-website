@@ -161,13 +161,13 @@ home:
   outcome_entry: "75% manje"
   outcome_entry_desc: "Smanji ručan unos podataka"
 
-  who_for_title: "Za Koga Je"
-  who_cio_title: "CIO"
+  who_for_title: "Ishodi po odgovornostima"
+  who_cio_title: "Upravljački ishodi (governance)"
   who_cio_1: "Upravljanje i stabilnost kroz razmenu sa partnerima"
-  who_cio_2: "Manje krhkih integracija i manje hitnih intervencija"
-  who_coo_title: "COO"
+  who_cio_2: "Vidljivost, vlasništvo i auditabilnost kroz prekide"
+  who_coo_title: "Operativni ishodi"
   who_coo_1: "Kontinuitet kada partneri otkažu i kada su podaci pogrešni"
-  who_coo_2: "Rešavanje u brzini biznisa bez čekanja na IT"
+  who_coo_2: "Rešavanje u brzini biznisa bez IT tiketa"
   
   fmcg_title: "Napravljeno za FMCG — Od Terena do Isporuke"
   

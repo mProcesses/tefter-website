@@ -1,5 +1,14 @@
 // Table scroll indicator handler
 document.addEventListener('DOMContentLoaded', function() {
+  // Ensure fixed header doesn't cover content by setting a CSS var based on actual height
+  const header = document.querySelector('.site-header');
+  const setHeaderHeightVar = () => {
+    if (!header) return;
+    document.documentElement.style.setProperty('--site-header-height', `${header.offsetHeight}px`);
+  };
+  setHeaderHeightVar();
+  window.addEventListener('resize', setHeaderHeightVar);
+
   const tableContainers = document.querySelectorAll('.table-scroll-container');
   
   tableContainers.forEach(container => {

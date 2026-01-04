@@ -133,20 +133,20 @@ description: A Platform for Operations and Exchange — Built for Enterprise Rel
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Who It’s For</h2>
+    <h2 class="section-title">Outcomes by responsibility</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>For CIO</h3>
+        <h3>Governance outcomes</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Governance and stability across partner exchange</li>
-          <li>Predictable operations and fewer integration surprises</li>
+          <li>Fewer integration surprises through visibility, ownership, and recovery</li>
         </ul>
       </div>
       <div class="column">
-        <h3>For COO</h3>
+        <h3>Operational outcomes</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Continuity when failures happen</li>
-          <li>Speed and control without waiting on IT</li>
+          <li>Speed and control through business-operable resolution (not IT tickets)</li>
         </ul>
       </div>
     </div>

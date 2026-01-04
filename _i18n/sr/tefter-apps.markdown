@@ -91,17 +91,17 @@ description: Tvoj biznis u džepu — mobile-first, optimizovano po zadacima
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Za koga je</h2>
+    <h2 class="section-title">Ishodi po odgovornostima</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>COO i operativa</h3>
+        <h3>Operativni ishodi</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Prodaja, nabavka, skladište, logistika</li>
           <li>Brže izvršavanje i manje eskalacija oko izuzetaka</li>
         </ul>
       </div>
       <div class="column">
-        <h3>CIO i IT</h3>
+        <h3>Upravljački ishodi (governance)</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Manje operativne buke izazvane krhkom razmenom</li>
           <li>Jasna podela: TX rešava kontinuitet, aplikacije rešavaju izvršavanje</li>

@@ -105,17 +105,17 @@ description: Enterprise bezbednost i governance za svaku transakciju
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Za koga je</h2>
+    <h2 class="section-title">Ishodi po odgovornostima</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>Bezbednost i IT (CIO)</h3>
+        <h3>Bezbednost i governance ishodi</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Jasne kontrole, auditabilnost i governance</li>
           <li>Odbranjiva bezbednosna pozicija za partnersku razmenu</li>
         </ul>
       </div>
       <div class="column">
-        <h3>Operativa (COO)</h3>
+        <h3>Operativni ishodi</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Kontinuitet bez nekontrolisanih “workaround”-a</li>
           <li>Jasno vlasništvo i putevi eskalacije</li>
