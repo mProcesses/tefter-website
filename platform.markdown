@@ -90,6 +90,38 @@ description: A Platform for Operations and Exchange — Built for Enterprise Rel
 
 <section class="section">
   <div class="wrapper">
+    <h2 class="section-title">Deployment surfaces</h2>
+    <p class="section-copy">
+      One platform, three surfaces — each designed for a different user group and adoption path.
+    </p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>TX Control Plane</h3>
+        <p><strong>Who:</strong> CIOs, integration teams, platform operators</p>
+        <p><strong>What:</strong> Partner connectivity, exchange configuration, monitoring, recovery, audit</p>
+        <a href="/tefter-exchange/" class="arrow-link" style="display: inline-block; margin-top: 10px;">Explore TX</a>
+      </div>
+
+      <div class="card">
+        <h3>Apps Workspace</h3>
+        <p><strong>Who:</strong> Sales, procurement, warehouse, operations</p>
+        <p><strong>What:</strong> Execution workflows for daily work — powered by TX underneath</p>
+        <a href="/tefter-apps/" class="arrow-link" style="display: inline-block; margin-top: 10px;">Explore apps</a>
+      </div>
+
+      <div class="card">
+        <h3>Partner Edge (White‑label)</h3>
+        <p><strong>Who:</strong> Suppliers and non-technical partners</p>
+        <p><strong>What:</strong> A zero-integration portal under your domain for procurement flows</p>
+        <a href="/partner-edge/" class="arrow-link" style="display: inline-block; margin-top: 10px;">Explore Partner Edge</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
     <h2 class="section-title">Scaled Scenario</h2>
     <div class="card" style="margin: 30px 0; background: #f8f9fa;">
       <p><strong>Context:</strong> Multi-warehouse distribution across dozens of partners.</p>

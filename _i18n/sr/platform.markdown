@@ -90,6 +90,38 @@ description: Platforma za operacije i razmenu — napravljena za enterprise pouz
 
 <section class="section">
   <div class="wrapper">
+    <h2 class="section-title">Površine isporuke</h2>
+    <p class="section-copy">
+      Jedna platforma, tri površine — svaka za različitu korisničku grupu i put usvajanja.
+    </p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>TX kontrolna ravan</h3>
+        <p><strong>Ko:</strong> CIO, integracioni timovi, platform operatori</p>
+        <p><strong>Šta:</strong> Povezivanje partnera, konfiguracija razmene, monitoring, oporavak, audit</p>
+        <a href="/tefter-exchange/" class="arrow-link" style="display: inline-block; margin-top: 10px;">Istraži TX</a>
+      </div>
+
+      <div class="card">
+        <h3>Radni prostor (aplikacije)</h3>
+        <p><strong>Ko:</strong> Prodaja, nabavka, skladište, operativa</p>
+        <p><strong>Šta:</strong> Workflow-i za svakodnevni rad — pogonjeni TX-om ispod</p>
+        <a href="/tefter-apps/" class="arrow-link" style="display: inline-block; margin-top: 10px;">Istraži aplikacije</a>
+      </div>
+
+      <div class="card">
+        <h3>Partner Edge (white‑label)</h3>
+        <p><strong>Ko:</strong> Dobavljači i netehnički partneri</p>
+        <p><strong>Šta:</strong> Zero-integration portal pod tvojim domenom za procurement tokove</p>
+        <a href="/partner-edge/" class="arrow-link" style="display: inline-block; margin-top: 10px;">Istraži Partner Edge</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
     <h2 class="section-title">Scenario u većoj skali</h2>
     <div class="card" style="margin: 30px 0; background: #f8f9fa;">
       <p><strong>Kontekst:</strong> Distribucija iz više skladišta kroz desetine partnera.</p>
