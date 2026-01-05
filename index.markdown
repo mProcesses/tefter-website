@@ -1,9 +1,11 @@
 ---
 layout: default
+permalink: /
+lang: en
+page_id: home
 title: Home
 description: Run Operations. Exchange Data. Keep Business Moving. Tefter combines operational modules with resilient exchange for seamless business operations.
 ---
-
 <section class="hero">
   <div class="wrapper">
     <h1>{% t home.main_heading %}</h1>

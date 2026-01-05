@@ -44,11 +44,11 @@ description: Platforma za operacije i razmenu — napravljena za enterprise pouz
 
     <div class="card" style="margin-top: 20px;">
       <h3>EDI modernizovan — bez “rewite”-a</h3>
-      <p>TX može da stabilizuje postojeće EDI tokove ili da postepeno zameni legacy EDI — smanjujući IT opterećenje i povećavajući operativnu pouzdanost.</p>
+      <p>TX može da stabilizuje postojeće EDI tokove ili da postepeno zameni zastarele EDI sisteme — smanjujući IT opterećenje i povećavajući operativnu pouzdanost.</p>
       <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8; margin-top: 10px;">
         <li><strong>Stabilizuje EDI transakcije:</strong> pauza/ponavljanje/nastavak uz vidljivost i jasno vlasništvo</li>
         <li><strong>Smanjuje ukupne troškove:</strong> manje partner-specifičnih projekata i manje ručnog “gašenja požara”</li>
-        <li><strong>Rasterećuje IT:</strong> biznis rešava izuzetke u podacima; IT drži governance</li>
+        <li><strong>Rasterećuje IT:</strong> biznis rešava izuzetke u podacima; IT drži upravljanje</li>
       </ul>
     </div>
 
@@ -106,7 +106,7 @@ description: Platforma za operacije i razmenu — napravljena za enterprise pouz
       <div class="card">
         <h3>Radni prostor (aplikacije)</h3>
         <p><strong>Ko:</strong> Prodaja, nabavka, skladište, operativa</p>
-        <p><strong>Šta:</strong> Tokovi rada za svakodnevni rad — pogonjeni TX-om ispod</p>
+        <p><strong>Šta:</strong> Tokovi rada za svakodnevni rad — zasnovan na TX-u "ispod haube"</p>
         <a href="{{ '/tefter-apps/' | relative_url }}" class="arrow-link" style="display: inline-block; margin-top: 10px;">Istraži aplikacije</a>
       </div>
 
@@ -139,14 +139,14 @@ description: Platforma za operacije i razmenu — napravljena za enterprise pouz
         <h3>Upravljački ishodi (governance)</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Governance i stabilnost kroz razmenu sa partnerima</li>
-          <li>Predvidive operacije i manje “iznenađenja” u integracijama</li>
+          <li>Manje “iznenađenja” kroz vidljivost, jasno vlasništvo i oporavak</li>
         </ul>
       </div>
       <div class="column">
         <h3>Operativni ishodi</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Kontinuitet kada prekidi nastanu</li>
-          <li>Brzina i kontrola bez čekanja na IT</li>
+          <li>Brzina i kontrola kroz poslovno rešavanje izuzetaka (ne IT tiketi)</li>
         </ul>
       </div>
     </div>

@@ -1,11 +1,11 @@
 ---
 layout: page
 lang: sr
+page_id: partner-edge
 title: Partner Edge (white‑label)
 permalink: /partner-edge/
 description: Partner portal bez integracije pod tvojim domenom — ubrzaj uključivanje dobavljača i usvajanje kod partnera.
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">Partner Edge — partner portal bez integracije, pod tvojim brendom</h1>

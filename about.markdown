@@ -1,9 +1,10 @@
 ---
 layout: page
+lang: en
+page_id: about
 title: About
 permalink: /about/
 ---
-
 {% t about.content_1 %} [jekyllrb.com](https://jekyllrb.com/)
 
 {% t about.content_2 %}

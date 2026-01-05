@@ -1,10 +1,11 @@
 ---
 layout: page
+lang: en
+page_id: tefter-exchange
 title: Tefter Exchange (TX)
 permalink: /tefter-exchange/
 description: Resilient, Self-Healing Exchange for Mission-Critical Operations
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">A self-healing execution layer for business transactions</h1>
@@ -114,9 +115,9 @@ description: Resilient, Self-Healing Exchange for Mission-Critical Operations
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Technical Architecture (CIO Section)</h2>
+    <h2 class="section-title">Technical Architecture</h2>
     <p class="section-copy">
-      This is the only place we go deep: TX is designed for durable execution, recovery-first processing, and enterprise observability.
+      TX is designed for durable execution, recovery-first processing, and enterprise observability.
     </p>
 
     <div class="two-column" style="margin-top: 30px;">

@@ -1,11 +1,11 @@
 ---
 layout: page
 lang: sr
+page_id: why-tefter
 title: Zašto Tefter
 permalink: /why-tefter/
 description: Jedna platforma. Dva sloja. Bilo koja veličina. Nije middleware. Operativna infrastruktura.
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">Jedna platforma. Dva sloja. Bilo koja veličina.</h1>

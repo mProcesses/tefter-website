@@ -1,10 +1,11 @@
 ---
 layout: page
+lang: en
+page_id: platform
 title: Platform
 permalink: /platform/
 description: A Platform for Operations and Exchange — Built for Enterprise Reliability
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">Operational infrastructure — not an app</h1>

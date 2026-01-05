@@ -1,10 +1,11 @@
 ---
 layout: page
+lang: en
+page_id: contact
 title: Contact / Demo
 permalink: /contact/
 description: See Tefter in Action — Book Your Demo
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">{% t contact.main_heading %}</h1>

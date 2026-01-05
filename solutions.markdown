@@ -1,10 +1,11 @@
 ---
 layout: page
+lang: en
+page_id: solutions
 title: Solutions
 permalink: /solutions/
 description: Operational Continuity Across Industries - Built for FMCG, proven for wholesale, manufacturing, and logistics.
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">Operational Continuity Across Industries</h1>

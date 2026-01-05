@@ -1,11 +1,11 @@
 ---
 layout: page
 lang: sr
+page_id: security
 title: Bezbednost i upravljanje
 permalink: /security/
 description: Enterprise bezbednost i governance za svaku transakciju
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">Enterprise bezbednost i governance za svaku transakciju</h1>

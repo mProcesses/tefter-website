@@ -1,10 +1,11 @@
 ---
 layout: page
+lang: en
+page_id: security
 title: Security & Governance
 permalink: /security/
 description: Enterprise-Grade Security and Governance for Every Transaction
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">Enterprise-Grade Security and Governance for Every Transaction</h1>

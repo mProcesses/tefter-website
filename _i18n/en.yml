@@ -69,14 +69,14 @@ common:
   limited: "Limited"
   sometimes: "Sometimes"
   varies: "Varies"
-  unlimited: "Unlimited"
+  unlimited: "Unlimite  "
   complete: "Complete"
   
 # Home page
 home:
   title: "Home"
-  description: "Run Operations. Exchange Data. Keep Business Moving. Tefter combines operational modules with resilient exchange for seamless business operations."
-  main_heading: "Run Operations. Exchange Data. Keep Business Moving."
+  description: "Run Operations. Exchange Data Automatically. Keep Business Moving. Tefter combines a resilient exchange layer with operational modules for seamless business operations."
+  main_heading: "Run Operations. Exchange Data Automatically. Keep Business Moving."
   main_subheading: "Tefter combines a resilient exchange layer with operational modules for sales, procurement, warehouse, partner management, and shipping optimization — so companies can manage orders, invoices, and deliveries while connecting seamlessly to ERPs, partners, and government systems, even when data is wrong or systems fail."
   
   new_category_title: "A New Category: Business Operations Integration"
@@ -103,7 +103,7 @@ home:
 
   problem_missing: "<strong>What’s missing in all of them:</strong> a system of continuity for transactions — recoverable execution, automatic retry/resume, and business-operable resolution when data is wrong."
   
-  breakthrough_title: "The Breakthrough: Tefter Exchange (TX)"
+  breakthrough_title: "Exchange Layer: Tefter Exchange (TX)"
   solution_highlight: "We built <strong>Tefter Exchange (TX)</strong> — a system of continuity for business transactions. It keeps execution recoverable, resumes automatically after failures, and routes data decisions to the business with full traceability."
   
   how_works_title: "How Tefter Works — Quick Overview"
@@ -120,7 +120,7 @@ home:
   tx_start_quick: "<strong>Start in minutes:</strong> register your organization, get credentials, and begin transacting. Refine mappings and ERP forwarding as you go."
   tx_edi_bridge: "<strong>EDI-friendly:</strong> TX can stabilize existing EDI flows or gradually replace legacy EDI over time — reducing IT workload while increasing operational reliability."
 
-  tx_enables_title: "What TX Enables (Operational Layer)"
+  tx_enables_title: "What Tefter Apps Enable (Operational Layer)"
   
   ops_subtitle: "Operational Layer — Where Work Happens"
   ops_desc: "Five integrated modules for daily operations:"

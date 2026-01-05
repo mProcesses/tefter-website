@@ -1,10 +1,11 @@
 ---
 layout: page
+lang: en
+page_id: tefter-apps
 title: Tefter Apps
 permalink: /tefter-apps/
 description: Your Business in Your Pocket — Mobile-First, Task-Optimized
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">Your Business in Your Pocket — Mobile-First, Task-Optimized</h1>

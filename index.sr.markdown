@@ -1,9 +1,11 @@
 ---
 layout: default
+lang: sr
+page_id: home
+permalink: /
 title: Početna
 description: Vodite operacije. Razmenjujte podatke. Održavajte poslovanje u pokretu. Tefter spaja operativne module sa otpornom razmenom podataka.
 ---
-
 <section class="hero">
   <div class="wrapper">
     <h1>{% t home.main_heading %}</h1>

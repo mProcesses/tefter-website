@@ -1,10 +1,11 @@
 ---
 layout: page
+lang: en
+page_id: why-tefter
 title: Why Tefter
 permalink: /why-tefter/
 description: One Platform. Two Layers. Any Scale. Not middleware. Operational infrastructure.
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">One Platform. Two Layers. Any Scale.</h1>

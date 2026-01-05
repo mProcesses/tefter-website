@@ -1,11 +1,11 @@
 ---
 layout: page
 lang: sr
+page_id: about
 title: O nama
 permalink: /about/
 description: O Tefteru
 ---
-
 {% t about.content_1 %} [jekyllrb.com](https://jekyllrb.com/)
 
 {% t about.content_2 %}

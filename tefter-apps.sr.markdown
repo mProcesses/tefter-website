@@ -1,11 +1,11 @@
 ---
 layout: page
 lang: sr
+page_id: tefter-apps
 title: Tefter aplikacije
 permalink: /tefter-apps/
 description: Tvoj biznis u džepu — mobile-first, optimizovano po zadacima
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">Tvoj biznis u džepu — mobile-first, optimizovano po zadacima</h1>
@@ -31,9 +31,9 @@ description: Tvoj biznis u džepu — mobile-first, optimizovano po zadacima
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Aplikacije pogonjene TX-om</h2>
+    <h2 class="section-title">Aplikacije zasnovane na TX-u</h2>
     <p class="section-copy">
-      Tefter aplikacije su površine izvršavanja na vrhu TX-a. Pošto TX garantuje kontinuitet, timovi mogu da rade u brzini biznisa — dok razmena ostaje pouzdana ispod. Aplikacije nadograđuju tvoj ERP tako što čine svakodnevni rad jednostavnijim, mobilnim i oporavljivim.
+      Tefter aplikacije su sloj izvršavanja na nivou iznad TX-a. Pošto TX garantuje kontinuitet, timovi mogu da rade u brzini biznisa — dok razmena ostaje pouzdana ispod. Aplikacije nadograđuju tvoj ERP tako što čine svakodnevni rad jednostavnijim, mobilnim i oporavljivim.
     </p>
     <a href="{{ '/tefter-exchange/' | relative_url }}" class="arrow-link" style="display: block; text-align: center; margin-top: 30px;">Istraži TX</a>
   </div>
@@ -41,11 +41,11 @@ description: Tvoj biznis u džepu — mobile-first, optimizovano po zadacima
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Scenariji po aplikacijama</h2>
+    <h2 class="section-title">Scenariji po aplikacijama - potrebno popravljanje celog konteksta</h2>
     <div class="card-grid">
       <div class="card">
         <h3>Prodaja</h3>
-        <p><strong>Scenario:</strong> Prodajni predstavnik kreira porudžbinu — i pojavi se nepoklapanje SKU-a.</p>
+        <p><strong>Scenario:</strong> Komercijalista kreira porudžbinu za kupca</p>
         <p><strong>Ishod:</strong> Porudžbina se brzo koriguje i nastavlja bez ponovnog unosa ili IT tiketa.</p>
       </div>
 

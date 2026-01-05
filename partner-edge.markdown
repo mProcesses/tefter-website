@@ -1,10 +1,11 @@
 ---
 layout: page
+lang: en
+page_id: partner-edge
 title: Partner Edge (White‑label)
 permalink: /partner-edge/
 description: A zero-integration partner portal under your domain — accelerate supplier onboarding and network adoption.
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">Partner Edge — a zero‑integration, white‑label partner portal</h1>

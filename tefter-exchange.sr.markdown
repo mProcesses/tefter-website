@@ -1,16 +1,16 @@
 ---
 layout: page
 lang: sr
+page_id: tefter-exchange
 title: Tefter Exchange (TX)
 permalink: /tefter-exchange/
-description: Otporna, samopopravljajuća razmena za misija-kritične operacije
+description: Razmena podataka za kritične operacije koja je otporna i pouzdana sa automatskim obnavljanjem
 ---
-
 <section class="section">
   <div class="wrapper section-center">
-    <h1 class="section-title">Samopopravljajući sloj izvršavanja za poslovne transakcije</h1>
+    <h1 class="section-title">Sloj za automatsko obnavaljenje izvršavanja i usmereno eskaliranje problema u razmeni poslovnih podataka</h1>
     <p class="section-copy">
-      TX je sloj razmene Teftera: čini transakcionu razmenu pouzdanom u nepouzdanom svetu. Prekidi ne postaju vanredna stanja — transakcije se bezbedno pauziraju, automatski se oporavljaju i traže poslovni unos samo kada je zaista potrebno.
+      TX je sloj razmene podataka: čini transakcionu razmenu podataka pouzdanom u nepouzdanom svetu. Prekidi ne postaju vanredna, već očekivana stanja — transakcije se bezbedno pauziraju, automatski se oporavljaju i traže korekcije od strane odgovornih zaposlenih samo kada je to zaista potrebno, rasterećujući zaposlene u IT-u.
     </p>
   </div>
 </section>
@@ -32,12 +32,12 @@ description: Otporna, samopopravljajuća razmena za misija-kritične operacije
   <div class="wrapper">
     <h2 class="section-title">TX uz postojeći EDI</h2>
     <p class="section-copy">
-      Ako danas koristiš EDI, TX može da radi uz njega da stabilizuje transakcije i smanji operativnu buku. A ako želiš da postepeno zameniš legacy EDI, TX podržava gradualnu migraciju bez “big bang” prelaska.
+      Ako danas koristiš EDI, TX može da radi uz njega da stabilizuje transakcije i smanji operativnu buku. A ako želiš da postepeno zameniš zastarele EDI sisteme, TX podržava gradualnu migraciju bez “big bang” prelaska.
     </p>
     <ul class="feature-list">
       <li><strong>Stabilizuje EDI transakcije:</strong> oporavljivo izvršavanje sa pauza/ponavljanje/nastavak i jasnim vlasništvom</li>
       <li><strong>Smanjuje troškove:</strong> manje partner-specifičnih projekata i manje ručnog “gašenja požara”</li>
-      <li><strong>Rasterećuje IT:</strong> biznis rešava izuzetke u podacima; IT drži governance</li>
+      <li><strong>Rasterećuje IT:</strong> biznis rešava izuzetke u podacima; IT drži upravljanje</li>
     </ul>
   </div>
 </section>
@@ -49,9 +49,9 @@ description: Otporna, samopopravljajuća razmena za misija-kritične operacije
       Realne operacije žive u “neredu”: mreže pucaju, partneri odlaze offline, formati driftuju, a delimičan uspeh je čest.
     </p>
     <ul class="feature-list">
-      <li>Prekid mreže ili krajnje tačke</li>
+      <li>Prekid mreže ili endpoint-a</li>
       <li>Nepoklapanje podataka (SKU, jedinica mere, struktura adrese)</li>
-      <li>Partner “down” usred transakcije</li>
+      <li>Partner postaje nedostupan usred transakcije</li>
       <li>Delimičan uspeh (neke poruke isporučene, neke ne)</li>
     </ul>
   </div>
@@ -79,7 +79,7 @@ description: Otporna, samopopravljajuća razmena za misija-kritične operacije
       </div>
       <div class="card">
         <h3>Eskalira (samo kada treba)</h3>
-        <p>Kada su podaci pogrešni, TX šalje odluku biznisu — ne u IT red.</p>
+        <p>Kada su podaci pogrešni, TX šalje odluku biznisu — ne u IT tiket.</p>
       </div>
     </div>
   </div>
@@ -91,8 +91,8 @@ description: Otporna, samopopravljajuća razmena za misija-kritične operacije
     <div class="card-grid">
       <div class="card">
         <h3>1) Prekid mreže</h3>
-        <p><strong>Šta se desi:</strong> Krajnja tačka partnera je nedostupna usred toka.</p>
-        <p><strong>TX reakcija:</strong> Transakcija se bezbedno pauzira, ponavlja i nastavlja kada se partner vrati.</p>
+        <p><strong>Šta se desi:</strong> Endpoint partnera postane nedostupan usred razmene podataka.</p>
+        <p><strong>TX reakcija:</strong> Transakcija se bezbedno pauzira, ponavlja i nastavlja kada se partner vrati online.</p>
         <p><strong>Ishod:</strong> Nema izgubljenih porudžbina. Nema ručnog unosa. Nema poziva “gde je nestalo?”.</p>
       </div>
 
@@ -117,7 +117,7 @@ description: Otporna, samopopravljajuća razmena za misija-kritične operacije
   <div class="wrapper">
     <h2 class="section-title">Tehnička arhitektura (CIO sekcija)</h2>
     <p class="section-copy">
-      Ovo je jedino mesto gde ulazimo dublje: TX je dizajniran za trajno izvršavanje, recovery-first obradu i enterprise observability.
+      TX je dizajniran za trajno izvršavanje, sa oporavkom kao primarnim principom i obeservabilnost na nivou kompanije.
     </p>
 
     <div class="two-column" style="margin-top: 30px;">
@@ -138,14 +138,14 @@ description: Otporna, samopopravljajuća razmena za misija-kritične operacije
           <li>Go backend za performanse i pouzdanost</li>
           <li>Kubernetes orkestracija</li>
           <li>Temporal engine za tokove rada (workflow) za trajno izvršavanje i oporavak</li>
-          <li>Observability: Grafana, Prometheus, Loki</li>
-          <li>Redundansa i failover “by design”</li>
+          <li>Observabilnost: Grafana, Prometheus, Loki</li>
+          <li>Redundansa i failover u arhitekturi</li>
         </ul>
       </div>
     </div>
 
     <div class="highlight-box" style="margin-top: 30px;">
-      <p><strong>Bezbednost:</strong> Enkripcija, kontrola pristupa, auditabilnost i governance su detaljno pokriveni na strani <a href="{{ '/security/' | relative_url }}">Bezbednost i upravljanje</a>.</p>
+      <p><strong>Bezbednost:</strong> Enkripcija, kontrola pristupa, revizibilnost i upravljanje su detaljno pokriveni na strani <a href="{{ '/security/' | relative_url }}">Bezbednost i upravljanje</a>.</p>
     </div>
   </div>
 </section>
@@ -163,10 +163,10 @@ description: Otporna, samopopravljajuća razmena za misija-kritične operacije
         </ul>
       </div>
       <div class="column">
-        <h3>Upravljački ishodi (governance)</h3>
+        <h3>Upravljački ishodi</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-          <li>Governance i stabilnost kroz razmenu sa partnerima</li>
-          <li>Observability, auditabilnost i jasnije vlasništvo kroz prekide</li>
+          <li>Upravljanje i stabilnost kroz razmenu sa partnerima</li>
+          <li>Obzervabilnost, revizibilnost i jasnije vlasništvo kroz prekide</li>
           <li>Manji integracioni rizik bez pretvaranja svakog izuzetka u IT tiket</li>
         </ul>
       </div>

@@ -1,16 +1,16 @@
 ---
 layout: page
 lang: sr
+page_id: platform
 title: Platforma
 permalink: /platform/
 description: Platforma za operacije i razmenu — napravljena za enterprise pouzdanost
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">Operativna infrastruktura — ne aplikacija</h1>
     <p class="section-copy">
-      Tefter je napravljen da drži realne operacije u pokretu kada razmena pukne. Kombinuje sloj razmene (TX) za kontinuitet sa operativnim slojem koji pomaže timovima da izvršavaju svakodnevni posao — uz tvoj ERP, ne protiv njega.
+      Tefter je napravljen da drži realne operacije u pokretu kada razmena pukne. Kombinuje sloj razmene podataka (TX) za kontinuitet sa operativnim slojem koji pomaže timovima da izvršavaju svakodnevni posao — uz tvoj ERP, ne protiv njega.
     </p>
     <div class="highlight-box">
       <p>Jedna platforma. Dva sloja. Bilo koja veličina.</p>
@@ -37,19 +37,19 @@ description: Platforma za operacije i razmenu — napravljena za enterprise pouz
   <div class="wrapper">
     <h2 class="section-title">TX kao sistem kontinuiteta</h2>
     <p class="section-copy">
-      Tefter Exchange (TX) je jezgro: recovery-first sloj razmene za poslovne transakcije. Tretira prekide kao normalne, čuva stanje izvršavanja i nastavlja rad kada se sistemi oporave — uz poslovno-operativno rešavanje kada su podaci pogrešni.
+      Tefter Exchange (TX) je jezgro: recovery-first sloj razmene podataka za poslovne transakcije. Tretira prekide kao normalne, čuva stanje izvršavanja i nastavlja rad kada se sistemi oporave — uz poslovno-operativno rešavanje kada su podaci pogrešni.
     </p>
     <div class="highlight-box">
       <p><strong>TX nije “integracija”.</strong> To je motor kontinuiteta za realne operacije.</p>
     </div>
 
     <div class="card" style="margin-top: 20px;">
-      <h3>EDI modernizovan — bez “rewite”-a</h3>
-      <p>TX može da stabilizuje postojeće EDI tokove ili da postepeno zameni legacy EDI — smanjujući IT opterećenje i povećavajući operativnu pouzdanost.</p>
+      <h3>EDI modernizovan — bez prepravki</h3>
+      <p>TX može da stabilizuje postojeće EDI tokove ili da postepeno zameni zastarele EDI sisteme — smanjujući IT opterećenje i povećavajući operativnu pouzdanost.</p>
       <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8; margin-top: 10px;">
         <li><strong>Stabilizuje EDI transakcije:</strong> pauza/ponavljanje/nastavak uz vidljivost i jasno vlasništvo</li>
         <li><strong>Smanjuje ukupne troškove:</strong> manje partner-specifičnih projekata i manje ručnog “gašenja požara”</li>
-        <li><strong>Rasterećuje IT:</strong> biznis rešava izuzetke u podacima; IT drži governance</li>
+        <li><strong>Rasterećuje IT:</strong> biznis rešava izuzetke u podacima; IT drži upravljanje</li>
       </ul>
     </div>
 
@@ -66,12 +66,12 @@ description: Platforma za operacije i razmenu — napravljena za enterprise pouz
 
     <div class="card-grid">
       <div class="card">
-        <h3>Sloj razmene (TX)</h3>
-        <p>Kontinuitet i istina za transakcije kroz partnere, ERP-ove i eksterne sisteme.</p>
+        <h3>Sloj razmene podataka - Tefter Exchange (TX)</h3>
+        <p>Kontinuitet i izvor istine za transakcije kroz partnere, ERP-ove i eksterne sisteme.</p>
       </div>
       <div class="card">
-        <h3>Operativni sloj</h3>
-        <p>Površine za izvršavanje svakodnevnog posla — dizajnirane da nadograde tvoj ERP i rade u brzini biznisa.</p>
+        <h3>Operativni sloj - Tefter Aplikacije</h3>
+        <p>Aplikativni sloj za izvršavanje svakodnevnog posla — dizajnirane da nadograde tvoj ERP i rade u brzini biznisa.</p>
       </div>
     </div>
 
@@ -91,23 +91,23 @@ description: Platforma za operacije i razmenu — napravljena za enterprise pouz
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Površine isporuke</h2>
+    <h2 class="section-title">Tefter okruženje</h2>
     <p class="section-copy">
-      Jedna platforma, tri površine — svaka za različitu korisničku grupu i put usvajanja.
+      Jedna platforma, tri lica — svako za različitu korisničku grupu i put usvajanja.
     </p>
 
     <div class="card-grid">
       <div class="card">
         <h3>TX kontrolna ravan</h3>
-        <p><strong>Ko:</strong> CIO, integracioni timovi, platform operatori</p>
-        <p><strong>Šta:</strong> Povezivanje partnera, konfiguracija razmene, monitoring, oporavak, audit</p>
+        <p><strong>Ko:</strong> CIO, integracioni timovi, operatori platformi</p>
+        <p><strong>Šta:</strong> Povezivanje partnera, konfiguracija razmene podataka, monitoring, oporavak, revizija</p>
         <a href="{{ '/tefter-exchange/' | relative_url }}" class="arrow-link" style="display: inline-block; margin-top: 10px;">Istraži TX</a>
       </div>
 
       <div class="card">
         <h3>Radni prostor (aplikacije)</h3>
         <p><strong>Ko:</strong> Prodaja, nabavka, skladište, operativa</p>
-        <p><strong>Šta:</strong> Tokovi rada za svakodnevni rad — pogonjeni TX-om ispod</p>
+        <p><strong>Šta:</strong> Tokovi podataka za svakodnevni rad — zasnovani na TX-om "ispod haube"</p>
         <a href="{{ '/tefter-apps/' | relative_url }}" class="arrow-link" style="display: inline-block; margin-top: 10px;">Istraži aplikacije</a>
       </div>
 
@@ -137,17 +137,17 @@ description: Platforma za operacije i razmenu — napravljena za enterprise pouz
     <h2 class="section-title">Ishodi po odgovornostima</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>Upravljački ishodi (governance)</h3>
+        <h3>Upravljački ishodi</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-          <li>Governance i stabilnost kroz razmenu sa partnerima</li>
-          <li>Manje “iznenađenja” kroz vidljivost, jasno vlasništvo i oporavak</li>
+          <li>Upravljanje i stabilnost kroz razmenu sa partnerima</li>
+          <li>Predvidive operacije i manje “iznenađenja” u integracijama</li>
         </ul>
       </div>
       <div class="column">
         <h3>Operativni ishodi</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Kontinuitet kada prekidi nastanu</li>
-          <li>Brzina i kontrola kroz poslovno rešavanje izuzetaka (ne IT tiketi)</li>
+          <li>Brzina i kontrola bez čekanja na IT</li>
         </ul>
       </div>
     </div>

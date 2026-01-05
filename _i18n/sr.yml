@@ -26,10 +26,10 @@ footer:
   
 hero:
   tagline: "Jedna platforma. Dva sloja. Za svaku firmu."
-  exchange_layer: "Sloj razmene (TX):"
-  exchange_desc: "Pouzdan prenos podataka koji se sam popravlja kada nešto krene naopako."
+  exchange_layer: "Sloj razmene podataka (TX):"
+  exchange_desc: "Pouzdan prenos podataka koji se sam oporavlja kada nešto krene naopako."
   ops_layer: "Operativni sloj:"
-  ops_desc: "Vodi poslovanje direktno ili nadogradi postojeći ERP."
+  ops_desc: "Vodi poslovanje direktno ili nadogradi postojeći ERP sa Tefter Aplikacijama."
 
 cta:
   book_demo: "Zakaži demo"
@@ -75,19 +75,19 @@ common:
 # Home page / Početna strana
 home:
   title: "Početna"
-  description: "Vodi poslovanje. Razmenjuj podatke. Drži sve u pokretu. Tefter spaja operativne module sa pouzdanom razmenom podataka za besprekoran rad firme."
-  main_heading: "Vodi Poslovanje. Razmenjuj Podatke. Drži Sve u Pokretu."
-  main_subheading: "Tefter spaja pouzdan prenos podataka sa modulima za prodaju, nabavku, skladište, rad sa partnerima i optimizaciju isporuke — tako da možeš da upravljaš narudžbinama, fakturama i isporukama dok se sve automatski povezuje sa ERP-om, partnerima i državnim sistemima, čak i kada su podaci neispravni ili sistemi otkažu."
+  description: "Vodi poslovanje. Automatski razmenjuj podatke. Drži sve u pokretu. Tefter spaja operativne module sa pouzdanom razmenom podataka za besprekoran rad firme."
+  main_heading: "Vodi Poslovanje. Automatski razmenjuj Podatke. Drži Sve u Pokretu."
+  main_subheading: "Tefter spaja pouzdan sloj za prenos podataka sa modulima za prodaju, nabavku, skladište, rad sa partnerima i optimizaciju isporuke — tako da možeš da upravljaš narudžbinama, fakturama i isporukama dok se sve automatski povezuje sa ERP-om, partnerima i državnim sistemima, čak i kada su podaci neispravni ili sistemi otkažu."
   
   new_category_title: "Nova Kategorija: Integrisane Poslovne Operacije"
-  new_category_desc: "EDI povezuje sisteme. ERP vodi procese. Tefter spaja oba — to je platforma koja vodi tvoje poslovanje I garantuje pouzdan protok podataka kroz ceo ekosistem, čak i kada partneri menjaju formate, mreža otkaže ili se podaci ne poklapaju."
+  new_category_desc: "EDI povezuje sisteme. ERP vodi procese. Tefter spaja oba — to je platforma koja vodi tvoje poslovanje i garantuje pouzdan protok podataka kroz ceo ekosistem, čak i kada partneri menjaju formate, mreža otkaže ili se podaci ne poklapaju."
   
   problem_title: "Problem Koji Rešavamo"
-  problem_intro: "Većina firmi povezuje partnere kroz jedan od ovih uobičajenih pristupa — svaki ima ozbiljne mane:"
+  problem_intro: "Većina firmi povezuje partnere kroz jedan od ovih uobičajenih pristupa — svaki sa već poznatim manama:"
   
   path_erp_title: "Sve preko ERP-a"
   path_erp_desc: "Koristiš ERP i za operacije i za povezivanje sa partnerima."
-  path_erp_reality: "Komplikovano i skupo, IT je uvek u sredini za svaku izmenu, uključivanje partnera postaje projekat (nedelje, ne sati), kruti zahtevi, a oporavak kada razmena pukne je ručan i nevidljiv."
+  path_erp_reality: "Komplikovano i skupo, IT je uvek u središtu za svaku izmenu, uključivanje partnera postaje projekat (nedelje, ne sati), kruti zahtevi, a oporavak kada razmena pukne je ručan i nevidljiv."
   
   path_edi_title: "EDI Usluga"
   path_edi_desc: "Kupuješ EDI/integracionu uslugu za povezivanje partnera, a operacije vodiš u drugim sistemima."
@@ -101,9 +101,9 @@ home:
   path_manual_desc: "Telefon, email, tabele i ručan unos podataka."
   path_manual_reality: "Ne može da se skalira, puno grešaka, nema jasne vidljivosti ni vlasništva, a oporavak je u potpunosti ručan — što vodi ka kašnjenjima i sporovima."
 
-  problem_missing: "<strong>Šta svima nedostaje:</strong> sistem kontinuiteta za transakcije — oporavljivo izvršavanje, automatsko ponavljanje i nastavak, i da posao može da reši pogrešne podatke bez čekanja na IT."
+  problem_missing: "<strong>Šta svima nedostaje:</strong> sistem kontinuiteta za transakcije — oporavljivo izvršavanje, automatsko ponavljanje i nastavak, i da zaposleni u poslovnim jedinicama mogu da isprave pogrešne podatke bez čekanja na IT."
   
-  breakthrough_title: "Proboj: Tefter Exchange (TX)"
+  breakthrough_title: "Sloj razmene podataka: Tefter Exchange (TX)"
   solution_highlight: "Napravili smo <strong>Tefter Exchange (TX)</strong> — sistem kontinuiteta za poslovne transakcije. Čuva izvršavanje oporavljivim, automatski nastavlja posle prekida i šalje odluke o podacima pravim poslovnim ulogama, uz potpunu sledljivost."
   
   how_works_title: "Kako Tefter Radi — Ukratko"
@@ -118,12 +118,12 @@ home:
   tx_example_title: "Primer"
   tx_example: "Pošalješ porudžbinu sa stavkom “Proizvod A / pakovanje 24,” ali kupac očekuje šifru “PA-24.” TX označi nepoklapanje, predloži mapiranje, poslovni vlasnik odobri, TX sačuva pravilo i transakcija se ponovi i završi — bez IT tiketa."
   tx_start_quick: "<strong>Kreni za par minuta:</strong> registruješ organizaciju, dobiješ kredencijale i odmah kreneš sa transakcijama. Mapiranja i prosleđivanje u ERP doteruješ usput."
-  tx_edi_bridge: "<strong>Kompatibilno sa EDI‑jem:</strong> TX može da stabilizuje postojeće EDI tokove ili da postepeno zameni legacy EDI — smanjujući IT opterećenje i povećavajući operativnu pouzdanost."
+  tx_edi_bridge: "<strong>Kompatibilno sa EDI‑jem:</strong> TX može da stabilizuje postojeće EDI tokove ili da postepeno zameni zastarele EDI sisteme — smanjujući IT opterećenje i povećavajući operativnu pouzdanost."
 
-  tx_enables_title: "Šta TX Omogućava (Operativni Sloj)"
+  tx_enables_title: "Šta Tefter Aplikacije Omogućavaju (Operativni Sloj)"
   
   ops_subtitle: "Operativni Sloj — Gde Se Radi"
-  ops_desc: "Pet povezanih modula za svakodnevni rad:"
+  ops_desc: "Pet povezanih modula za svakodnevni rad koji mogu da se koriste samostalno ili u kombinaciji sa postojećim ERP-om uz pomoć TX-a:"
   
   ops_sales_title: "1. Prodaja"
   ops_sales_desc: "Prodajni timovi unose porudžbine (mobilno ili web) → sinhronizacija u realnom vremenu sa ERP-om kupca preko TX-a"
@@ -147,7 +147,7 @@ home:
   e2e_label_issue: "Problem"
   e2e_label_recovery: "Oporavak"
   e2e_order: "Porudžbina se pošalje ka partnerskom sistemu."
-  e2e_issue: "Detektuje se nepoklapanje mapiranja — i krajnja tačka partnera je privremeno nedostupna."
+  e2e_issue: "Detektuje se nepoklapanje mapiranja — i endpoint partnera je privremeno nedostupan."
   e2e_recovery: "TX čuva transakciju bezbednom, automatski pokušava ponovo i traži poslovni unos samo kada je potrebna odluka o mapiranju."
   e2e_outcome: "Transakcija se nastavlja čim se partner vrati online — isporuka ostaje po planu, bez ručnog ponovnog unosa."
   
@@ -162,7 +162,7 @@ home:
   outcome_entry_desc: "Smanji ručan unos podataka"
 
   who_for_title: "Ishodi po odgovornostima"
-  who_cio_title: "Upravljački ishodi (governance)"
+  who_cio_title: "Upravljački ishodi"
   who_cio_1: "Upravljanje i stabilnost kroz razmenu sa partnerima"
   who_cio_2: "Vidljivost, vlasništvo i auditabilnost kroz prekide"
   who_coo_title: "Operativni ishodi"

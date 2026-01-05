@@ -1,11 +1,11 @@
 ---
 layout: page
 lang: sr
+page_id: solutions
 title: Rešenja
 permalink: /solutions/
 description: Operativni kontinuitet kroz industrije — napravljeno za FMCG, provereno u veleprodaji, proizvodnji i logistici
 ---
-
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">Operativni kontinuitet kroz industrije</h1>
