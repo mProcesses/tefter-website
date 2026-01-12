@@ -4,13 +4,14 @@ permalink: /
 lang: en
 page_id: home
 title: Home
-description: Run Operations. Exchange Data. Keep Business Moving. Tefter combines operational modules with resilient exchange for seamless business operations.
+description: Real-time execution—backed by resilient exchange. Tefter combines a recovery-first exchange network (TX) with real-time operational apps so transactions keep moving end-to-end through failures and mismatches.
 ---
 <section class="hero">
   <div class="wrapper">
+    <p class="supporting-tagline">{% t hero.tagline %}</p>
     <h1>{% t home.main_heading %}</h1>
     <p class="subheadline">{% t home.main_subheading %}</p>
-    <p class="supporting-tagline">{% t hero.tagline %}</p>
+    <p class="clarifying-line">{% t hero.question %}</p>
     <div class="two-layer-explanation">
       <div class="layer-item">
         <strong>{% t hero.exchange_layer %}</strong> {% t hero.exchange_desc %}

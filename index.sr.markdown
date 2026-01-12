@@ -4,13 +4,14 @@ lang: sr
 page_id: home
 permalink: /
 title: Početna
-description: Vodite operacije. Razmenjujte podatke. Održavajte poslovanje u pokretu. Tefter spaja operativne module sa otpornom razmenom podataka.
+description: Izvršavanje u realnom vremenu — uz otpornu razmenu podataka. Tefter kombinuje TX kontinuitet sa aplikacijama u realnom vremenu, tako da transakcije teku end-to-end i kada dođe do prekida mreže i nepoklapanja podataka.
 ---
 <section class="hero">
   <div class="wrapper">
+    <p class="supporting-tagline">{% t hero.tagline %}</p>
     <h1>{% t home.main_heading %}</h1>
     <p class="subheadline">{% t home.main_subheading %}</p>
-    <p class="supporting-tagline">{% t hero.tagline %}</p>
+    <p class="clarifying-line">{% t hero.question %}</p>
     <div class="two-layer-explanation">
       <div class="layer-item">
         <strong>{% t hero.exchange_layer %}</strong> {% t hero.exchange_desc %}
