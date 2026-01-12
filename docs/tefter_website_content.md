@@ -13,13 +13,16 @@ Home | Platform | Tefter Exchange (TX) | Tefter Apps | Solutions | Why Tefter | 
 ### HERO SECTION
 
 **Headline:**
-Run Operations. Exchange Data. Keep Business Moving.
+Real-time execution—backed by resilient exchange.
 
 **Subheadline:**
-Tefter combines a resilient exchange layer with operational modules for sales, procurement, warehouse, partner management, and shipping optimization — so companies can manage orders, invoices, and deliveries while connecting seamlessly to ERPs, partners, and government systems, even when data is wrong or systems fail.
+Tefter combines a recovery-first exchange network (TX) with real-time apps for sales, partner ordering, and warehouse execution — so orders are created, processed, corrected, and delivered end-to-end even when partners change formats, networks fail, or data doesn't match.
 
 **Supporting Tagline:**
-One platform. Two layers. Any scale.
+Operational Continuity Platform
+
+**Hero Question:**
+Is your operation fast—and still reliable under failure?
 
 **Two-Layer Explanation:**
 - **Exchange Layer (TX):** Reliable, self-healing data exchange for mission-critical operations.
@@ -42,10 +45,10 @@ One platform. Two layers. Any scale.
 ### WHAT IS BUSINESS OPERATIONS INTEGRATION?
 
 **Headline:**
-A New Category: Business Operations Integration
+A New Category: Operational Continuity Platform
 
 **Introduction:**
-Traditional EDI connects systems. Traditional ERP runs business processes. Tefter bridges both worlds — it's a platform that operates your business AND ensures data flows reliably across your entire ecosystem, even when partners change formats, networks fail, or data doesn't match.
+Traditional EDI moves messages between systems. Traditional ERP runs internal workflows. Tefter is an **Operational Continuity Platform**: TX keeps transactions recoverable through failures and mismatches, while Apps let teams execute and correct work in real time — so the business keeps moving end-to-end across partners, customers, and government.
 
 **The Problem We Solve:**
 Most companies face a choice:
@@ -54,7 +57,7 @@ Most companies face a choice:
 3. Accept operational delays and data errors as "the cost of doing business"
 
 **Tefter's Approach:**
-We created **Business Operations Integration** — where operational apps (for your teams) and exchange infrastructure (for your data) work as one system. Business users manage both operations AND fix integration errors without waiting for IT.
+We created an **Operational Continuity Platform** — where operational apps (for your teams) and exchange infrastructure (for your data) work as one system. Business users manage both execution AND resolve data/integration exceptions without waiting for IT.
 
 **Designer Instructions:**
 - Create a three-column comparison visual:
@@ -2121,7 +2124,7 @@ Website: www.tefter.com
 
 This content pack provides complete, copy-paste ready content for all major pages of the Tefter website. The content is structured to:
 
-1. **Clearly position Tefter** as the first Business Operations Integration platform (new category)
+1. **Clearly position Tefter** as the first Operational Continuity Platform (new category)
 2. **Address both CIO and COO audiences** with appropriate messaging for each
 3. **Emphasize FMCG** as the primary target industry while remaining relevant to others
 4. **Showcase the two-layer architecture** (TX Exchange + Operational Apps) as the key differentiator

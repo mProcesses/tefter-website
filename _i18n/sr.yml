@@ -25,11 +25,12 @@ footer:
   copyright: "© %{year} Tefter Exchange Platform. Sva prava zadržana."
   
 hero:
-  tagline: "Jedna platforma. Dva sloja. Za svaku firmu."
+  tagline: "Platforma operativnog kontinuiteta"
   exchange_layer: "Sloj razmene podataka (TX):"
   exchange_desc: "Pouzdan prenos podataka koji se sam oporavlja kada nešto krene naopako."
   ops_layer: "Operativni sloj:"
   ops_desc: "Vodi poslovanje direktno ili nadogradi postojeći ERP sa Tefter Aplikacijama."
+  question: "Da li su tvoje operacije brze — i pouzdane kada sistemi otkažu?"
 
 cta:
   book_demo: "Zakaži demo"
@@ -75,12 +76,12 @@ common:
 # Home page / Početna strana
 home:
   title: "Početna"
-  description: "Vodi poslovanje. Automatski razmenjuj podatke. Drži sve u pokretu. Tefter spaja operativne module sa pouzdanom razmenom podataka za besprekoran rad firme."
-  main_heading: "Vodi Poslovanje. Automatski razmenjuj Podatke. Drži Sve u Pokretu."
-  main_subheading: "Tefter spaja pouzdan sloj za prenos podataka sa modulima za prodaju, nabavku, skladište, rad sa partnerima i optimizaciju isporuke — tako da možeš da upravljaš narudžbinama, fakturama i isporukama dok se sve automatski povezuje sa ERP-om, partnerima i državnim sistemima, čak i kada su podaci neispravni ili sistemi otkažu."
+  description: "Izvršavanje u realnom vremenu — uz otpornu razmenu podataka. Tefter kombinuje mrežu razmene (TX) dizajniranu za oporavak sa operativnim aplikacijama u realnom vremenu, tako da transakcije teku end-to-end i kada dođe do prekida mreže i nepoklapanja podataka."
+  main_heading: "Izvršavanje u realnom vremenu — uz otpornu razmenu podataka."
+  main_subheading: "Tefter kombinuje mrežu razmene (TX) dizajniranu za oporavak sa aplikacijama u realnom vremenu za prodaju, poručivanje partnera i skladišno izvršavanje — tako da se porudžbine kreiraju, obrađuju, koriguju i isporučuju end‑to‑end čak i kada partneri menjaju formate, mreže otkažu ili se podaci ne poklapaju."
   
-  new_category_title: "Nova Kategorija: Integrisane Poslovne Operacije"
-  new_category_desc: "EDI povezuje sisteme. ERP vodi procese. Tefter spaja oba — to je platforma koja vodi tvoje poslovanje i garantuje pouzdan protok podataka kroz ceo ekosistem, čak i kada partneri menjaju formate, mreža otkaže ili se podaci ne poklapaju."
+  new_category_title: "Nova kategorija: Platforma operativnog kontinuiteta"
+  new_category_desc: "Tradicionalni EDI prenosi poruke između sistema. Tradicionalni ERP vodi interne tokove rada. Tefter je <strong>platforma operativnog kontinuiteta</strong>: TX čuva transakcije oporavljivim kroz prekide i nepoklapanja, a aplikacije omogućavaju da timovi izvršavaju i koriguju rad u realnom vremenu — tako da biznis teče end‑to‑end kroz partnere, kupce i državne sisteme."
   
   problem_title: "Problem Koji Rešavamo"
   problem_intro: "Većina firmi povezuje partnere kroz jedan od ovih uobičajenih pristupa — svaki sa već poznatim manama:"

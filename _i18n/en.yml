@@ -25,11 +25,12 @@ footer:
   copyright: "© %{year} Tefter Exchange Platform. All rights reserved."
   
 hero:
-  tagline: "One platform. Two layers. Any scale."
+  tagline: "Operational Continuity Platform"
   exchange_layer: "Exchange Layer (TX):"
   exchange_desc: "Reliable, self-healing data exchange for mission-critical operations."
   ops_layer: "Operational Layer:"
   ops_desc: "Run business directly or augment your ERP."
+  question: "Is your operation fast—and still reliable under failure?"
 
 cta:
   book_demo: "Book a demo"
@@ -75,12 +76,12 @@ common:
 # Home page
 home:
   title: "Home"
-  description: "Run Operations. Exchange Data Automatically. Keep Business Moving. Tefter combines a resilient exchange layer with operational modules for seamless business operations."
-  main_heading: "Run Operations. Exchange Data Automatically. Keep Business Moving."
-  main_subheading: "Tefter combines a resilient exchange layer with operational modules for sales, procurement, warehouse, partner management, and shipping optimization — so companies can manage orders, invoices, and deliveries while connecting seamlessly to ERPs, partners, and government systems, even when data is wrong or systems fail."
+  description: "Real-time execution—backed by resilient exchange. Tefter combines a recovery-first exchange network (TX) with real-time operational apps so transactions keep moving end-to-end through failures and mismatches."
+  main_heading: "Real-time execution—backed by resilient exchange."
+  main_subheading: "Tefter combines a recovery-first exchange network (TX) with real-time apps for sales, partner ordering, and warehouse execution — so orders are created, processed, corrected, and delivered end-to-end even when partners change formats, networks fail, or data doesn’t match."
   
-  new_category_title: "A New Category: Business Operations Integration"
-  new_category_desc: "Traditional EDI connects systems. Traditional ERP runs business processes. Tefter bridges both worlds — it's a platform that operates your business AND ensures data flows reliably across your entire ecosystem, even when partners change formats, networks fail, or data doesn't match."
+  new_category_title: "A New Category: Operational Continuity Platform"
+  new_category_desc: "Traditional EDI moves messages between systems. Traditional ERP runs internal workflows. Tefter is an <strong>Operational Continuity Platform</strong>: TX keeps transactions recoverable through failures and mismatches, while Apps let teams execute and correct work in real time — so the business keeps moving end-to-end across partners, customers, and government."
   
   problem_title: "The Problem We Solve"
   problem_intro: "Most companies connect partners using one of these familiar approaches — each with serious drawbacks:"
