@@ -10,7 +10,7 @@ description: Razmena podataka za kritične operacije koja je otporna i pouzdana 
   <div class="wrapper section-center">
     <h1 class="section-title">Sloj za automatsko obnavaljenje izvršavanja i usmereno eskaliranje problema u razmeni poslovnih podataka</h1>
     <p class="section-copy">
-      TX je sloj razmene podataka: čini transakcionu razmenu podataka pouzdanom u nepouzdanom svetu. Prekidi ne postaju vanredna, već očekivana stanja — transakcije se bezbedno pauziraju, automatski se oporavljaju i traže korekcije od strane odgovornih zaposlenih samo kada je to zaista potrebno, rasterećujući zaposlene u IT-u.
+      Tefter Exchange — skraćeno TX — je sloj razmene podataka koji čini transakcionu razmenu podataka pouzdanom u nepouzdanom svetu. Prekidi ne postaju vanredna, već očekivana stanja — transakcije se bezbedno pauziraju, automatski se oporavljaju i traže korekcije od strane odgovornih zaposlenih samo kada je to zaista potrebno, rasterećujući zaposlene u IT-u.
     </p>
   </div>
 </section>

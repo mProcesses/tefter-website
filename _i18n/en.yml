@@ -26,7 +26,7 @@ footer:
   
 hero:
   tagline: "Operational Continuity Platform"
-  exchange_layer: "Exchange Layer (TX):"
+  exchange_layer: "Tefter Exchange (TX):"
   exchange_desc: "Reliable, self-healing data exchange for mission-critical operations."
   ops_layer: "Operational Layer:"
   ops_desc: "Run business directly or augment your ERP."
@@ -78,7 +78,7 @@ home:
   title: "Home"
   description: "Real-time execution—backed by resilient exchange. Tefter combines a recovery-first exchange network (TX) with real-time operational apps so transactions keep moving end-to-end through failures and mismatches."
   main_heading: "Real-time execution—backed by resilient exchange."
-  main_subheading: "Tefter combines a recovery-first exchange network (TX) with real-time apps for sales, partner ordering, and warehouse execution — so orders are created, processed, corrected, and delivered end-to-end even when partners change formats, networks fail, or data doesn’t match."
+  main_subheading: "Tefter combines Tefter Exchange (TX) — a recovery-first exchange network — with real-time apps for sales, partner ordering, and warehouse execution — so orders are created, processed, corrected, and delivered end-to-end even when partners change formats, networks fail, or data doesn't match."
   
   new_category_title: "A New Category: Operational Continuity Platform"
   new_category_desc: "Traditional EDI moves messages between systems. Traditional ERP runs internal workflows. Tefter is an <strong>Operational Continuity Platform</strong>: TX keeps transactions recoverable through failures and mismatches, while Apps let teams execute and correct work in real time — so the business keeps moving end-to-end across partners, customers, and government."

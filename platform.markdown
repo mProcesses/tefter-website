@@ -2,9 +2,10 @@
 layout: page
 lang: en
 page_id: platform
-title: Platform
+title: Cloud Integration Platform
 permalink: /platform/
-description: A Platform for Operations and Exchange — Built for Enterprise Reliability
+description: Enterprise cloud integration platform for EDI and ERP systems. Self-healing B2B integration with automatic retry, data mapping, and business-operable recovery. Replace or modernize legacy EDI with cloud-native architecture.
+keywords: cloud integration platform, EDI cloud platform, ERP integration platform, B2B integration software, enterprise integration, iPaaS, integration platform as a service, EDI replacement, legacy EDI modernization, API gateway
 ---
 <section class="section">
   <div class="wrapper section-center">

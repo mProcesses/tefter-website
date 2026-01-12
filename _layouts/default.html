@@ -7,6 +7,23 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   
+  <!-- SEO meta tags -->
+  <meta name="keywords" content="{{ page.keywords | default: 'EDI integration, ERP integration, B2B integration, cloud integration platform, EDI modernization, supply chain integration, API integration, data exchange, business automation, enterprise integration' }}">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }} | {{ site.title }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  
   <!-- hreflang tags for SEO -->
   {% if site.languages %}
     {% for lang in site.languages %}
@@ -17,6 +34,17 @@
   <link rel="icon" href="{{ '/assets/icons/favicon.ico' | relative_url }}">
   <link rel="shortcut icon" href="{{ '/assets/icons/favicon.ico' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  
+  <!-- Google Analytics 4 -->
+  {% if site.google_analytics and site.google_analytics != "" %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+  {% endif %}
 </head>
 <body data-baseurl="{{ site.baseurl }}" data-default-lang="{{ site.default_lang }}">
   <header class="site-header">
@@ -131,6 +159,28 @@
     </div>
   </footer>
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  
+  <!-- Structured Data (JSON-LD) for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "{{ site.title }}",
+    "applicationCategory": "BusinessApplication",
+    "description": "{{ site.description | strip_newlines | escape }}",
+    "url": "{{ site.url }}",
+    "operatingSystem": "Cloud",
+    "offers": {
+      "@type": "Offer",
+      "category": "EDI Integration, ERP Integration, Cloud Integration Platform"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Tefter",
+      "email": "{{ site.email }}"
+    }
+  }
+  </script>
 </body>
 </html>
 

@@ -2,15 +2,16 @@
 layout: page
 lang: en
 page_id: tefter-exchange
-title: Tefter Exchange (TX)
+title: EDI Exchange & B2B Integration
 permalink: /tefter-exchange/
-description: Resilient, Self-Healing Exchange for Mission-Critical Operations
+description: Self-healing EDI exchange and B2B integration layer. Automatic retry, data mapping, and recovery for EDI transactions. Support for EDIFACT, X12, XML, API, and all major EDI standards. Cloud-native EDI modernization.
+keywords: EDI exchange, B2B integration, EDI transaction processing, EDIFACT, X12, EDI translation, EDI mapping, API integration, cloud EDI, EDI VAN alternative, managed EDI services, EDI automation
 ---
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">A self-healing execution layer for business transactions</h1>
     <p class="section-copy">
-      TX is the Exchange Layer of Tefter: it makes transactional exchange reliable in an unreliable world. Failures don’t become emergencies — transactions pause safely, recover automatically, and only ask for business input when it’s truly needed.
+      Tefter Exchange — TX for short — is the exchange layer that makes transactional data exchange reliable in an unreliable world. Failures don't become emergencies — transactions pause safely, recover automatically, and only ask for business input when it's truly needed.
     </p>
   </div>
 </section>

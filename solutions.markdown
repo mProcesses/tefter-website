@@ -2,9 +2,10 @@
 layout: page
 lang: en
 page_id: solutions
-title: Solutions
+title: EDI Solutions by Industry
 permalink: /solutions/
-description: Operational Continuity Across Industries - Built for FMCG, proven for wholesale, manufacturing, and logistics.
+description: EDI and ERP integration solutions for FMCG, wholesale, manufacturing, and logistics. Automate B2B transactions, streamline supply chain data exchange, and reduce EDI support costs with cloud-native integration.
+keywords: FMCG EDI integration, wholesale EDI solutions, manufacturing ERP integration, logistics data exchange, supply chain automation, B2B integration solutions, EDI VAN services, industry EDI solutions, distribution integration
 ---
 <section class="section">
   <div class="wrapper section-center">

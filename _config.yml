@@ -18,13 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Google Analytics 4 - Replace with your actual Measurement ID
+google_analytics: ""  # e.g., "G-XXXXXXXXXX"
+
 title: Tefter Exchange Platform
 email: contact@tefter.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A business-operable integration and recovery platform for mission-critical 
-  data exchange — from growing companies to global enterprises.
+  Cloud EDI integration and ERP platform. Self-healing B2B data exchange 
+  for enterprise supply chains. Modern EDI, API integration, and automated 
+  transaction processing for FMCG, wholesale, manufacturing, and logistics.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tefter.io" # CHANGE THIS to your actual domain, e.g., https://yourdomain.com
 
 # Multi-language configuration
 languages: ["en", "sr"]

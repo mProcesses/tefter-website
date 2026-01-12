@@ -3,8 +3,9 @@ layout: default
 permalink: /
 lang: en
 page_id: home
-title: Home
-description: Real-time execution—backed by resilient exchange. Tefter combines a recovery-first exchange network (TX) with real-time operational apps so transactions keep moving end-to-end through failures and mismatches.
+title: EDI Integration & ERP Cloud Platform
+description: Enterprise EDI integration and ERP cloud platform. Tefter TX provides self-healing B2B integration, automated EDI processing, and real-time data exchange for supply chain operations. Modernize legacy EDI with cloud-native integration.
+keywords: EDI integration platform, ERP integration software, B2B integration, cloud EDI solution, EDI modernization, supply chain integration, API integration platform, enterprise data exchange, automated EDI processing, ERP cloud integration
 ---
 <section class="hero">
   <div class="wrapper">

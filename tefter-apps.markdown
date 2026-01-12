@@ -2,9 +2,10 @@
 layout: page
 lang: en
 page_id: tefter-apps
-title: Tefter Apps
+title: Mobile ERP & Sales Apps
 permalink: /tefter-apps/
-description: Your Business in Your Pocket — Mobile-First, Task-Optimized
+description: Mobile ERP apps for field sales, procurement, warehouse, and logistics. Cloud-integrated business apps with offline support. Streamline order management, inventory tracking, and supply chain operations from any device.
+keywords: mobile ERP app, field sales app, mobile order management, warehouse management app, procurement software, supply chain app, mobile business apps, offline ERP, sales force automation, inventory management app
 ---
 <section class="section">
   <div class="wrapper section-center">
