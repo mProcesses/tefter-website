@@ -103,8 +103,7 @@ keywords: EDI integration platform, ERP integration software, B2B integration, c
 <section class="section">
   <div class="wrapper">
     <h2 class="section-title">{% t home.tx_enables_title %}</h2>
-    <h3 class="section-subtitle">{% t home.ops_subtitle %}</h3>
-    <p class="section-copy">{% t home.ops_desc %}</p>
+    <p class="section-copy">{% t home.ops_subtitle %}</p>
 
     <div class="card-grid">
       <div class="card">
@@ -124,8 +123,20 @@ keywords: EDI integration platform, ERP integration software, B2B integration, c
         <p>{% t home.ops_partner_desc %}</p>
       </div>
       <div class="card">
-        <h3>{% t home.ops_shipping_title %}</h3>
-        <p>{% t home.ops_shipping_desc %}</p>
+        <h3>{% t home.ops_timesheets_title %}</h3>
+        <p>{% t home.ops_timesheets_desc %}</p>
+      </div>
+      <div class="card">
+        <h3>{% t home.ops_expenses_title %}</h3>
+        <p>{% t home.ops_expenses_desc %}</p>
+      </div>
+      <div class="card">
+        <h3>{% t home.ops_marketing_title %}</h3>
+        <p>{% t home.ops_marketing_desc %}</p>
+      </div>
+      <div class="card">
+        <h3>{% t home.ops_catalog_title %}</h3>
+        <p>{% t home.ops_catalog_desc %}</p>
       </div>
     </div>
 

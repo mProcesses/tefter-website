@@ -28,8 +28,8 @@ hero:
   tagline: "Operational Continuity Platform"
   exchange_layer: "Tefter Exchange (TX):"
   exchange_desc: "Reliable, self-healing data exchange for mission-critical operations."
-  ops_layer: "Operational Layer:"
-  ops_desc: "Run business directly or augment your ERP."
+  ops_layer: "Operational Apps:"
+  ops_desc: "Ready solutions for daily operations — standalone or as ERP augmentation."
   question: "Is your operation fast—and still reliable under failure?"
 
 cta:
@@ -121,27 +121,36 @@ home:
   tx_start_quick: "<strong>Start in minutes:</strong> register your organization, get credentials, and begin transacting. Refine mappings and ERP forwarding as you go."
   tx_edi_bridge: "<strong>EDI-friendly:</strong> TX can stabilize existing EDI flows or gradually replace legacy EDI over time — reducing IT workload while increasing operational reliability."
 
-  tx_enables_title: "What Tefter Apps Enable (Operational Layer)"
+  tx_enables_title: "Operational Apps — Ready Solutions on TX"
   
-  ops_subtitle: "Operational Layer — Where Work Happens"
-  ops_desc: "Five integrated modules for daily operations:"
+  ops_subtitle: "Ready solutions for daily business operations — standalone or as ERP augmentation:"
+  ops_desc: ""
   
-  ops_sales_title: "1. Sales"
-  ops_sales_desc: "Sales teams capture orders (mobile or web) → real-time sync to customer ERP via TX"
+  ops_sales_title: "Sales"
+  ops_sales_desc: "Capture orders from customer locations → sync to ERP via TX"
   
-  ops_procurement_title: "2. Procurement"
+  ops_procurement_title: "Procurement"
   ops_procurement_desc: "Create purchase orders → suppliers receive via TX or email"
   
-  ops_warehouse_title: "3. Warehouse"
-  ops_warehouse_desc: "Manage picking, packing, shipping → inventory updates propagate automatically"
+  ops_warehouse_title: "Warehouse"
+  ops_warehouse_desc: "Picking, packing, shipping, route management → inventory synced automatically"
   
-  ops_partner_title: "4. Partner Management"
-  ops_partner_desc: "Onboard suppliers/customers, define rules, manage mappings — no IT required"
+  ops_partner_title: "Partner Management"
+  ops_partner_desc: "Monitor B2B transactions, resolve mapping exceptions, manage EDI contracts"
   
-  ops_shipping_title: "5. Shipping Optimization"
-  ops_shipping_desc: "Optimize delivery routes, reduce costs, improve schedules"
+  ops_timesheets_title: "Timesheets"
+  ops_timesheets_desc: "QR check-in/out, shift management, approval workflows"
   
-  see_all_modules: "See all modules in detail"
+  ops_expenses_title: "Expenses"
+  ops_expenses_desc: "Capture invoices and receipts with document scanning"
+  
+  ops_marketing_title: "Marketing Campaigns"
+  ops_marketing_desc: "AI-powered campaigns across Google, Facebook, Instagram"
+  
+  ops_catalog_title: "Catalog Manager"
+  ops_catalog_desc: "Centralized article and category management across apps"
+  
+  see_all_modules: "See all apps"
 
   end_to_end_title: "One End-to-End Scenario"
   e2e_label_order: "Order"

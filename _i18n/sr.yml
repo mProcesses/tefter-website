@@ -28,8 +28,8 @@ hero:
   tagline: "Platforma operativnog kontinuiteta"
   exchange_layer: "Tefter Exchange (TX):"
   exchange_desc: "Pouzdan prenos podataka koji se sam oporavlja kada nešto krene naopako."
-  ops_layer: "Operativni sloj:"
-  ops_desc: "Vodi poslovanje direktno ili nadogradi postojeći ERP sa Tefter Aplikacijama."
+  ops_layer: "Operativne aplikacije:"
+  ops_desc: "Gotova rešenja za svakodnevne operacije — samostalno ili kao nadogradnja ERP-a."
   question: "Da li su tvoje operacije brze — i pouzdane kada sistemi otkažu?"
 
 cta:
@@ -121,27 +121,36 @@ home:
   tx_start_quick: "<strong>Kreni za par minuta:</strong> registruješ organizaciju, dobiješ kredencijale i odmah kreneš sa transakcijama. Mapiranja i prosleđivanje u ERP doteruješ usput."
   tx_edi_bridge: "<strong>Kompatibilno sa EDI‑jem:</strong> TX može da stabilizuje postojeće EDI tokove ili da postepeno zameni zastarele EDI sisteme — smanjujući IT opterećenje i povećavajući operativnu pouzdanost."
 
-  tx_enables_title: "Šta Tefter Aplikacije Omogućavaju (Operativni Sloj)"
+  tx_enables_title: "Operativne aplikacije — gotova rešenja na TX-u"
   
-  ops_subtitle: "Operativni Sloj — Gde Se Radi"
-  ops_desc: "Pet povezanih modula za svakodnevni rad koji mogu da se koriste samostalno ili u kombinaciji sa postojećim ERP-om uz pomoć TX-a:"
+  ops_subtitle: "Gotova rešenja za svakodnevne poslovne operacije — samostalno ili kao nadogradnja ERP-a:"
+  ops_desc: ""
   
-  ops_sales_title: "1. Prodaja"
-  ops_sales_desc: "Prodajni timovi unose porudžbine (mobilno ili web) → sinhronizacija u realnom vremenu sa ERP-om kupca preko TX-a"
+  ops_sales_title: "Prodaja"
+  ops_sales_desc: "Unos porudžbina sa lokacije kupca → sinhronizacija sa ERP-om preko TX-a"
   
-  ops_procurement_title: "2. Nabavka"
-  ops_procurement_desc: "Pravi porudžbine → dobavljači dobijaju preko TX-a ili email-a"
+  ops_procurement_title: "Nabavka"
+  ops_procurement_desc: "Kreiranje porudžbenica → dobavljači primaju preko TX-a ili email-a"
   
-  ops_warehouse_title: "3. Skladište"
-  ops_warehouse_desc: "Vodi komisioniranje, pakovanje, isporuku → zalihe se automatski ažuriraju"
+  ops_warehouse_title: "Skladište"
+  ops_warehouse_desc: "Komisioniranje, pakovanje, otprema, upravljanje rutama → zalihe automatski sinhronizovane"
   
-  ops_partner_title: "4. Partneri"
-  ops_partner_desc: "Uključi dobavljače/kupce, definiši pravila, podesi mapiranja — bez IT-a"
+  ops_partner_title: "Upravljanje partnerima"
+  ops_partner_desc: "Praćenje B2B transakcija, rešavanje izuzetaka mapiranja, upravljanje EDI ugovorima"
   
-  ops_shipping_title: "5. Optimizacija Dostave"
-  ops_shipping_desc: "Optimizuj rute, smanji troškove, poboljšaj dinamiku isporuke"
+  ops_timesheets_title: "Evidencija radnog vremena"
+  ops_timesheets_desc: "QR prijava/odjava, upravljanje smenama, workflow odobravanja"
   
-  see_all_modules: "Vidi sve module detaljno"
+  ops_expenses_title: "Troškovi"
+  ops_expenses_desc: "Evidentiranje faktura i računa sa skeniranjem dokumenata"
+  
+  ops_marketing_title: "Marketing kampanje"
+  ops_marketing_desc: "AI-pokrenute kampanje na Google, Facebook, Instagram"
+  
+  ops_catalog_title: "Upravljanje katalogom"
+  ops_catalog_desc: "Centralizovano upravljanje artiklima i kategorijama kroz aplikacije"
+  
+  see_all_modules: "Vidi sve aplikacije"
 
   end_to_end_title: "Jedan End-to-End Scenario"
   e2e_label_order: "Porudžbina"

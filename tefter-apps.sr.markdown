@@ -4,73 +4,144 @@ lang: sr
 page_id: tefter-apps
 title: Tefter aplikacije
 permalink: /tefter-apps/
-description: Tvoj biznis u džepu — mobile-first, optimizovano po zadacima
+description: Mobilne ERP aplikacije za prodaju, nabavku, skladište i logistiku. Optimizovane za najmanji broj klikova po zadatku.
 ---
 <section class="section">
   <div class="wrapper section-center">
-    <h1 class="section-title">Tvoj biznis u džepu — mobile-first, optimizovano po zadacima</h1>
+    <h1 class="section-title">Operativne aplikacije — izgrađene na TX-u</h1>
     <p class="section-copy">
-      Svi Tefter operativni moduli su mobile-friendly i dizajnirani za najmanji broj klikova po zadatku. Upravljaj porudžbinama, nabavkom, skladišnim zadacima, mapiranjima partnera i optimizacijom isporuke bilo kada, bilo gde — uz automatski sync preko TX-a.
+      Tefter aplikacije su mobile-first operativni alati koji rade na Tefter Exchange (TX) platformi. Pružaju gotova rešenja za poslovne operacije — samostalno ili kao nadogradnja postojećeg ERP-a — sa workflow-ima optimizovanim za najmanji broj klikova za prodaju, nabavku, skladište, evidenciju radnog vremena i još mnogo toga.
     </p>
   </div>
 </section>
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Zašto aplikacije ne uspevaju bez TX-a</h2>
+    <h2 class="section-title">TX prvi, aplikacije kada ti trebaju</h2>
     <p class="section-copy">
-      Aplikacije mogu da budu brze — dok razmena ne pukne. Kada partnerski sistemi otkažu ili se podaci ne poklapaju, većina aplikacija nema bezbedan način da pauzira, oporavi i nastavi.
+      TX je sloj razmene koji održava protok podataka između organizacija — ERP ka ERP-u, sistem ka sistemu — uprkos neusklađenostima, prekidima i razlikama u formatima. Tefter aplikacije su opcione operativne površine koje pružaju gotova rešenja za svakodnevne poslovne operacije.
     </p>
-    <ul class="feature-list">
-      <li>Offline mode nije operativni kontinuitet kroz partnere</li>
-      <li>Kada razmena pukne, izvršavanje puca — i biznis gubi kontrolu</li>
-      <li>Bez TX-a, izuzeci postaju IT tiketi i ručan ponovni unos</li>
-    </ul>
+    <div class="two-column" style="margin-top: 30px;">
+      <div class="column">
+        <h3>Samo TX</h3>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
+          <li>Poveži svoj ERP sa partnerskim ERP-ovima pouzdano</li>
+          <li>Reši neusklađenosti formata i izuzetke u mapiranju</li>
+          <li>Automatski nastavi nakon prekida mreže</li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3>TX + Aplikacije</h3>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
+          <li>Dodaj mobilne mogućnosti gde tvoj ERP nije dovoljan</li>
+          <li>Daj terenskim timovima workflow sa najmanje klikova</li>
+          <li>Koristi samostalno ili integriši sa svojim ERP-om</li>
+        </ul>
+      </div>
+    </div>
+    <a href="{{ '/tefter-exchange/' | relative_url }}" class="arrow-link" style="display: block; text-align: center; margin-top: 30px;">Saznaj više o TX-u</a>
   </div>
 </section>
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Aplikacije zasnovane na TX-u</h2>
+    <h2 class="section-title">Aplikacije</h2>
     <p class="section-copy">
-      Tefter aplikacije su sloj izvršavanja na nivou iznad TX-a. Pošto TX garantuje kontinuitet, timovi mogu da rade u brzini biznisa — dok razmena ostaje pouzdana ispod. Aplikacije nadograđuju tvoj ERP tako što čine svakodnevni rad jednostavnijim, mobilnim i oporavljivim.
+      Svaka aplikacija je dizajnirana za realne terenske uslove: mobile-first, optimizovana za dodir i napravljena za najmanji broj klikova po zadatku.
     </p>
-    <a href="{{ '/tefter-exchange/' | relative_url }}" class="arrow-link" style="display: block; text-align: center; margin-top: 30px;">Istraži TX</a>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrapper">
-    <h2 class="section-title">Scenariji po aplikacijama - potrebno popravljanje celog konteksta</h2>
     <div class="card-grid">
       <div class="card">
         <h3>Prodaja</h3>
-        <p><strong>Scenario:</strong> Komercijalista kreira porudžbinu za kupca</p>
-        <p><strong>Ishod:</strong> Porudžbina se brzo koriguje i nastavlja bez ponovnog unosa ili IT tiketa.</p>
+        <p>Upravljanje porudžbinama sa lokacije kupca.</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.6; font-size: 0.95em; margin-top: 10px;">
+          <li>Kreiranje porudžbina, ponuda i povrata</li>
+          <li>Baza kupaca sa praćenjem plaćanja</li>
+          <li>Fleksibilno određivanje cena i popusta</li>
+          <li>AI-asistirana preporuka proizvoda</li>
+          <li>Sinhronizacija u realnom vremenu preko TX-a</li>
+        </ul>
       </div>
 
       <div class="card">
         <h3>Nabavka</h3>
-        <p><strong>Scenario:</strong> Pošalješ porudžbenicu dobavljaču koji potvrđuje u drugom formatu.</p>
-        <p><strong>Ishod:</strong> Potvrde ostaju konzistentne i sledljive kroz sisteme.</p>
+        <p>Porudžbenice i upravljanje dobavljačima sa EDI integracijom.</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.6; font-size: 0.95em; margin-top: 10px;">
+          <li>Katalozi dobavljača sa prilagođenim cenama</li>
+          <li>Praćenje životnog ciklusa porudžbenice</li>
+          <li>Naručivanje na osnovu ugovora sa GTIN usklađivanjem</li>
+          <li>Podrška za više skladišta</li>
+          <li>Izveštaji o propuštenoj prodaji i nabavci</li>
+        </ul>
       </div>
 
       <div class="card">
         <h3>Skladište</h3>
-        <p><strong>Scenario:</strong> Komisioniranje i pakovanje teku dok su partnerski sistemi spori ili nestabilni.</p>
-        <p><strong>Ishod:</strong> Rad se nastavlja lokalno i bezbedno se sinhronizuje kroz TX — bez gubitka transakcija.</p>
+        <p>Komisioniranje, pakovanje, otprema i upravljanje isporukom.</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.6; font-size: 0.95em; margin-top: 10px;">
+          <li>Red porudžbina sa grupnom obradom</li>
+          <li>Korekcije količina sa evidencijom promena</li>
+          <li>Štampanje komisione liste, otpremnice, dostavnice</li>
+          <li>Dodela vozila i grupisanje ruta</li>
+          <li>Rukovanje neuspelim isporukama</li>
+        </ul>
       </div>
 
       <div class="card">
         <h3>Upravljanje partnerima</h3>
-        <p><strong>Scenario:</strong> Novog dobavljača moraš da uključiš i pustiš u rad danas.</p>
-        <p><strong>Ishod:</strong> Uključivanje ide u brzini biznisa, uz razmenu koja poštuje realnost partnera.</p>
+        <p>Praćenje B2B transakcija i rešavanje izuzetaka.</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.6; font-size: 0.95em; margin-top: 10px;">
+          <li>Pregled porudžbina kroz partnere u realnom vremenu</li>
+          <li>Rukovanje izuzecima za neusklađenosti mapiranja</li>
+          <li>Upravljanje EDI ugovorima</li>
+          <li>Automatska pravila za deljenje porudžbina</li>
+          <li>Kompletna evidencija promena i revizijski trag</li>
+        </ul>
       </div>
 
       <div class="card">
-        <h3>Optimizacija dostave</h3>
-        <p><strong>Scenario:</strong> Rute se menjaju usred dana zbog kašnjenja, a kupci traže ažurirane poruke o isporuci.</p>
-        <p><strong>Ishod:</strong> Planovi se brzo ažuriraju i potvrde pouzdano teku ka partnerima i kupcima.</p>
+        <h3>Evidencija radnog vremena</h3>
+        <p>Praćenje radnog vremena sa QR prijavom i odobravanjem.</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.6; font-size: 0.95em; margin-top: 10px;">
+          <li>QR prijava/odjava na stanici sa dnevno rotiranim kodovima</li>
+          <li>Praćenje rada, odsustva i delimičnog odsustva</li>
+          <li>Upravljanje smenama sa obračunom prekovremenog</li>
+          <li>Workflow odobravanja od strane nadređenog</li>
+          <li>Nedeljni/mesečni izveštaji</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Troškovi</h3>
+        <p>Evidentiranje faktura i poslovnih troškova.</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.6; font-size: 0.95em; margin-top: 10px;">
+          <li>QR skeniranje fiskalnih računa</li>
+          <li>Skeniranje dokumenata sa ekstrakcijom podataka</li>
+          <li>Raščlanjivanje po artiklima sa praćenjem poreza</li>
+          <li>Detekcija duplikata</li>
+          <li>Integracija sa dnevnikom</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Marketing kampanje</h3>
+        <p>AI-pokretnuto upravljanje kampanjama na više platformi.</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.6; font-size: 0.95em; margin-top: 10px;">
+          <li>AI-generisani naslovi i tekstovi</li>
+          <li>Podrška za Google Ads, Facebook/Instagram, Njuppa</li>
+          <li>Konfiguracija budžeta i trajanja</li>
+          <li>Preporuke za optimizaciju performansi</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Upravljanje katalogom</h3>
+        <p>Centralizovano upravljanje artiklima i kategorijama.</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.6; font-size: 0.95em; margin-top: 10px;">
+          <li>Više kataloga sa dodelom korisnicima/lokacijama</li>
+          <li>Editor artikala sa slikama i cenama</li>
+          <li>Hijerarhijska struktura kategorija</li>
+          <li>Podrška za partnerske kataloge (samo čitanje)</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -78,14 +149,16 @@ description: Tvoj biznis u džepu — mobile-first, optimizovano po zadacima
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Princip mobilnog UX-a</h2>
+    <h2 class="section-title">Mobile-first principi</h2>
     <p class="section-copy">
-      Aplikacije su napravljene za odluke u brzini biznisa: najmanje klikova, mobile-first i offline-first — a TX obezbeđuje kontinuitet kada razmena postane “prljava”.
+      Aplikacije su napravljene za odluke u brzini biznisa: najmanji broj klikova, mobile-first i optimizovano za dodir za realnost terena i skladišta.
     </p>
     <ul class="feature-list">
-      <li>Najmanje klikova po zadatku (dizajnirano za svakodnevni rad)</li>
-      <li>Offline-first za realnost terena i skladišta</li>
-      <li>Brza odobrenja i rukovanje izuzecima tamo gde se posao dešava</li>
+      <li>Najmanji broj klikova po zadatku (dizajnirano za svakodnevni rad)</li>
+      <li>Mobile-first za realnost terena i skladišta</li>
+      <li>Optimizovano za dodir sa velikim površinama za tapkanje</li>
+      <li>Sinhronizacija u realnom vremenu kada je povezano</li>
+      <li>Moguće instalirati na bilo koji uređaj (PWA)</li>
     </ul>
   </div>
 </section>
@@ -98,14 +171,15 @@ description: Tvoj biznis u džepu — mobile-first, optimizovano po zadacima
         <h3>Operativni ishodi</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
           <li>Prodaja, nabavka, skladište, logistika</li>
-          <li>Brže izvršavanje i manje eskalacija oko izuzetaka</li>
+          <li>Brzo izvršavanje sa mobilnim mogućnostima</li>
         </ul>
       </div>
       <div class="column">
-        <h3>Upravljački ishodi (governance)</h3>
+        <h3>Upravljački ishodi</h3>
         <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-          <li>Manje operativne buke izazvane krhkom razmenom</li>
-          <li>Jasna podela: TX rešava kontinuitet, aplikacije rešavaju izvršavanje</li>
+          <li>TX rešava pouzdanost razmene</li>
+          <li>Aplikacije rešavaju svakodnevno izvršavanje</li>
+          <li>Jasna podela odgovornosti</li>
         </ul>
       </div>
     </div>
@@ -123,5 +197,3 @@ description: Tvoj biznis u džepu — mobile-first, optimizovano po zadacima
     </div>
   </div>
 </section>
-
-
