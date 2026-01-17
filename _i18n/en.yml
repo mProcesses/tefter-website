@@ -27,9 +27,9 @@ footer:
 hero:
   tagline: "Operational Continuity Platform"
   exchange_layer: "Tefter Exchange (TX):"
-  exchange_desc: "Reliable, self-healing data exchange for mission-critical operations."
+  exchange_desc: "Exchange that self-heals. Dashboard that empowers business. No IT bottleneck."
   ops_layer: "Operational Apps:"
-  ops_desc: "Ready solutions for daily operations — standalone or as ERP augmentation."
+  ops_desc: "Sales. Warehouse. Procurement. Digitalized. ERP optional."
   question: "Is your operation fast—and still reliable under failure?"
 
 cta:
@@ -78,13 +78,29 @@ home:
   title: "Home"
   description: "Real-time execution—backed by resilient exchange. Tefter combines a recovery-first exchange network (TX) with real-time operational apps so transactions keep moving end-to-end through failures and mismatches."
   main_heading: "Real-time execution—backed by resilient exchange."
-  main_subheading: "Tefter combines Tefter Exchange (TX) — a recovery-first exchange network — with real-time apps for sales, partner ordering, and warehouse execution — so orders are created, processed, corrected, and delivered end-to-end even when partners change formats, networks fail, or data doesn't match."
+  main_subheading: "Tefter Exchange (TX) doesn't just move data — it keeps your business moving. Self-healing exchange. AI-powered Dashboard that keeps humans in control. When issues hit, your team resolves them in minutes — no IT ticket, no weeks of waiting. And when you need more than exchange, real-time Apps are ready: sales, warehouse operations, procurement, and more. ERP optional."
   
   new_category_title: "A New Category: Operational Continuity Platform"
-  new_category_desc: "Traditional EDI moves messages between systems. Traditional ERP runs internal workflows. Tefter is an <strong>Operational Continuity Platform</strong>: TX keeps transactions recoverable through failures and mismatches, while Apps let teams execute and correct work in real time — so the business keeps moving end-to-end across partners, customers, and government."
+  new_category_desc: "Traditional EDI moves messages between systems. Traditional ERP runs internal workflows. Tefter is an <strong>Operational Continuity Platform</strong>: TX keeps transactions recoverable through failures and mismatches, while TX Dashboard let teams execute and correct work in real time — so the business keeps moving end-to-end across partners, customers, and government."
   
   problem_title: "The Problem We Solve"
-  problem_intro: "Most companies connect partners using one of these familiar approaches — each with serious drawbacks:"
+  problem_headline: "EDI works — until something changes."
+  problem_subheadline: "The 99% that flows is invisible. The 1% that breaks is where the real cost hides."
+  problem_reality_intro: "A partner updates their format. A network drops. A product code doesn't match. What happens next?"
+  
+  problem_time_title: "Time"
+  problem_time_desc: "Weeks waiting in IT queues. Every fix requires specialists who aren't available now."
+  
+  problem_cost_title: "Cost"
+  problem_cost_desc: "Expensive consultants billing by the hour. Per-incident charges that add up fast."
+  
+  problem_revenue_title: "Revenue"
+  problem_revenue_desc: "Orders stuck in limbo. Shipments delayed. Customers who can't wait move on."
+  
+  problem_ops_title: "Operations"
+  problem_ops_desc: "Manual workarounds. Data re-entry. Errors that cascade. Teams firefighting instead of executing."
+  
+  problem_current_approaches: "How companies try to manage this today:"
   
   path_erp_title: "The ERP-Centric Path"
   path_erp_desc: "Rely on your ERP for both operations and partner connections."
@@ -102,7 +118,10 @@ home:
   path_manual_desc: "Rely on phone, email, spreadsheets, and manual data entry."
   path_manual_reality: "Doesn’t scale, error-prone, no clear visibility or ownership, and recovery is entirely manual — leading to delays and disputes."
 
-  problem_missing: "<strong>What’s missing in all of them:</strong> a system of continuity for transactions — recoverable execution, automatic retry/resume, and business-operable resolution when data is wrong."
+  problem_gap: "<strong>The gap:</strong> recovery is always someone else's problem — until it's yours."
+  problem_solution: "<strong>What you need:</strong> Tefter Exchange (TX) — a system of continuity for transactions. Recoverable execution. Automatic retry. Business-operable resolution when data doesn't match."
+  schedule_demo: "Schedule a Demo"
+  contact_sales: "Contact Sales"
   
   breakthrough_title: "Exchange Layer: Tefter Exchange (TX)"
   solution_highlight: "We built <strong>Tefter Exchange (TX)</strong> — a system of continuity for business transactions. It keeps execution recoverable, resumes automatically after failures, and routes data decisions to the business with full traceability."

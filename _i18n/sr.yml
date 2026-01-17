@@ -27,9 +27,9 @@ footer:
 hero:
   tagline: "Platforma operativnog kontinuiteta"
   exchange_layer: "Tefter Exchange (TX):"
-  exchange_desc: "Pouzdan prenos podataka koji se sam oporavlja kada nešto krene naopako."
+  exchange_desc: "Razmena koja se sama oporavlja. Dashboard koji daje moć biznisu. Bez čekanja na IT."
   ops_layer: "Operativne aplikacije:"
-  ops_desc: "Gotova rešenja za svakodnevne operacije — samostalno ili kao nadogradnja ERP-a."
+  ops_desc: "Prodaja. Skladište. Nabavka. Digitalizovano. ERP opciono."
   question: "Da li su tvoje operacije brze — i pouzdane kada sistemi otkažu?"
 
 cta:
@@ -78,13 +78,29 @@ home:
   title: "Početna"
   description: "Izvršavanje u realnom vremenu — uz otpornu razmenu podataka. Tefter kombinuje mrežu razmene (TX) dizajniranu za oporavak sa operativnim aplikacijama u realnom vremenu, tako da transakcije teku end-to-end i kada dođe do prekida mreže i nepoklapanja podataka."
   main_heading: "Izvršavanje u realnom vremenu — uz otpornu razmenu podataka."
-  main_subheading: "Tefter kombinuje Tefter Exchange (TX) — mrežu razmene dizajniranu za oporavak — sa aplikacijama u realnom vremenu za prodaju, poručivanje partnera i skladišno izvršavanje — tako da se porudžbine kreiraju, obrađuju, koriguju i isporučuju end‑to‑end čak i kada partneri menjaju formate, mreže otkažu ili se podaci ne poklapaju."
+  main_subheading: "Tefter Exchange (TX) ne samo da prenosi podatke — održava tvoj biznis u pokretu. Razmena koja se sama oporavlja. AI Dashboard koji drži ljude u kontroli. Kada nastane problem, tvoj tim ga rešava za minute — bez IT tiketa, bez nedeljama čekanja. A kada ti treba više od razmene, aplikacije u realnom vremenu su spremne: prodaja, skladišne operacije, nabavka i više. ERP opciono."
   
   new_category_title: "Nova kategorija: Platforma operativnog kontinuiteta"
   new_category_desc: "Tradicionalni EDI prenosi poruke između sistema. Tradicionalni ERP vodi interne tokove rada. Tefter je <strong>platforma operativnog kontinuiteta</strong>: TX čuva transakcije oporavljivim kroz prekide i nepoklapanja, a aplikacije omogućavaju da timovi izvršavaju i koriguju rad u realnom vremenu — tako da biznis teče end‑to‑end kroz partnere, kupce i državne sisteme."
   
   problem_title: "Problem Koji Rešavamo"
-  problem_intro: "Većina firmi povezuje partnere kroz jedan od ovih uobičajenih pristupa — svaki sa već poznatim manama:"
+  problem_headline: "EDI radi — dok se nešto ne promeni."
+  problem_subheadline: "99% koje prođe je nevidljivo. U 1% koje pukne krije se pravi trošak."
+  problem_reality_intro: "Partner promeni format. Mreža padne. Šifra artikla se ne poklapa. Šta onda?"
+  
+  problem_time_title: "Vreme"
+  problem_time_desc: "Nedeljama čekaš IT. Svaka popravka zahteva specijaliste koji nisu dostupni sad."
+  
+  problem_cost_title: "Trošak"
+  problem_cost_desc: "Skupi konsultanti koji naplaćuju po satu. Cena po incidentu koja brzo raste."
+  
+  problem_revenue_title: "Prihod"
+  problem_revenue_desc: "Porudžbine blokirane. Isporuke kasne. Kupci koji ne mogu da čekaju odlaze."
+  
+  problem_ops_title: "Operacije"
+  problem_ops_desc: "Ručna zaobilaženja. Ponovno unošenje podataka. Greške koje se gomilaju. Timovi gase požare umesto da rade."
+  
+  problem_current_approaches: "Kako firme danas pokušavaju da reše ovaj problem:"
   
   path_erp_title: "Sve preko ERP-a"
   path_erp_desc: "Koristiš ERP i za operacije i za povezivanje sa partnerima."
@@ -102,7 +118,10 @@ home:
   path_manual_desc: "Telefon, email, tabele i ručan unos podataka."
   path_manual_reality: "Ne može da se skalira, puno grešaka, nema jasne vidljivosti ni vlasništva, a oporavak je u potpunosti ručan — što vodi ka kašnjenjima i sporovima."
 
-  problem_missing: "<strong>Šta svima nedostaje:</strong> sistem kontinuiteta za transakcije — oporavljivo izvršavanje, automatsko ponavljanje i nastavak, i da zaposleni u poslovnim jedinicama mogu da isprave pogrešne podatke bez čekanja na IT."
+  problem_gap: "<strong>Praznina:</strong> oporavak je uvek tuđi problem — dok ne postane tvoj."
+  problem_solution: "<strong>Šta ti treba:</strong> Tefter Exchange (TX) — sistem kontinuiteta za transakcije. Oporavljivo izvršavanje. Automatsko ponavljanje. Poslovna rešenja kada se podaci ne poklapaju."
+  schedule_demo: "Zakaži demo"
+  contact_sales: "Kontaktiraj prodaju"
   
   breakthrough_title: "Sloj razmene podataka: Tefter Exchange (TX)"
   solution_highlight: "Napravili smo <strong>Tefter Exchange (TX)</strong> — sistem kontinuiteta za poslovne transakcije. Čuva izvršavanje oporavljivim, automatski nastavlja posle prekida i šalje odluke o podacima pravim poslovnim ulogama, uz potpunu sledljivost."

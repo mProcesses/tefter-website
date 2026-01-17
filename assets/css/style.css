@@ -513,6 +513,101 @@ body {
   margin: 0 auto;
 }
 
+/* Problem Statement Section */
+.problem-statement {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.problem-headline {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
+}
+
+.problem-subheadline {
+  font-size: 20px;
+  color: #555;
+  font-weight: 500;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.card-grid.problem-impacts,
+.card-grid.current-approaches {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.problem-impacts .card {
+  border-left: 4px solid #dc3545;
+  background: linear-gradient(135deg, #fff 0%, #fef7f7 100%);
+}
+
+.problem-impacts .card h3 {
+  font-size: 20px;
+  color: #1a1a1a;
+}
+
+/* Problem impacts & current approaches responsive: 4 → 2 → 1 */
+@media screen and (max-width: 1100px) {
+  .card-grid.problem-impacts,
+  .card-grid.current-approaches {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-grid.problem-impacts,
+  .card-grid.current-approaches {
+    grid-template-columns: 1fr;
+  }
+}
+
+.subsection-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #424242;
+  margin-bottom: 20px;
+}
+
+/* Problem CTA Section */
+.problem-cta {
+  margin-top: 40px;
+  padding: 30px 40px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  text-align: center;
+  border-left: 4px solid #0066cc;
+}
+
+.problem-cta .gap-statement {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.problem-cta .solution-statement {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 24px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.problem-cta .cta-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /* Lists and Bullets */
 .pain-bullets,
 .feature-list {
@@ -786,6 +881,32 @@ body {
   .section-copy {
     font-size: 16px;
   }
+  
+  /* Problem Statement Mobile */
+  .problem-headline {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+  
+  .problem-subheadline {
+    font-size: 17px;
+  }
+  
+  .subsection-title {
+    font-size: 20px;
+  }
+  
+  .problem-cta {
+    padding: 24px 20px;
+  }
+  
+  .problem-cta .gap-statement {
+    font-size: 19px;
+  }
+  
+  .problem-cta .solution-statement {
+    font-size: 16px;
+  }
 
   .paths-grid {
     grid-template-columns: 1fr;
@@ -993,6 +1114,18 @@ body {
   
   .section-subtitle {
     font-size: 20px;
+  }
+  
+  .problem-headline {
+    font-size: 22px;
+  }
+  
+  .problem-subheadline {
+    font-size: 15px;
+  }
+  
+  .subsection-title {
+    font-size: 18px;
   }
   
   .btn {
