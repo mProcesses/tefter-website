@@ -26,11 +26,11 @@ footer:
   
 hero:
   tagline: "Platforma operativnog kontinuiteta"
-  exchange_layer: "Tefter Exchange (TX):"
+  layers_tagline: "Dva sloja. Jedna platforma. Bilo koja veličina."
+  exchange_layer: "Osnova: Tefter Exchange (TX)"
   exchange_desc: "Razmena koja se sama oporavlja. Dashboard koji daje moć biznisu. Bez čekanja na IT."
-  ops_layer: "Operativne aplikacije:"
+  ops_layer: "Izgrađeno na TX: Operativne aplikacije"
   ops_desc: "Prodaja. Skladište. Nabavka. Digitalizovano. ERP opciono."
-  question: "Da li su tvoje operacije brze — i pouzdane kada sistemi otkažu?"
 
 cta:
   book_demo: "Zakaži demo"
@@ -76,12 +76,12 @@ common:
 # Home page / Početna strana
 home:
   title: "Početna"
-  description: "Izvršavanje u realnom vremenu — uz otpornu razmenu podataka. Tefter kombinuje mrežu razmene (TX) dizajniranu za oporavak sa operativnim aplikacijama u realnom vremenu, tako da transakcije teku end-to-end i kada dođe do prekida mreže i nepoklapanja podataka."
-  main_heading: "Izvršavanje u realnom vremenu — uz otpornu razmenu podataka."
-  main_subheading: "Tefter Exchange (TX) ne samo da prenosi podatke — održava tvoj biznis u pokretu. Razmena koja se sama oporavlja. AI Dashboard koji drži ljude u kontroli. Kada nastane problem, tvoj tim ga rešava za minute — bez IT tiketa, bez nedeljama čekanja. A kada ti treba više od razmene, aplikacije u realnom vremenu su spremne: prodaja, skladišne operacije, nabavka i više. ERP opciono."
+  description: "Ostani operativan — šta god da se desi. Tefter kombinuje razmenu podataka u realnom vremenu između partnera sa aplikacijama u realnom vremenu za tvoje timove."
+  main_heading: "Ostani operativan — šta god da se desi."
+  main_subheading: "Razmena u realnom vremenu između partnera. Aplikacije u realnom vremenu za tvoje timove."
   
   new_category_title: "Nova kategorija: Platforma operativnog kontinuiteta"
-  new_category_desc: "Tradicionalni EDI prenosi poruke između sistema. Tradicionalni ERP vodi interne tokove rada. Tefter je <strong>platforma operativnog kontinuiteta</strong>: TX čuva transakcije oporavljivim kroz prekide i nepoklapanja, a aplikacije omogućavaju da timovi izvršavaju i koriguju rad u realnom vremenu — tako da biznis teče end‑to‑end kroz partnere, kupce i državne sisteme."
+  new_category_desc: "Tradicionalni EDI prenosi poruke između sistema. Tradicionalni ERP vodi interne tokove rada. <strong>Između njih, Tefter Exchange (TX)</strong> — platforma operativnog kontinuiteta — ne samo da prenosi podatke, već održava tvoj biznis u pokretu. AI Dashboard koji drži ljude u kontroli. Kada nastane problem, tvoj tim ga rešava za minute — bez IT tiketa, bez nedeljama čekanja. A kada ti treba više od razmene, aplikacije u realnom vremenu su spremne: prodaja, skladišne operacije, nabavka i više — sa ili bez tvog postojećeg ERP-a."
   
   problem_title: "Problem Koji Rešavamo"
   problem_headline: "EDI radi — dok se nešto ne promeni."
@@ -120,7 +120,7 @@ home:
 
   problem_gap: "<strong>Praznina:</strong> oporavak je uvek tuđi problem — dok ne postane tvoj."
   problem_solution: "<strong>Šta ti treba:</strong> Tefter Exchange (TX) — sistem kontinuiteta za transakcije. Oporavljivo izvršavanje. Automatsko ponavljanje. Poslovna rešenja kada se podaci ne poklapaju."
-  schedule_demo: "Zakaži demo"
+  register: "Registruj se"
   contact_sales: "Kontaktiraj prodaju"
   
   breakthrough_title: "Sloj razmene podataka: Tefter Exchange (TX)"

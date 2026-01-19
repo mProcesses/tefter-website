@@ -317,12 +317,20 @@ body {
   max-width: 800px;
 }
 
+.hero .layers-tagline {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 30px 0 20px;
+  letter-spacing: 0.5px;
+}
+
 .hero .two-layer-explanation {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   max-width: 900px;
-  margin: 30px auto 40px;
+  margin: 0 auto 40px;
 }
 
 .hero .layer-item {
@@ -338,6 +346,12 @@ body {
 .hero .layer-item strong {
   color: #0066cc;
   display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.hero .layer-item span {
+  color: #555;
   margin-bottom: 5px;
 }
 
@@ -841,15 +855,24 @@ body {
     margin: 15px auto;
   }
 
+  .hero .layers-tagline {
+    font-size: 16px;
+    margin: 20px 0 15px;
+  }
+
   .hero .two-layer-explanation {
     grid-template-columns: 1fr;
     gap: 15px;
-    margin: 20px auto 30px;
+    margin: 0 auto 30px;
   }
   
   .hero .layer-item {
     padding: 15px;
     font-size: 14px;
+  }
+  
+  .hero .layer-item strong {
+    font-size: 15px;
   }
   
   .cta-buttons {

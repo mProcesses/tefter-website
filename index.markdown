@@ -12,13 +12,15 @@ keywords: EDI integration platform, ERP integration software, B2B integration, c
     <p class="supporting-tagline">{% t hero.tagline %}</p>
     <h1>{% t home.main_heading %}</h1>
     <p class="subheadline">{% t home.main_subheading %}</p>
-    <p class="clarifying-line">{% t hero.question %}</p>
+    <p class="layers-tagline">{% t hero.layers_tagline %}</p>
     <div class="two-layer-explanation">
       <div class="layer-item">
-        <strong>{% t hero.exchange_layer %}</strong> {% t hero.exchange_desc %}
+        <strong>{% t hero.exchange_layer %}</strong>
+        <span>{% t hero.exchange_desc %}</span>
       </div>
       <div class="layer-item">
-        <strong>{% t hero.ops_layer %}</strong> {% t hero.ops_desc %}
+        <strong>{% t hero.ops_layer %}</strong>
+        <span>{% t hero.ops_desc %}</span>
       </div>
     </div>
     <div class="cta-buttons">
@@ -99,7 +101,7 @@ keywords: EDI integration platform, ERP integration software, B2B integration, c
       <p class="gap-statement">{% t home.problem_gap %}</p>
       <p class="solution-statement">{% t home.problem_solution %}</p>
       <div class="cta-buttons">
-        <a href="/contact/" class="btn btn-primary">{% t home.schedule_demo %}</a>
+        <a href="https://tx.tefter.com" class="btn btn-primary" target="_blank">{% t home.register %}</a>
         <a href="/contact/" class="btn btn-secondary">{% t home.contact_sales %}</a>
       </div>
     </div>
