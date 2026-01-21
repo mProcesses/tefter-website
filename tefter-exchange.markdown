@@ -153,22 +153,35 @@ keywords: EDI exchange, B2B integration, EDI transaction processing, EDIFACT, X1
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Outcomes</h2>
+    <h2 class="section-title">Scaled Scenario</h2>
+    <div class="card" style="margin: 30px 0; background: #f8f9fa;">
+      <p><strong>Context:</strong> Multi-warehouse distribution across dozens of partners.</p>
+      <p><strong>Partial failure:</strong> One partner is down, another sends a mismatched SKU, and a third only supports email-based exchange.</p>
+      <p><strong>What stays true:</strong> Transactions don't disappear, the business sees what needs attention, and work resumes cleanly when systems recover.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="section-title">Who Uses TX</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>Operational outcomes</h3>
-        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-          <li>Zero lost transactions</li>
-          <li>Predictable recovery instead of manual firefighting</li>
-          <li>Business teams resolve data issues without IT bottlenecks</li>
+        <h3>TX Control Plane</h3>
+        <p><strong>For:</strong> CIOs, integration teams, platform operators</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8; margin-top: 10px;">
+          <li>Partner connectivity configuration</li>
+          <li>Exchange monitoring and recovery</li>
+          <li>Audit trails and governance</li>
         </ul>
       </div>
       <div class="column">
-        <h3>Governance outcomes</h3>
-        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-          <li>Governance and stability across partner exchange</li>
-          <li>Observability, auditability, and clearer ownership across failures</li>
-          <li>Reduced integration risk without turning every exception into an IT ticket</li>
+        <h3>TX Dashboard</h3>
+        <p><strong>For:</strong> Business users, operations teams</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8; margin-top: 10px;">
+          <li>Real-time transaction visibility</li>
+          <li>Exception handling and resolution</li>
+          <li>AI-assisted mapping decisions</li>
         </ul>
       </div>
     </div>
@@ -181,7 +194,7 @@ keywords: EDI exchange, B2B integration, EDI transaction processing, EDIFACT, X1
       <h2>Book a technical demo</h2>
       <div class="cta-buttons">
         <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Book a demo</a>
-        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">See full platform</a>
+        <a href="{{ '/tefter-apps/' | relative_url }}" class="btn btn-secondary">See operational apps</a>
       </div>
     </div>
   </div>

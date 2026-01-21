@@ -1,11 +1,10 @@
 # English translations
 nav:
   home: "Home"
-  platform: "Platform"
-  tx: "Exchange (TX)"
+  tx: "Tefter Exchange (TX)"
   apps: "Apps"
+  partner_edge: "Partner Edge"
   solutions: "Solutions"
-  why: "Why Tefter"
   security: "Security"
   contact: "Contact"
 
@@ -139,6 +138,17 @@ home:
   tx_example: "An order is sent with item “Product A / case of 24,” but the customer expects code “PA-24.” TX flags the mismatch, suggests a mapping, the business owner approves, TX stores the rule, and the transaction is replayed and completes — without an IT ticket."
   tx_start_quick: "<strong>Start in minutes:</strong> register your organization, get credentials, and begin transacting. Refine mappings and ERP forwarding as you go."
   tx_edi_bridge: "<strong>EDI-friendly:</strong> TX can stabilize existing EDI flows or gradually replace legacy EDI over time — reducing IT workload while increasing operational reliability."
+
+  accelerate_title: "More ways to accelerate"
+  accelerate_intro: "TX keeps your exchange running. But operational speed comes from more than just continuity. Two more efficiency gains are built into the platform."
+  
+  accelerate_infra_title: "Apps your teams own"
+  accelerate_infra_desc: "Browser-based. Cloud-native. Secure by default. Your teams use Tefter Apps from any device, with no installation and no IT maintenance. IT focuses on strategy — not keeping apps running."
+  
+  accelerate_ai_title: "Intelligence where it matters"
+  accelerate_ai_desc: "Some tasks require domain knowledge but not creativity — mapping free text to product codes, structuring marketing content, pulling business insights. Embedded AI agents handle these, so your people focus on decisions that move the business."
+  
+  accelerate_closing: "TX delivers continuity. Apps deliver speed. One platform, more operational capacity."
 
   tx_enables_title: "Operational Apps — Ready Solutions on TX"
   

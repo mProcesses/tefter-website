@@ -152,22 +152,35 @@ description: Razmena podataka za kritične operacije koja je otporna i pouzdana 
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Ishodi</h2>
+    <h2 class="section-title">Scenario na skali</h2>
+    <div class="card" style="margin: 30px 0; background: #f8f9fa;">
+      <p><strong>Kontekst:</strong> Distribucija sa više skladišta kroz desetine partnera.</p>
+      <p><strong>Delimičan prekid:</strong> Jedan partner nije dostupan, drugi šalje pogrešan SKU, a treći podržava samo email razmenu.</p>
+      <p><strong>Šta ostaje tačno:</strong> Transakcije ne nestaju, biznis vidi šta zahteva pažnju, i rad se nastavlja čisto kada se sistemi oporave.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="section-title">Ko koristi TX</h2>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">
-        <h3>Operativni ishodi</h3>
-        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-          <li>Nula izgubljenih transakcija</li>
-          <li>Predvidiv oporavak umesto ručnog “gašenja požara”</li>
-          <li>Biznis rešava probleme sa podacima bez IT uskih grla</li>
+        <h3>TX Control Plane</h3>
+        <p><strong>Za:</strong> CIO-e, integracione timove, operatere platforme</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8; margin-top: 10px;">
+          <li>Konfiguracija povezivanja partnera</li>
+          <li>Praćenje razmene i oporavak</li>
+          <li>Revizijski tragovi i upravljanje</li>
         </ul>
       </div>
       <div class="column">
-        <h3>Upravljački ishodi</h3>
-        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-          <li>Upravljanje i stabilnost kroz razmenu sa partnerima</li>
-          <li>Obzervabilnost, revizibilnost i jasnije vlasništvo kroz prekide</li>
-          <li>Manji integracioni rizik bez pretvaranja svakog izuzetka u IT tiket</li>
+        <h3>TX Dashboard</h3>
+        <p><strong>Za:</strong> Poslovne korisnike, operativne timove</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8; margin-top: 10px;">
+          <li>Vidljivost transakcija u realnom vremenu</li>
+          <li>Rukovanje izuzecima i rešavanje</li>
+          <li>AI-asistirane odluke o mapiranju</li>
         </ul>
       </div>
     </div>
@@ -180,7 +193,7 @@ description: Razmena podataka za kritične operacije koja je otporna i pouzdana 
       <h2>Zakaži tehnički demo</h2>
       <div class="cta-buttons">
         <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Zakaži demo</a>
-        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">Pogledaj platformu</a>
+        <a href="{{ '/tefter-apps/' | relative_url }}" class="btn btn-secondary">Pogledaj operativne aplikacije</a>
       </div>
     </div>
   </div>

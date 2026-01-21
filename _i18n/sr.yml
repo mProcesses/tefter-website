@@ -1,11 +1,10 @@
 # Serbian translations / Srpski prevodi
 nav:
   home: "Početna"
-  platform: "Platforma"
-  tx: "Exchange (TX)"
+  tx: "Tefter Exchange (TX)"
   apps: "Aplikacije"
+  partner_edge: "Partner Edge"
   solutions: "Rešenja"
-  why: "Zašto Tefter"
   security: "Bezbednost"
   contact: "Kontakt"
 
@@ -139,6 +138,17 @@ home:
   tx_example: "Pošalješ porudžbinu sa stavkom “Proizvod A / pakovanje 24,” ali kupac očekuje šifru “PA-24.” TX označi nepoklapanje, predloži mapiranje, poslovni vlasnik odobri, TX sačuva pravilo i transakcija se ponovi i završi — bez IT tiketa."
   tx_start_quick: "<strong>Kreni za par minuta:</strong> registruješ organizaciju, dobiješ kredencijale i odmah kreneš sa transakcijama. Mapiranja i prosleđivanje u ERP doteruješ usput."
   tx_edi_bridge: "<strong>Kompatibilno sa EDI‑jem:</strong> TX može da stabilizuje postojeće EDI tokove ili da postepeno zameni zastarele EDI sisteme — smanjujući IT opterećenje i povećavajući operativnu pouzdanost."
+
+  accelerate_title: "Još načina da ubrzaš"
+  accelerate_intro: "TX održava razmenu. Ali operativna brzina dolazi od više od samo kontinuiteta. Još dva poboljšanja efikasnosti su ugrađena u platformu."
+  
+  accelerate_infra_title: "Aplikacije koje tvoji timovi kontrolišu"
+  accelerate_infra_desc: "Browser-based. Cloud-native. Bezbedne po defaultu. Tvoji timovi koriste Tefter aplikacije sa bilo kog uređaja, bez instalacije i bez IT održavanja. IT se fokusira na strategiju — ne na održavanje aplikacija."
+  
+  accelerate_ai_title: "Inteligencija gde je bitna"
+  accelerate_ai_desc: "Neki zadaci zahtevaju domensko znanje ali ne i kreativnost — mapiranje slobodnog teksta u šifre artikala, strukturiranje marketing sadržaja, izvlačenje poslovnih uvida. Ugrađeni AI agenti rešavaju ovo, tako da se tvoji ljudi fokusiraju na odluke koje pokreću biznis."
+  
+  accelerate_closing: "TX daje kontinuitet. Aplikacije daju brzinu. Jedna platforma, više operativnog kapaciteta."
 
   tx_enables_title: "Operativne aplikacije — gotova rešenja na TX-u"
   

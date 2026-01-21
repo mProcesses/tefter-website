@@ -24,7 +24,7 @@ description: Izvršavanje u realnom vremenu — uz otpornu razmenu podataka. Tef
     </div>
     <div class="cta-buttons">
       <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">→ {% t global.book_demo %}</a>
-      <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">→ {% t global.see_product %}</a>
+      <a href="{{ '/tefter-exchange/' | relative_url }}" class="btn btn-secondary">→ {% t global.see_product %}</a>
     </div>
   </div>
 </section>
@@ -130,6 +130,28 @@ description: Izvršavanje u realnom vremenu — uz otpornu razmenu podataka. Tef
       <h3>{% t home.tx_example_title %}</h3>
       <p>{% t home.tx_example %}</p>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="section-title">{% t home.accelerate_title %}</h2>
+    <p class="section-copy">{% t home.accelerate_intro %}</p>
+
+    <div class="card-grid" style="margin-top: 30px;">
+      <div class="card">
+        <h3>🖥️ {% t home.accelerate_infra_title %}</h3>
+        <p>{% t home.accelerate_infra_desc %}</p>
+      </div>
+      <div class="card">
+        <h3>🤖 {% t home.accelerate_ai_title %}</h3>
+        <p>{% t home.accelerate_ai_desc %}</p>
+      </div>
+    </div>
+
+    <p class="section-copy" style="margin-top: 30px; text-align: center; font-weight: 500;">
+      {% t home.accelerate_closing %}
+    </p>
   </div>
 </section>
 
@@ -244,7 +266,7 @@ description: Izvršavanje u realnom vremenu — uz otpornu razmenu podataka. Tef
       <h2>{% t cta.see_action %}</h2>
       <div class="cta-buttons">
         <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">{% t global.book_demo %}</a>
-        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">{% t global.explore_platform %}</a>
+        <a href="{{ '/tefter-exchange/' | relative_url }}" class="btn btn-secondary">{% t global.explore_platform %}</a>
       </div>
     </div>
   </div>

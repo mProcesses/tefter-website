@@ -166,7 +166,7 @@ keywords: FMCG EDI integration, wholesale EDI solutions, manufacturing ERP integ
       <h2>Find Your Solution</h2>
       <div class="cta-buttons">
         <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Talk to an expert</a>
-        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">Explore the platform</a>
+        <a href="{{ '/tefter-exchange/' | relative_url }}" class="btn btn-secondary">Explore TX</a>
       </div>
     </div>
   </div>

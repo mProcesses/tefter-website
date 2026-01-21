@@ -165,7 +165,7 @@ description: Operativni kontinuitet kroz industrije — napravljeno za FMCG, pro
       <h2>Pronađi svoje rešenje</h2>
       <div class="cta-buttons">
         <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Pričaj sa stručnjakom</a>
-        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">Istraži platformu</a>
+        <a href="{{ '/tefter-exchange/' | relative_url }}" class="btn btn-secondary">Istraži TX</a>
       </div>
     </div>
   </div>

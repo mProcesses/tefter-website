@@ -165,23 +165,15 @@ description: Mobilne ERP aplikacije za prodaju, nabavku, skladište i logistiku.
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Ishodi po odgovornostima</h2>
-    <div class="two-column" style="margin-top: 30px;">
-      <div class="column">
-        <h3>Operativni ishodi</h3>
-        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-          <li>Prodaja, nabavka, skladište, logistika</li>
-          <li>Brzo izvršavanje sa mobilnim mogućnostima</li>
-        </ul>
-      </div>
-      <div class="column">
-        <h3>Upravljački ishodi</h3>
-        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-          <li>TX rešava pouzdanost razmene</li>
-          <li>Aplikacije rešavaju svakodnevno izvršavanje</li>
-          <li>Jasna podela odgovornosti</li>
-        </ul>
-      </div>
+    <h2 class="section-title">Ko koristi Tefter aplikacije</h2>
+    <div class="card" style="margin: 30px 0;">
+      <h3>Apps Workspace</h3>
+      <p><strong>Za:</strong> Prodajne predstavnike, nabavne timove, skladišno osoblje, operativne menadžere</p>
+      <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8; margin-top: 10px;">
+        <li>Workflow-i izvršavanja za svakodnevni rad — pokreće ih TX ispod</li>
+        <li>Radi samostalno ili uz tvoj postojeći ERP</li>
+        <li>Mobile-first sa offline podrškom</li>
+      </ul>
     </div>
   </div>
 </section>
@@ -192,7 +184,7 @@ description: Mobilne ERP aplikacije za prodaju, nabavku, skladište i logistiku.
       <h2>Isprobaj Tefter aplikacije</h2>
       <div class="cta-buttons">
         <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Zakaži demo</a>
-        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">Pogledaj platformu</a>
+        <a href="{{ '/tefter-exchange/' | relative_url }}" class="btn btn-secondary">Pogledaj TX ispod</a>
       </div>
     </div>
   </div>

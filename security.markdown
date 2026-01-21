@@ -132,7 +132,7 @@ description: Enterprise-Grade Security and Governance for Every Transaction
       <h2>Security Questions?</h2>
       <div class="cta-buttons">
         <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Talk to security team</a>
-        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">Platform overview</a>
+        <a href="{{ '/tefter-exchange/' | relative_url }}" class="btn btn-secondary">Explore TX</a>
       </div>
     </div>
   </div>

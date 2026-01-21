@@ -132,7 +132,7 @@ description: Enterprise bezbednost i governance za svaku transakciju
       <h2>Imaš pitanja o bezbednosti?</h2>
       <div class="cta-buttons">
         <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Pričaj sa bezbednosnim timom</a>
-        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">Pregled platforme</a>
+        <a href="{{ '/tefter-exchange/' | relative_url }}" class="btn btn-secondary">Istraži TX</a>
       </div>
     </div>
   </div>

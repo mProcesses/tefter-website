@@ -166,23 +166,15 @@ keywords: mobile ERP app, field sales app, mobile order management, warehouse ma
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">Outcomes by Responsibility</h2>
-    <div class="two-column" style="margin-top: 30px;">
-      <div class="column">
-        <h3>Operational outcomes</h3>
-        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-          <li>Field sales, procurement, warehouse, logistics</li>
-          <li>Fast execution with mobile capability</li>
-        </ul>
-      </div>
-      <div class="column">
-        <h3>Governance outcomes</h3>
-        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-          <li>TX handles exchange reliability</li>
-          <li>Apps handle daily execution</li>
-          <li>Clear separation of concerns</li>
-        </ul>
-      </div>
+    <h2 class="section-title">Who Uses Tefter Apps</h2>
+    <div class="card" style="margin: 30px 0;">
+      <h3>Apps Workspace</h3>
+      <p><strong>For:</strong> Sales reps, procurement teams, warehouse staff, operations managers</p>
+      <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8; margin-top: 10px;">
+        <li>Execution workflows for daily work — powered by TX underneath</li>
+        <li>Works standalone or alongside your existing ERP</li>
+        <li>Mobile-first with offline support</li>
+      </ul>
     </div>
   </div>
 </section>
@@ -193,7 +185,7 @@ keywords: mobile ERP app, field sales app, mobile order management, warehouse ma
       <h2>Experience Tefter Apps</h2>
       <div class="cta-buttons">
         <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Book a demo</a>
-        <a href="{{ '/platform/' | relative_url }}" class="btn btn-secondary">See full platform</a>
+        <a href="{{ '/tefter-exchange/' | relative_url }}" class="btn btn-secondary">See TX underneath</a>
       </div>
     </div>
   </div>
