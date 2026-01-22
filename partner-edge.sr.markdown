@@ -10,7 +10,7 @@ description: Brendiran B2B portal gde tvoji partneri direktno naručuju. Zamisli
   <div class="wrapper section-center">
     <h1 class="section-title">Partner Edge — Tvoj B2B Portal</h1>
     <p class="section-copy">
-      Partner Edge je brendiran B2B portal gde tvoji partneri direktno naručuju — kao privatni webshop za tvoje poslovne odnose. Partneri se uloguju, pregledaju tvoj katalog i šalju porudžbine. Bez EDI podešavanja. Bez integracionih projekata. Porudžbine idu kroz TX u tvoje sisteme automatski.
+      Partner Edge je brendiran B2B portal gde tvoji partneri direktno naručuju — kao privatni webshop za tvoje poslovne odnose. Partneri se uloguju, pregledaju tvoj katalog i šalju porudžbine. Bez EDI podešavanja. Bez integracionih projekata. Svaka porudžbina postaje praćena transakcija u TX-u — oporavljiva, auditabilna i ponovo nastavljiva.
     </p>
   </div>
 </section>

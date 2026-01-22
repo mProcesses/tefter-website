@@ -3,9 +3,9 @@ layout: default
 permalink: /
 lang: en
 page_id: home
-title: EDI Integration & ERP Cloud Platform
-description: Enterprise EDI integration and ERP cloud platform. Tefter TX provides self-healing B2B integration, automated EDI processing, and real-time data exchange for supply chain operations. Modernize legacy EDI with cloud-native integration.
-keywords: EDI integration platform, ERP integration software, B2B integration, cloud EDI solution, EDI modernization, supply chain integration, API integration platform, enterprise data exchange, automated EDI processing, ERP cloud integration
+title: Operational Continuity System for B2B Trade
+description: Transactions don’t fail — they pause, get fixed by business, and continue. Tefter keeps orders, invoices, and shipping documents moving through mismatched partner data and outages, with full audit trails and replayable execution.
+keywords: operational continuity, B2B trade, transaction continuity, business-owned exception resolution, replayable execution, order processing, invoice processing, partner onboarding
 ---
 <section class="hero">
   <div class="wrapper">
@@ -105,6 +105,32 @@ keywords: EDI integration platform, ERP integration software, B2B integration, c
         <a href="/contact/" class="btn btn-secondary">{% t home.contact_sales %}</a>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="section-title">{% t home.business_fix_title %}</h2>
+    <p class="section-copy">{% t home.business_fix_intro %}</p>
+
+    <div class="card-grid" style="margin-top: 30px;">
+      <div class="card">
+        <h3>{% t home.business_fix_step1_title %}</h3>
+        <p>{% t home.business_fix_step1_desc %}</p>
+      </div>
+      <div class="card">
+        <h3>{% t home.business_fix_step2_title %}</h3>
+        <p>{% t home.business_fix_step2_desc %}</p>
+      </div>
+      <div class="card">
+        <h3>{% t home.business_fix_step3_title %}</h3>
+        <p>{% t home.business_fix_step3_desc %}</p>
+      </div>
+    </div>
+
+    <p class="section-copy" style="margin-top: 20px; text-align: center; font-weight: 500;">
+      {% t home.business_fix_closing %}
+    </p>
   </div>
 </section>
 

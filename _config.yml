@@ -21,12 +21,12 @@
 # Google Analytics 4 - Replace with your actual Measurement ID
 google_analytics: ""  # e.g., "G-XXXXXXXXXX"
 
-title: Tefter Exchange Platform
+title: Tefter
 email: contact@tefter.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Cloud EDI integration and ERP platform. Self-healing B2B data exchange 
-  for enterprise supply chains. Modern EDI, API integration, and automated 
-  transaction processing for FMCG, wholesale, manufacturing, and logistics.
+  Operational Continuity for B2B trade. Tefter keeps orders, invoices, and shipping documents
+  moving when partners send mismatched data or systems go offline — with business-owned resolution,
+  full audit trails, and replayable execution.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tefter.io" # CHANGE THIS to your actual domain, e.g., https://yourdomain.com
 

@@ -2,10 +2,10 @@
 layout: page
 lang: en
 page_id: solutions
-title: EDI Solutions by Industry
+title: Operational Continuity by Industry
 permalink: /solutions/
-description: EDI and ERP integration solutions for FMCG, wholesale, manufacturing, and logistics. Automate B2B transactions, streamline supply chain data exchange, and reduce EDI support costs with cloud-native integration.
-keywords: FMCG EDI integration, wholesale EDI solutions, manufacturing ERP integration, logistics data exchange, supply chain automation, B2B integration solutions, EDI VAN services, industry EDI solutions, distribution integration
+description: Operational continuity across industries. Keep orders, invoices, and logistics flowing through mismatched partner data and downtime — with business-owned resolution.
+keywords: operational continuity, B2B trade, order processing, invoice processing, partner onboarding, supply chain operations, industry solutions
 ---
 <section class="section">
   <div class="wrapper section-center">
@@ -35,16 +35,16 @@ keywords: FMCG EDI integration, wholesale EDI solutions, manufacturing ERP integ
         </thead>
         <tbody>
           <tr>
-            <td>Network failure</td>
-            <td>Partner system is down mid-transaction</td>
-            <td>TX pauses safely, retries automatically, and resumes from the right point</td>
-            <td>Orders keep flowing — no manual re-entry, no “where did it go?” escalations</td>
-          </tr>
-          <tr>
             <td>Wrong mapping</td>
             <td>SKU / unit-of-measure mismatch</td>
             <td>TX flags the mismatch, suggests a correction, routes approval to the business, and replays the transaction</td>
             <td>Minutes to resolution — without an IT ticket</td>
+          </tr>
+          <tr>
+            <td>Network failure</td>
+            <td>Partner system is down mid-transaction</td>
+            <td>TX pauses safely, retries automatically, and resumes from the right point</td>
+            <td>Orders keep flowing — no manual re-entry, no “where did it go?” escalations</td>
           </tr>
           <tr>
             <td>Delayed invoices</td>

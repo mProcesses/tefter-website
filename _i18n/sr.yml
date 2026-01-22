@@ -1,7 +1,7 @@
 # Serbian translations / Srpski prevodi
 nav:
   home: "Početna"
-  tx: "Tefter Exchange (TX)"
+  tx: "Kontinuitet engine (TX)"
   apps: "Aplikacije"
   partner_edge: "Partner Edge"
   solutions: "Rešenja"
@@ -21,15 +21,15 @@ global:
   see_full_platform: "Vidi celu platformu"
   
 footer:
-  copyright: "© %{year} Tefter Exchange Platform. Sva prava zadržana."
+  copyright: "© %{year} Tefter. Sva prava zadržana."
   
 hero:
-  tagline: "Platforma operativnog kontinuiteta"
-  layers_tagline: "Dva sloja. Jedna platforma. Bilo koja veličina."
-  exchange_layer: "Osnova: Tefter Exchange (TX)"
-  exchange_desc: "Razmena koja se sama oporavlja. Dashboard koji daje moć biznisu. Bez čekanja na IT."
-  ops_layer: "Izgrađeno na TX: Operativne aplikacije"
-  ops_desc: "Prodaja. Skladište. Nabavka. Digitalizovano. ERP opciono."
+  tagline: "Operativni kontinuitet za B2B trgovinu"
+  layers_tagline: "Jedan engine kontinuiteta. Opciono: operativne površine."
+  exchange_layer: "Engine kontinuiteta: Tefter Exchange (TX)"
+  exchange_desc: "Stateful izvršavanje za porudžbine, fakture i otpremnice — pauza, replay i nastavak uz potpunu sledljivost."
+  ops_layer: "Operativne površine: Aplikacije (opciono)"
+  ops_desc: "Mobile-first workflow-i za prodaju, skladište, nabavku — pokreće ih TX ispod."
 
 cta:
   book_demo: "Zakaži demo"
@@ -75,12 +75,12 @@ common:
 # Home page / Početna strana
 home:
   title: "Početna"
-  description: "Ostani operativan — šta god da se desi. Tefter kombinuje razmenu podataka u realnom vremenu između partnera sa aplikacijama u realnom vremenu za tvoje timove."
-  main_heading: "Ostani operativan — šta god da se desi."
-  main_subheading: "Razmena u realnom vremenu između partnera. Aplikacije u realnom vremenu za tvoje timove."
+  description: "Transakcije ne “pucaju” — one se pauziraju, biznis ih ispravi i nastave. Tefter održava B2B trgovinu u pokretu kroz nepoklapanja i prekide."
+  main_heading: "Transakcije ne “pucaju”. One se pauziraju, biznis ih ispravi i nastave."
+  main_subheading: "Porudžbine, fakture i otpremnice prolaze kroz nepoklapanja podataka i prekide — bez IT tiketa."
   
   new_category_title: "Nova kategorija: Platforma operativnog kontinuiteta"
-  new_category_desc: "Tradicionalni EDI prenosi poruke između sistema. Tradicionalni ERP vodi interne tokove rada. <strong>Između njih, Tefter Exchange (TX)</strong> — platforma operativnog kontinuiteta — ne samo da prenosi podatke, već održava tvoj biznis u pokretu. AI Dashboard koji drži ljude u kontroli. Kada nastane problem, tvoj tim ga rešava za minute — bez IT tiketa, bez nedeljama čekanja. A kada ti treba više od razmene, aplikacije u realnom vremenu su spremne: prodaja, skladišne operacije, nabavka i više — sa ili bez tvog postojećeg ERP-a."
+  new_category_desc: "Tradicionalne integracije prenose podatke između sistema. ERP vodi interne tokove rada. <strong>Tefter je između kao sistem kontinuiteta za B2B trgovinu</strong> — transakcije ostaju žive kada je realnost neuredna. Kada nešto “pukne”, biznis odobri ispravku uz audit trag, a transakcija se automatski nastavi (bez ponovnog unosa, bez dupliranja, bez IT backloga)."
   
   problem_title: "Problem Koji Rešavamo"
   problem_headline: "EDI radi — dok se nešto ne promeni."
@@ -117,38 +117,48 @@ home:
   path_manual_desc: "Telefon, email, tabele i ručan unos podataka."
   path_manual_reality: "Ne može da se skalira, puno grešaka, nema jasne vidljivosti ni vlasništva, a oporavak je u potpunosti ručan — što vodi ka kašnjenjima i sporovima."
 
-  problem_gap: "<strong>Praznina:</strong> oporavak je uvek tuđi problem — dok ne postane tvoj."
-  problem_solution: "<strong>Šta ti treba:</strong> Tefter Exchange (TX) — sistem kontinuiteta za transakcije. Oporavljivo izvršavanje. Automatsko ponavljanje. Poslovna rešenja kada se podaci ne poklapaju."
+  problem_gap: "<strong>Praznina:</strong> kada transakcija pukne, IT “poseduje realnost” — a operativa čeka."
+  problem_solution: "<strong>Šta ti treba:</strong> sistem u kome transakcije ostaju žive i u kome biznis može da ispravi realnost dok transakcija traje."
   register: "Registruj se"
   contact_sales: "Kontaktiraj prodaju"
   
-  breakthrough_title: "Sloj razmene podataka: Tefter Exchange (TX)"
-  solution_highlight: "Napravili smo <strong>Tefter Exchange (TX)</strong> — sistem kontinuiteta za poslovne transakcije. Čuva izvršavanje oporavljivim, automatski nastavlja posle prekida i šalje odluke o podacima pravim poslovnim ulogama, uz potpunu sledljivost."
+  business_fix_title: "Biznis ispravlja realnost — dok transakcija traje"
+  business_fix_intro: "Kada partner pošalje “Proizvod A / pakovanje 24”, a tvoj sistem očekuje “PA-24”, većina platformi padne i napravi IT tiket. Tefter pauzira transakciju, pošalje je pravom poslovnom vlasniku, sačuva odobrenu odluku kao govern-ovano pravilo, zatim ponovi (replay) i završi automatski."
+  business_fix_step1_title: "Detektuj nepoklapanje / drift"
+  business_fix_step1_desc: "TX označi šta nije u redu i drži transakciju živom umesto da je “fail”-uje."
+  business_fix_step2_title: "Odobri poslovnu odluku"
+  business_fix_step2_desc: "Operativa odobri korekciju uz RBAC i potpun audit trag."
+  business_fix_step3_title: "Replay i čist nastavak"
+  business_fix_step3_desc: "TX nastavlja sa tačnog mesta — bez dupliranja, bez ručnog ponovnog unosa."
+  business_fix_closing: "Ovo je pomak kategorije: oporavak je poslovni workflow, ne developerski workflow."
+
+  breakthrough_title: "Engine kontinuiteta: Tefter Exchange (TX)"
+  solution_highlight: "Napravili smo <strong>Tefter Exchange (TX)</strong> — stateful engine izvršavanja za B2B transakcije. Drži porudžbine/fakture/otpremnice oporavljivim, nastavlja čisto posle prekida i šalje odluke o podacima biznisu uz potpunu sledljivost."
   
   how_works_title: "Kako Tefter Radi — Ukratko"
   
   tx_subtitle: "Tefter Exchange (TX)"
-  tx_desc: "TX je sloj razmene/kontinuiteta koji čuva transakcije kroz prekide i nepoklapanja."
+  tx_desc: "TX je engine kontinuiteta koji drži transakcije živim kroz prekide, nepoklapanja i nedostupnost partnera."
   tx_feature_1: "<strong>Oporavljivo izvršavanje:</strong> bezbedno pauzira, automatski pokušava ponovo i nastavlja bez dupliranja ili ponovnog unosa"
   tx_feature_2: "<strong>Poslovno-operativna korekcija:</strong> kada se podaci ne poklapaju, odluka ide pravoj ulozi (ne u IT red) i transakcija se ponovo odigra"
   tx_feature_3: "<strong>Realnost partnera:</strong> povezuje EDI, API, fajlove ili email — bez nametanja novog “standarda”"
   tx_feature_4: "<strong>Audit + vidljivost:</strong> vidiš stanje svake transakcije, vlasnika i sledeći korak, sa sledljivošću od početka do kraja"
   
   tx_example_title: "Primer"
-  tx_example: "Pošalješ porudžbinu sa stavkom “Proizvod A / pakovanje 24,” ali kupac očekuje šifru “PA-24.” TX označi nepoklapanje, predloži mapiranje, poslovni vlasnik odobri, TX sačuva pravilo i transakcija se ponovi i završi — bez IT tiketa."
+  tx_example: "Stigne porudžbina sa stavkom “Proizvod A / pakovanje 24,” ali tvoj sistem očekuje “PA-24.” TX označi nepoklapanje, predloži korekciju, poslovni vlasnik odobri, TX sačuva govern-ovano pravilo i transakcija se ponovi i završi — bez IT tiketa."
   tx_start_quick: "<strong>Kreni za par minuta:</strong> registruješ organizaciju, dobiješ kredencijale i odmah kreneš sa transakcijama. Mapiranja i prosleđivanje u ERP doteruješ usput."
   tx_edi_bridge: "<strong>Kompatibilno sa EDI‑jem:</strong> TX može da stabilizuje postojeće EDI tokove ili da postepeno zameni zastarele EDI sisteme — smanjujući IT opterećenje i povećavajući operativnu pouzdanost."
 
   accelerate_title: "Još načina da ubrzaš"
-  accelerate_intro: "TX održava razmenu. Ali operativna brzina dolazi od više od samo kontinuiteta. Još dva poboljšanja efikasnosti su ugrađena u platformu."
+  accelerate_intro: "TX drži transakcije živim. Operativna brzina dolazi iz onoga što možeš da uradiš dok traju."
   
-  accelerate_infra_title: "Aplikacije koje tvoji timovi kontrolišu"
-  accelerate_infra_desc: "Browser-based. Cloud-native. Bezbedne po defaultu. Tvoji timovi koriste Tefter aplikacije sa bilo kog uređaja, bez instalacije i bez IT održavanja. IT se fokusira na strategiju — ne na održavanje aplikacija."
+  accelerate_infra_title: "Operativne površine koje tvoj tim kontroliše"
+  accelerate_infra_desc: "Browser-based i bezbedne po defaultu. Ove površine omogućavaju biznisu da deluje na TX (odobrenja, izuzeci, izvršavanje) bez čekanja na IT."
   
-  accelerate_ai_title: "Inteligencija gde je bitna"
-  accelerate_ai_desc: "Neki zadaci zahtevaju domensko znanje ali ne i kreativnost — mapiranje slobodnog teksta u šifre artikala, strukturiranje marketing sadržaja, izvlačenje poslovnih uvida. Ugrađeni AI agenti rešavaju ovo, tako da se tvoji ljudi fokusiraju na odluke koje pokreću biznis."
+  accelerate_ai_title: "Podrška u odlučivanju gde je bitna"
+  accelerate_ai_desc: "AI može da predloži korekcije (SKU/JM, sinonimi, formatiranje), ali biznis odobrava. Tako kontinuitet ostaje govern-ovan."
   
-  accelerate_closing: "TX daje kontinuitet. Aplikacije daju brzinu. Jedna platforma, više operativnog kapaciteta."
+  accelerate_closing: "Kontinuitet je proizvod. Površine i podrška u odlučivanju ga čine upotrebljivim operativi."
 
   tx_enables_title: "Operativne aplikacije — gotova rešenja na TX-u"
   
@@ -186,9 +196,9 @@ home:
   e2e_label_issue: "Problem"
   e2e_label_recovery: "Oporavak"
   e2e_order: "Porudžbina se pošalje ka partnerskom sistemu."
-  e2e_issue: "Detektuje se nepoklapanje mapiranja — i endpoint partnera je privremeno nedostupan."
-  e2e_recovery: "TX čuva transakciju bezbednom, automatski pokušava ponovo i traži poslovni unos samo kada je potrebna odluka o mapiranju."
-  e2e_outcome: "Transakcija se nastavlja čim se partner vrati online — isporuka ostaje po planu, bez ručnog ponovnog unosa."
+  e2e_issue: "Detektuje se nepoklapanje mapiranja (SKU/JM) — i endpoint partnera je privremeno nedostupan."
+  e2e_recovery: "TX bezbedno pauzira, pošalje korekciju poslovnom vlasniku (audit), zatim ponovi (replay) i nastavlja. Ako je partner down, TX automatski pokušava ponovo."
+  e2e_outcome: "Minute do rešenja nepoklapanja — i transakcija se čisto nastavlja kada se partner vrati, bez dupliranja."
   
   outcomes_title: "Brzi Rezultati — Projektovani Uticaj"
   outcome_onboarding: "6 nedelja → isti dan"

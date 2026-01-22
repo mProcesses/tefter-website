@@ -4,13 +4,13 @@ lang: sr
 page_id: tefter-apps
 title: Tefter aplikacije
 permalink: /tefter-apps/
-description: Mobilne ERP aplikacije za prodaju, nabavku, skladište i logistiku. Optimizovane za najmanji broj klikova po zadatku.
+description: Opciono: operativne površine izgrađene na TX-u. Mobile-first workflow-i za prodaju, nabavku i skladište — uz kontinuitet transakcija ispod.
 ---
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">Operativne aplikacije — izgrađene na TX-u</h1>
     <p class="section-copy">
-      Tefter aplikacije su mobile-first operativni alati koji rade na Tefter Exchange (TX) platformi. Pružaju gotova rešenja za poslovne operacije — samostalno ili kao nadogradnja postojećeg ERP-a — sa workflow-ima optimizovanim za najmanji broj klikova za prodaju, nabavku, skladište, evidenciju radnog vremena i još mnogo toga.
+      Tefter aplikacije su opcione operativne površine koje rade na Tefter Exchange (TX) platformi. Kontinuitet je proizvod; aplikacije ga čine upotrebljivim svakog dana — sa workflow-ima optimizovanim za najmanji broj klikova za prodaju, nabavku, skladište, evidenciju radnog vremena i još mnogo toga.
     </p>
   </div>
 </section>
@@ -19,7 +19,7 @@ description: Mobilne ERP aplikacije za prodaju, nabavku, skladište i logistiku.
   <div class="wrapper">
     <h2 class="section-title">TX prvi, aplikacije kada ti trebaju</h2>
     <p class="section-copy">
-      TX je sloj razmene koji održava protok podataka između organizacija — ERP ka ERP-u, sistem ka sistemu — uprkos neusklađenostima, prekidima i razlikama u formatima. Tefter aplikacije su opcione operativne površine koje pružaju gotova rešenja za svakodnevne poslovne operacije.
+      TX drži transakcije živim između organizacija — ERP ka ERP-u, sistem ka sistemu — uprkos neusklađenostima, prekidima i razlikama u formatima. Tefter aplikacije su opcione operativne površine koje daju gotove workflow-e za svakodnevno izvršavanje i poslovno rešavanje izuzetaka.
     </p>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">

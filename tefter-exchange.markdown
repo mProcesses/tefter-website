@@ -2,16 +2,16 @@
 layout: page
 lang: en
 page_id: tefter-exchange
-title: EDI Exchange & B2B Integration
+title: Continuity Engine for B2B Trade (TX)
 permalink: /tefter-exchange/
-description: Self-healing EDI exchange and B2B integration layer. Automatic retry, data mapping, and recovery for EDI transactions. Support for EDIFACT, X12, XML, API, and all major EDI standards. Cloud-native EDI modernization.
-keywords: EDI exchange, B2B integration, EDI transaction processing, EDIFACT, X12, EDI translation, EDI mapping, API integration, cloud EDI, EDI VAN alternative, managed EDI services, EDI automation
+description: TX keeps orders, invoices, and shipping documents alive until completion. Transactions pause, get corrected by business with full audit trail, then replay and resume automatically.
+keywords: operational continuity, transaction continuity, replayable execution, business-owned exception resolution, B2B trade, order processing, invoice processing, partner onboarding, EDI
 ---
 <section class="section">
   <div class="wrapper section-center">
-    <h1 class="section-title">A self-healing execution layer for business transactions</h1>
+    <h1 class="section-title">The continuity engine for orders, invoices, and shipments</h1>
     <p class="section-copy">
-      Tefter Exchange — TX for short — is the exchange layer that makes transactional data exchange reliable in an unreliable world. Failures don't become emergencies — transactions pause safely, recover automatically, and only ask for business input when it's truly needed.
+      Tefter Exchange — TX for short — keeps B2B transactions alive until completion. When reality breaks (mismatched data, partner downtime, partial success), transactions pause safely, route the decision to the business with a full audit trail, then replay and resume automatically — without re-entry or duplication.
     </p>
   </div>
 </section>
@@ -72,11 +72,11 @@ keywords: EDI exchange, B2B integration, EDI transaction processing, EDIFACT, X1
       </div>
       <div class="card">
         <h3>Retry</h3>
-        <p>TX keeps work safe and retries automatically when systems recover.</p>
+        <p>TX keeps state durable and retries automatically when systems recover.</p>
       </div>
       <div class="card">
         <h3>Resume</h3>
-        <p>Transactions continue from the right point — without duplication or manual re-entry.</p>
+        <p>Transactions replay and resume from the right point — without duplication or manual re-entry.</p>
       </div>
       <div class="card">
         <h3>Escalate (only when needed)</h3>
@@ -91,24 +91,24 @@ keywords: EDI exchange, B2B integration, EDI transaction processing, EDIFACT, X1
     <h2 class="section-title">Three Deep Scenarios</h2>
     <div class="card-grid">
       <div class="card">
-        <h3>1) Network failure</h3>
-        <p><strong>What happens:</strong> A partner endpoint is unreachable mid-flow.</p>
-        <p><strong>TX response:</strong> The transaction pauses safely, retries, and resumes when the partner returns.</p>
-        <p><strong>Outcome:</strong> No lost orders. No manual re-entry. No “where did it go?” calls.</p>
-      </div>
-
-      <div class="card">
-        <h3>2) Data mapping error (business fix)</h3>
+        <h3>1) Data mismatch (business fix)</h3>
         <p><strong>What happens:</strong> The customer expects a different SKU or unit of measure.</p>
-        <p><strong>TX response:</strong> TX flags the mismatch and routes the decision to the right business role to approve a correction.</p>
+        <p><strong>TX response:</strong> TX flags the mismatch, suggests a correction, and routes approval to the right business role.</p>
         <p><strong>Outcome:</strong> Minutes to resolution — without waiting on an IT ticket.</p>
       </div>
 
       <div class="card">
-        <h3>3) Partner onboarding the same day</h3>
+        <h3>2) Partner onboarding the same day</h3>
         <p><strong>What happens:</strong> A new supplier must ship today, with limited technical capability.</p>
         <p><strong>TX response:</strong> TX supports the partner’s reality (EDI, API, files, even email-based exchange).</p>
         <p><strong>Outcome:</strong> Faster onboarding without forcing a new “standard” on the partner.</p>
+      </div>
+
+      <div class="card">
+        <h3>3) Network failure</h3>
+        <p><strong>What happens:</strong> A partner endpoint is unreachable mid-flow.</p>
+        <p><strong>TX response:</strong> The transaction pauses safely, retries, and resumes when the partner returns.</p>
+        <p><strong>Outcome:</strong> No lost orders. No manual re-entry. No “where did it go?” calls.</p>
       </div>
     </div>
   </div>
@@ -118,7 +118,7 @@ keywords: EDI exchange, B2B integration, EDI transaction processing, EDIFACT, X1
   <div class="wrapper">
     <h2 class="section-title">Technical Architecture</h2>
     <p class="section-copy">
-      TX is designed for durable execution, recovery-first processing, and enterprise observability.
+      TX is designed for durable execution, recovery-first processing, and enterprise observability — so transactions can always resume from a known state.
     </p>
 
     <div class="two-column" style="margin-top: 30px;">

@@ -10,7 +10,7 @@ description: A branded B2B portal where your partners can place orders directly.
   <div class="wrapper section-center">
     <h1 class="section-title">Partner Edge — Your B2B Portal</h1>
     <p class="section-copy">
-      Partner Edge is a branded B2B portal where your partners place orders directly — like a private webshop for your business relationships. Partners log in, browse your catalog, and submit orders. No EDI setup. No integration projects. Orders flow through TX into your systems automatically.
+      Partner Edge is a branded B2B portal where your partners place orders directly — like a private webshop for your business relationships. Partners log in, browse your catalog, and submit orders. No EDI setup. No integration projects. Every order becomes a tracked transaction in TX — recoverable, auditable, and resumable.
     </p>
   </div>
 </section>

@@ -4,13 +4,13 @@ lang: sr
 page_id: tefter-exchange
 title: Tefter Exchange (TX)
 permalink: /tefter-exchange/
-description: Razmena podataka za kritične operacije koja je otporna i pouzdana sa automatskim obnavljanjem
+description: TX drži porudžbine, fakture i otpremnice živim do završetka. Transakcije se pauziraju, biznis odobri ispravku (audit), a zatim se replay-uje i nastavlja automatski.
 ---
 <section class="section">
   <div class="wrapper section-center">
-    <h1 class="section-title">Sloj za automatsko obnavaljenje izvršavanja i usmereno eskaliranje problema u razmeni poslovnih podataka</h1>
+    <h1 class="section-title">Engine kontinuiteta za porudžbine, fakture i isporuke</h1>
     <p class="section-copy">
-      Tefter Exchange — skraćeno TX — je sloj razmene podataka koji čini transakcionu razmenu podataka pouzdanom u nepouzdanom svetu. Prekidi ne postaju vanredna, već očekivana stanja — transakcije se bezbedno pauziraju, automatski se oporavljaju i traže korekcije od strane odgovornih zaposlenih samo kada je to zaista potrebno, rasterećujući zaposlene u IT-u.
+      Tefter Exchange — skraćeno TX — drži B2B transakcije živim do završetka. Kada realnost “pukne” (nepoklapanje podataka, partner offline, delimičan uspeh), transakcije se bezbedno pauziraju, odluka ide biznisu uz potpun audit trag, a zatim se replay-uje i nastavlja automatski — bez ponovnog unosa i bez dupliranja.
     </p>
   </div>
 </section>
@@ -71,11 +71,11 @@ description: Razmena podataka za kritične operacije koja je otporna i pouzdana 
       </div>
       <div class="card">
         <h3>Ponavlja</h3>
-        <p>TX čuva rad bezbednim i automatski pokušava ponovo kada se sistemi oporave.</p>
+        <p>TX čuva stanje trajno i automatski pokušava ponovo kada se sistemi oporave.</p>
       </div>
       <div class="card">
         <h3>Nastavlja</h3>
-        <p>Transakcije nastavljaju sa pravog mesta — bez dupliranja i bez ručnog ponovnog unosa.</p>
+        <p>Transakcije se replay-uju i nastavljaju sa pravog mesta — bez dupliranja i bez ručnog ponovnog unosa.</p>
       </div>
       <div class="card">
         <h3>Eskalira (samo kada treba)</h3>
@@ -90,24 +90,24 @@ description: Razmena podataka za kritične operacije koja je otporna i pouzdana 
     <h2 class="section-title">Tri “duboka” scenarija</h2>
     <div class="card-grid">
       <div class="card">
-        <h3>1) Prekid mreže</h3>
-        <p><strong>Šta se desi:</strong> Endpoint partnera postane nedostupan usred razmene podataka.</p>
-        <p><strong>TX reakcija:</strong> Transakcija se bezbedno pauzira, ponavlja i nastavlja kada se partner vrati online.</p>
-        <p><strong>Ishod:</strong> Nema izgubljenih porudžbina. Nema ručnog unosa. Nema poziva “gde je nestalo?”.</p>
-      </div>
-
-      <div class="card">
-        <h3>2) Greška mapiranja (poslovni fix)</h3>
+        <h3>1) Nepoklapanje podataka (biznis fix)</h3>
         <p><strong>Šta se desi:</strong> Kupac očekuje drugačiji SKU ili jedinicu mere.</p>
-        <p><strong>TX reakcija:</strong> TX označi nepoklapanje i pošalje odluku pravoj poslovnoj ulozi da odobri korekciju.</p>
+        <p><strong>TX reakcija:</strong> TX označi nepoklapanje, predloži korekciju i pošalje odobrenje pravoj poslovnoj ulozi.</p>
         <p><strong>Ishod:</strong> Minute do rešenja — bez čekanja na IT tiket.</p>
       </div>
 
       <div class="card">
-        <h3>3) Uključivanje partnera istog dana</h3>
+        <h3>2) Uključivanje partnera istog dana</h3>
         <p><strong>Šta se desi:</strong> Novi dobavljač mora da isporuči danas, uz ograničenu tehničku sposobnost.</p>
         <p><strong>TX reakcija:</strong> TX poštuje realnost partnera (EDI, API, fajlovi, čak i email razmena).</p>
         <p><strong>Ishod:</strong> Brže uključivanje bez nametanja novog “standarda” partneru.</p>
+      </div>
+
+      <div class="card">
+        <h3>3) Prekid mreže</h3>
+        <p><strong>Šta se desi:</strong> Endpoint partnera postane nedostupan usred razmene podataka.</p>
+        <p><strong>TX reakcija:</strong> Transakcija se bezbedno pauzira, ponavlja i nastavlja kada se partner vrati online.</p>
+        <p><strong>Ishod:</strong> Nema izgubljenih porudžbina. Nema ručnog unosa. Nema poziva “gde je nestalo?”.</p>
       </div>
     </div>
   </div>
@@ -117,7 +117,7 @@ description: Razmena podataka za kritične operacije koja je otporna i pouzdana 
   <div class="wrapper">
     <h2 class="section-title">Tehnička arhitektura (CIO sekcija)</h2>
     <p class="section-copy">
-      TX je dizajniran za trajno izvršavanje, sa oporavkom kao primarnim principom i obeservabilnost na nivou kompanije.
+      TX je dizajniran za trajno izvršavanje, sa oporavkom kao primarnim principom i observabilnost na nivou kompanije — tako da transakcije uvek mogu da nastave iz poznatog stanja.
     </p>
 
     <div class="two-column" style="margin-top: 30px;">

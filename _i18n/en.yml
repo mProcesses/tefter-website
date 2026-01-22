@@ -1,7 +1,7 @@
 # English translations
 nav:
   home: "Home"
-  tx: "Tefter Exchange (TX)"
+  tx: "Continuity Engine (TX)"
   apps: "Apps"
   partner_edge: "Partner Edge"
   solutions: "Solutions"
@@ -21,15 +21,15 @@ global:
   see_full_platform: "See full platform"
   
 footer:
-  copyright: "© %{year} Tefter Exchange Platform. All rights reserved."
+  copyright: "© %{year} Tefter. All rights reserved."
   
 hero:
-  tagline: "Operational Continuity Platform"
-  layers_tagline: "Two layers. One platform. Any Scale."
-  exchange_layer: "Foundation: Tefter Exchange (TX)"
-  exchange_desc: "Exchange that self-heals. Dashboard that empowers business. No IT bottleneck."
-  ops_layer: "Built on TX: Operational Apps"
-  ops_desc: "Sales. Warehouse. Procurement. Digitalized. ERP optional."
+  tagline: "Operational Continuity for B2B Trade"
+  layers_tagline: "One continuity engine. Optional operational surfaces."
+  exchange_layer: "Continuity Engine: Tefter Exchange (TX)"
+  exchange_desc: "Stateful execution for orders, invoices, and shipments — pause, replay, and resume with full traceability."
+  ops_layer: "Operational Surfaces: Apps (optional)"
+  ops_desc: "Mobile-first workflows for sales, warehouse, procurement — powered by TX underneath."
 
 cta:
   book_demo: "Book a demo"
@@ -75,12 +75,12 @@ common:
 # Home page
 home:
   title: "Home"
-  description: "Stay operational — no matter what happens. Tefter combines real-time exchange between partners with real-time apps for your teams."
-  main_heading: "Stay operational — no matter what happens."
-  main_subheading: "Self-healing data exchange between partners. Real-time apps for your teams."
+  description: "Transactions don’t fail — they pause, get fixed by business, and continue. Tefter keeps B2B trade moving through mismatched data and outages."
+  main_heading: "Transactions don’t fail. They pause, get fixed by business, and continue."
+  main_subheading: "Keep orders, invoices, and shipping documents moving through mismatched partner data and outages — without IT tickets."
   
   new_category_title: "A New Category: Operational Continuity Platform"
-  new_category_desc: "Traditional EDI moves messages between systems. Traditional ERP runs internal workflows. <strong>Between them, Tefter Exchange (TX)</strong> — an operational continuity platform — doesn't just move data, it keeps your business moving. AI-powered Dashboard that keeps humans in control. When issues hit, your team resolves them in minutes — no IT ticket, no weeks of waiting. And when you need more than exchange, real-time Apps with functional AI agents are ready: sales, warehouse operations, procurement, and more — with or without your existing ERP."
+  new_category_desc: "Traditional integration moves data between systems. Traditional ERP runs internal workflows. <strong>Tefter sits in between as a continuity system for B2B trade</strong> — it keeps transactions alive when reality is messy. When something breaks, the business approves the fix with full audit trail, and the transaction resumes automatically (no re-entry, no duplication, no IT backlog)."
   
   problem_title: "The Problem We Solve"
   problem_headline: "EDI works — until something changes."
@@ -117,38 +117,48 @@ home:
   path_manual_desc: "Rely on phone, email, spreadsheets, and manual data entry."
   path_manual_reality: "Doesn’t scale, error-prone, no clear visibility or ownership, and recovery is entirely manual — leading to delays and disputes."
 
-  problem_gap: "<strong>The gap:</strong> recovery is always someone else's problem — until it's yours."
-  problem_solution: "<strong>What you need:</strong> Tefter Exchange (TX) — a system of continuity for transactions. Recoverable execution. Automatic retry. Business-operable resolution when data doesn't match."
+  problem_gap: "<strong>The gap:</strong> when transactions break, IT owns reality — and operations waits."
+  problem_solution: "<strong>What you need:</strong> a system where transactions stay alive, and the business can correct reality while the transaction is running."
   register: "Register"
   contact_sales: "Contact Sales"
   
-  breakthrough_title: "Exchange Layer: Tefter Exchange (TX)"
-  solution_highlight: "We built <strong>Tefter Exchange (TX)</strong> — a system of continuity for business transactions. It keeps execution recoverable, resumes automatically after failures, and routes data decisions to the business with full traceability."
+  business_fix_title: "Business fixes reality — while transactions are running"
+  business_fix_intro: "When a partner sends “Product A / case of 24” and your system expects “PA-24”, most platforms fail and create an IT ticket. Tefter pauses the transaction, routes it to the right business owner, stores the approved decision as a governed rule, then replays and completes automatically."
+  business_fix_step1_title: "Detect mismatch / drift"
+  business_fix_step1_desc: "TX flags what’s wrong and keeps the transaction alive instead of failing it."
+  business_fix_step2_title: "Approve the business decision"
+  business_fix_step2_desc: "Ops approves a correction with role-based access and a full audit trail."
+  business_fix_step3_title: "Replay & resume cleanly"
+  business_fix_step3_desc: "TX resumes from the exact point — no duplication, no manual re-entry."
+  business_fix_closing: "This is the category shift: recovery becomes a business workflow, not a developer workflow."
+
+  breakthrough_title: "The Continuity Engine: Tefter Exchange (TX)"
+  solution_highlight: "We built <strong>Tefter Exchange (TX)</strong> — a stateful execution engine for B2B transactions. It keeps orders/invoices/shipments recoverable, resumes cleanly after failures, and routes data decisions to the business with full traceability."
   
   how_works_title: "How Tefter Works — Quick Overview"
   
   tx_subtitle: "Tefter Exchange (TX)"
-  tx_desc: "TX is the exchange/continuity layer that keeps transactions safe through failures and mismatches."
+  tx_desc: "TX is the continuity engine that keeps transactions alive through failures, mismatches, and partner downtime."
   tx_feature_1: "<strong>Recoverable execution:</strong> pause safely, retry automatically, and resume without re-entry or duplication"
   tx_feature_2: "<strong>Business-operable fixes:</strong> when data doesn’t match, route the decision to the right role (not an IT queue) and replay the transaction"
   tx_feature_3: "<strong>Partner reality:</strong> connect via EDI, API, files, or email — without forcing a new “standard”"
   tx_feature_4: "<strong>Audit + visibility:</strong> see every transaction state, owner, and next action with traceability end-to-end"
   
   tx_example_title: "Example"
-  tx_example: "An order is sent with item “Product A / case of 24,” but the customer expects code “PA-24.” TX flags the mismatch, suggests a mapping, the business owner approves, TX stores the rule, and the transaction is replayed and completes — without an IT ticket."
+  tx_example: "An order arrives with item “Product A / case of 24,” but your system expects “PA-24.” TX flags the mismatch, suggests a correction, the business owner approves, TX stores the governed rule, and the transaction is replayed and completes — without an IT ticket."
   tx_start_quick: "<strong>Start in minutes:</strong> register your organization, get credentials, and begin transacting. Refine mappings and ERP forwarding as you go."
   tx_edi_bridge: "<strong>EDI-friendly:</strong> TX can stabilize existing EDI flows or gradually replace legacy EDI over time — reducing IT workload while increasing operational reliability."
 
   accelerate_title: "More ways to accelerate"
-  accelerate_intro: "TX keeps your exchange running. But operational speed comes from more than just continuity. Two more efficiency gains are built into the platform."
+  accelerate_intro: "TX keeps transactions alive. Operational speed comes from what you can do while they’re running."
   
-  accelerate_infra_title: "Apps your teams own"
-  accelerate_infra_desc: "Browser-based. Cloud-native. Secure by default. Your teams use Tefter Apps from any device, with no installation and no IT maintenance. IT focuses on strategy — not keeping apps running."
+  accelerate_infra_title: "Operational surfaces your teams own"
+  accelerate_infra_desc: "Browser-based and secure by default. These surfaces let the business act on TX (approvals, exceptions, execution) without waiting on IT."
   
-  accelerate_ai_title: "Intelligence where it matters"
-  accelerate_ai_desc: "Some tasks require domain knowledge but not creativity — mapping free text to product codes, structuring marketing content, pulling business insights. Embedded AI agents handle these, so your people focus on decisions that move the business."
+  accelerate_ai_title: "Decision support where it matters"
+  accelerate_ai_desc: "AI can suggest corrections (SKU/UoM, synonyms, formatting), but the business approves. That’s how continuity stays governed."
   
-  accelerate_closing: "TX delivers continuity. Apps deliver speed. One platform, more operational capacity."
+  accelerate_closing: "Continuity is the product. Surfaces and decision support make it usable by operations."
 
   tx_enables_title: "Operational Apps — Ready Solutions on TX"
   
@@ -186,9 +196,9 @@ home:
   e2e_label_issue: "Issue"
   e2e_label_recovery: "Recovery"
   e2e_order: "An order is submitted and sent to a partner system."
-  e2e_issue: "A mapping mismatch is detected — and the partner endpoint is temporarily unreachable."
-  e2e_recovery: "TX keeps the transaction safe, retries automatically, and only asks for business input when a mapping decision is needed."
-  e2e_outcome: "The transaction resumes as soon as the partner is back online — delivery stays on schedule, without manual re-entry."
+  e2e_issue: "A mapping mismatch is detected (SKU/UoM), and the partner endpoint is temporarily unreachable."
+  e2e_recovery: "TX pauses safely, routes the correction to the business owner (audited), then replays and resumes. If the partner is down, TX retries automatically."
+  e2e_outcome: "Minutes to resolution on the mismatch — and the transaction resumes cleanly when the partner returns, without duplication."
   
   outcomes_title: "Quick Outcomes — Projected Impact"
   outcome_onboarding: "6 weeks → same-day"

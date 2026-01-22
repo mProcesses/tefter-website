@@ -2,16 +2,16 @@
 layout: page
 lang: en
 page_id: tefter-apps
-title: Mobile ERP & Sales Apps
+title: Operational Apps Built on TX
 permalink: /tefter-apps/
-description: Mobile ERP apps for field sales, procurement, warehouse, and logistics. Cloud-integrated business apps with offline support. Streamline order management, inventory tracking, and supply chain operations from any device.
-keywords: mobile ERP app, field sales app, mobile order management, warehouse management app, procurement software, supply chain app, mobile business apps, offline ERP, sales force automation, inventory management app
+description: Optional operational surfaces built on TX. Mobile-first workflows for sales, procurement, and warehouse — powered by transaction continuity underneath.
+keywords: operational apps, mobile-first workflows, sales app, warehouse app, procurement app, B2B operations, transaction continuity
 ---
 <section class="section">
   <div class="wrapper section-center">
     <h1 class="section-title">Operational Apps — Built on TX</h1>
     <p class="section-copy">
-      Tefter Apps are mobile-first operational tools that run on top of Tefter Exchange (TX). They provide ready solutions for business operations — standalone or as augmentation for your existing ERP — with low-click workflows for sales, procurement, warehouse, timesheets, and more.
+      Tefter Apps are optional operational surfaces that run on top of Tefter Exchange (TX). Continuity is the product; apps make it usable day-to-day — with low-click workflows for sales, procurement, warehouse, timesheets, and more.
     </p>
   </div>
 </section>
@@ -20,7 +20,7 @@ keywords: mobile ERP app, field sales app, mobile order management, warehouse ma
   <div class="wrapper">
     <h2 class="section-title">TX First, Apps When You Need Them</h2>
     <p class="section-copy">
-      TX is the exchange layer that keeps data moving between organizations — ERP to ERP, system to system — through mismatches, outages, and format differences. Tefter Apps are optional operational surfaces that provide ready solutions for daily business operations.
+      TX keeps transactions alive between organizations — ERP to ERP, system to system — through mismatches, outages, and format differences. Tefter Apps are optional operational surfaces that provide ready workflows for daily execution and business-owned exception handling.
     </p>
     <div class="two-column" style="margin-top: 30px;">
       <div class="column">

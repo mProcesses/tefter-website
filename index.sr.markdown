@@ -4,7 +4,7 @@ lang: sr
 page_id: home
 permalink: /
 title: Početna
-description: Izvršavanje u realnom vremenu — uz otpornu razmenu podataka. Tefter kombinuje TX kontinuitet sa aplikacijama u realnom vremenu, tako da transakcije teku end-to-end i kada dođe do prekida mreže i nepoklapanja podataka.
+description: Transakcije ne “pucaju” — one se pauziraju, biznis ih ispravi i nastave. Tefter održava porudžbine, fakture i dokumenta u pokretu kroz nepoklapanja podataka i prekide, uz audit trag i replay.
 ---
 <section class="hero">
   <div class="wrapper">
@@ -104,6 +104,32 @@ description: Izvršavanje u realnom vremenu — uz otpornu razmenu podataka. Tef
         <a href="/sr/contact/" class="btn btn-secondary">{% t home.contact_sales %}</a>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="section-title">{% t home.business_fix_title %}</h2>
+    <p class="section-copy">{% t home.business_fix_intro %}</p>
+
+    <div class="card-grid" style="margin-top: 30px;">
+      <div class="card">
+        <h3>{% t home.business_fix_step1_title %}</h3>
+        <p>{% t home.business_fix_step1_desc %}</p>
+      </div>
+      <div class="card">
+        <h3>{% t home.business_fix_step2_title %}</h3>
+        <p>{% t home.business_fix_step2_desc %}</p>
+      </div>
+      <div class="card">
+        <h3>{% t home.business_fix_step3_title %}</h3>
+        <p>{% t home.business_fix_step3_desc %}</p>
+      </div>
+    </div>
+
+    <p class="section-copy" style="margin-top: 20px; text-align: center; font-weight: 500;">
+      {% t home.business_fix_closing %}
+    </p>
   </div>
 </section>
 
