@@ -24,12 +24,12 @@ footer:
   copyright: "© %{year} Tefter. Sva prava zadržana."
   
 hero:
-  tagline: "Operativni kontinuitet za B2B trgovinu"
-  layers_tagline: "Jedan engine kontinuiteta. Opciono: operativne površine."
+  tagline: "Real-time poslovne aplikacije + operativni kontinuitet za B2B trgovinu"
+  layers_tagline: "Jedan proizvod: kontinuitet + real-time izvršavanje."
   exchange_layer: "Engine kontinuiteta: Tefter Exchange (TX)"
   exchange_desc: "Stateful izvršavanje za porudžbine, fakture i otpremnice — pauza, replay i nastavak uz potpunu sledljivost."
   ops_layer: "Operativne površine: Aplikacije (opciono)"
-  ops_desc: "Mobile-first workflow-i za prodaju, skladište, nabavku — pokreće ih TX ispod."
+  ops_desc: "Real-time poslovne aplikacije oko activity stream-ova i AI agenata — pokreće ih TX ispod."
 
 cta:
   book_demo: "Zakaži demo"
@@ -76,8 +76,8 @@ common:
 home:
   title: "Početna"
   description: "Transakcije ne “pucaju” — one se pauziraju, biznis ih ispravi i nastave. Tefter održava B2B trgovinu u pokretu kroz nepoklapanja i prekide."
-  main_heading: "Transakcije ne “pucaju”. One se pauziraju, biznis ih ispravi i nastave."
-  main_subheading: "Porudžbine, fakture i otpremnice prolaze kroz nepoklapanja podataka i prekide — bez IT tiketa."
+  main_heading: "Real-time poslovne aplikacije + operativni kontinuitet za B2B trgovinu."
+  main_subheading: "Jedan proizvod: aplikacije za tvoje timove i engine kontinuiteta koji drži transakcije živim kroz firme — i kada su podaci pogrešni."
   
   new_category_title: "Nova kategorija: Platforma operativnog kontinuiteta"
   new_category_desc: "Tradicionalne integracije prenose podatke između sistema. ERP vodi interne tokove rada. <strong>Tefter je između kao sistem kontinuiteta za B2B trgovinu</strong> — transakcije ostaju žive kada je realnost neuredna. Kada nešto “pukne”, biznis odobri ispravku uz audit trag, a transakcija se automatski nastavi (bez ponovnog unosa, bez dupliranja, bez IT backloga)."

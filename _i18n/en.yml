@@ -1,7 +1,7 @@
 # English translations
 nav:
   home: "Home"
-  tx: "Continuity Engine (TX)"
+  tx: "Tefter Exchange (TX)"
   apps: "Apps"
   partner_edge: "Partner Edge"
   solutions: "Solutions"
@@ -24,12 +24,12 @@ footer:
   copyright: "© %{year} Tefter. All rights reserved."
   
 hero:
-  tagline: "Operational Continuity for B2B Trade"
-  layers_tagline: "One continuity engine. Optional operational surfaces."
+  tagline: "Business Operations Platform"
+  layers_tagline: "One platform. Two layers. Any scale."
   exchange_layer: "Continuity Engine: Tefter Exchange (TX)"
-  exchange_desc: "Stateful execution for orders, invoices, and shipments — pause, replay, and resume with full traceability."
+  exchange_desc: "Exchange that self-heals. Dashboard that empowers business. No IT bottleneck."
   ops_layer: "Operational Surfaces: Apps (optional)"
-  ops_desc: "Mobile-first workflows for sales, warehouse, procurement — powered by TX underneath."
+  ops_desc: "Sales. Warehouse. Procurement. Digitalized. ERP optional."
 
 cta:
   book_demo: "Book a demo"
@@ -75,12 +75,33 @@ common:
 # Home page
 home:
   title: "Home"
-  description: "Transactions don’t fail — they pause, get fixed by business, and continue. Tefter keeps B2B trade moving through mismatched data and outages."
-  main_heading: "Transactions don’t fail. They pause, get fixed by business, and continue."
-  main_subheading: "Keep orders, invoices, and shipping documents moving through mismatched partner data and outages — without IT tickets."
+  description: "AI-enhanced real-time business apps + transaction continuity engine. Use TX standalone, Apps standalone, or combine both to offload IT, prevent lost orders, and see operations in real time."
+  main_heading: "Never lose alignment with partners. Never lose orders. Always see ops in real time."
+  main_subheading: "Streamline orders and digitize B2B operations with AI‑enhanced real‑time apps + a transaction continuity engine. Use TX and Apps standalone — or together."
+
+  offers_title: "Choose your starting point"
+  offers_intro: "Start with TX to stabilize partner exchange, start with Apps to digitize execution — or combine both for end-to-end operational leverage."
+  offers_tx_title: "Transaction Continuity Engine (TX)"
+  offers_tx_desc: "Keep B2B transactions alive through mismatched data, partner downtime, and format changes — with a dashboard that lets the business resolve exceptions."
+  offers_tx_b1: "Offload IT: business users resolve mismatches with audit trail"
+  offers_tx_b2: "No lost orders: pause / retry / resume without duplication"
+  offers_tx_b3: "Partner reality: EDI, API, files, email — without forcing a new standard"
+  offers_tx_cta: "Explore TX"
+  offers_apps_title: "AI‑Enhanced Real‑time Business Apps"
+  offers_apps_desc: "Streamline ordering and execution with mobile-first workflows for sales, procurement, warehouse, and partner ops — as ERP augmentation via TX, or as a standalone entry layer."
+  offers_apps_b1: "Operational efficiency: digitize ordering with low-click workflows built for daily work"
+  offers_apps_b2: "Real-time visibility: teams see work as it happens"
+  offers_apps_b3: "AI assistance: suggestions inside workflows, humans stay in control"
+  offers_apps_cta: "Explore Apps"
+  offers_combo_title: "Stronger together"
+  offers_combo_desc: "Combine TX + Apps to reduce tickets, prevent order loss, and give teams a real-time view of operational work — even when partners and data break."
+  offers_combo_b1: "Fewer tickets: business resolves issues without IT backlog"
+  offers_combo_b2: "No lost orders: transactions never “disappear”"
+  offers_combo_b3: "Real-time ops visibility across internal execution + partner exchange"
+  offers_combo_cta: "Book a demo"
   
   new_category_title: "A New Category: Operational Continuity Platform"
-  new_category_desc: "Traditional integration moves data between systems. Traditional ERP runs internal workflows. <strong>Tefter sits in between as a continuity system for B2B trade</strong> — it keeps transactions alive when reality is messy. When something breaks, the business approves the fix with full audit trail, and the transaction resumes automatically (no re-entry, no duplication, no IT backlog)."
+  new_category_desc: "Traditional EDI moves messages between systems. Traditional ERP runs internal workflows. <strong>Between them, Tefter Exchange (TX)</strong> — an operational continuity platform — doesn't just move data, it keeps your business moving. AI-powered Dashboard that keeps humans in control. When issues hit, your team resolves them in minutes — no IT ticket, no weeks of waiting. And when you need more than exchange, real-time Apps with functional AI agents are ready: sales, warehouse operations, procurement, and more — with or without your existing ERP."
   
   problem_title: "The Problem We Solve"
   problem_headline: "EDI works — until something changes."
@@ -117,8 +138,8 @@ home:
   path_manual_desc: "Rely on phone, email, spreadsheets, and manual data entry."
   path_manual_reality: "Doesn’t scale, error-prone, no clear visibility or ownership, and recovery is entirely manual — leading to delays and disputes."
 
-  problem_gap: "<strong>The gap:</strong> when transactions break, IT owns reality — and operations waits."
-  problem_solution: "<strong>What you need:</strong> a system where transactions stay alive, and the business can correct reality while the transaction is running."
+  problem_gap: "<strong>The gap:</strong> recovery is always someone else's problem — until it's yours."
+  problem_solution: "<strong>What you need:</strong> Tefter Exchange (TX) — a system of continuity for transactions. Recoverable execution. Automatic retry. Business-operable resolution when data doesn't match."
   register: "Register"
   contact_sales: "Contact Sales"
   
@@ -150,15 +171,15 @@ home:
   tx_edi_bridge: "<strong>EDI-friendly:</strong> TX can stabilize existing EDI flows or gradually replace legacy EDI over time — reducing IT workload while increasing operational reliability."
 
   accelerate_title: "More ways to accelerate"
-  accelerate_intro: "TX keeps transactions alive. Operational speed comes from what you can do while they’re running."
+  accelerate_intro: "TX keeps your exchange running. But operational speed comes from more than just continuity. Two more efficiency gains are built into the platform."
   
-  accelerate_infra_title: "Operational surfaces your teams own"
-  accelerate_infra_desc: "Browser-based and secure by default. These surfaces let the business act on TX (approvals, exceptions, execution) without waiting on IT."
+  accelerate_infra_title: "Apps your teams own"
+  accelerate_infra_desc: "Browser-based. Cloud-native. Secure by default. Your teams use Tefter Apps from any device, with no installation and no IT maintenance. IT focuses on strategy — not keeping apps running."
   
-  accelerate_ai_title: "Decision support where it matters"
-  accelerate_ai_desc: "AI can suggest corrections (SKU/UoM, synonyms, formatting), but the business approves. That’s how continuity stays governed."
+  accelerate_ai_title: "Intelligence where it matters"
+  accelerate_ai_desc: "Some tasks require domain knowledge but not creativity — mapping free text to product codes, structuring marketing content, pulling business insights. Embedded AI agents handle these, so your people focus on decisions that move the business."
   
-  accelerate_closing: "Continuity is the product. Surfaces and decision support make it usable by operations."
+  accelerate_closing: "TX delivers continuity. Apps deliver speed. One platform, more operational capacity."
 
   tx_enables_title: "Operational Apps — Ready Solutions on TX"
   

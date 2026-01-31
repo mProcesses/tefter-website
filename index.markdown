@@ -3,9 +3,9 @@ layout: default
 permalink: /
 lang: en
 page_id: home
-title: Operational Continuity System for B2B Trade
-description: Transactions don’t fail — they pause, get fixed by business, and continue. Tefter keeps orders, invoices, and shipping documents moving through mismatched partner data and outages, with full audit trails and replayable execution.
-keywords: operational continuity, B2B trade, transaction continuity, business-owned exception resolution, replayable execution, order processing, invoice processing, partner onboarding
+title: Tefter: Business Operations Platform
+description: AI-enhanced real-time business apps + transaction continuity engine. Use TX standalone, Apps standalone, or combine both to offload IT, prevent lost orders, and see operations in real time.
+keywords: business operations platform, operational continuity, real-time business apps, B2B trade, transaction continuity, order processing, invoice processing, partner onboarding
 ---
 <section class="hero">
   <div class="wrapper">
@@ -24,8 +24,48 @@ keywords: operational continuity, B2B trade, transaction continuity, business-ow
       </div>
     </div>
     <div class="cta-buttons">
-      <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">→ {% t global.book_demo %}</a>
-      <a href="{{ '/tefter-exchange/' | relative_url }}" class="btn btn-secondary">→ {% t global.see_product %}</a>
+      <a href="https://tx.tefter.com" class="btn btn-primary" target="_blank">→ {% t home.register %}</a>
+      <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">→ {% t global.book_demo %}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <h2 class="section-title">{% t home.offers_title %}</h2>
+    <p class="section-copy">{% t home.offers_intro %}</p>
+
+    <div class="card-grid" style="margin-top: 30px;">
+      <div class="card">
+        <h3>{% t home.offers_tx_title %}</h3>
+        <p>{% t home.offers_tx_desc %}</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8; margin-top: 12px;">
+          <li>{% t home.offers_tx_b1 %}</li>
+          <li>{% t home.offers_tx_b2 %}</li>
+          <li>{% t home.offers_tx_b3 %}</li>
+        </ul>
+        <a href="{{ '/tefter-exchange/' | relative_url }}" class="arrow-link" style="display: inline-block; margin-top: 14px;">→ {% t home.offers_tx_cta %}</a>
+      </div>
+      <div class="card">
+        <h3>{% t home.offers_apps_title %}</h3>
+        <p>{% t home.offers_apps_desc %}</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8; margin-top: 12px;">
+          <li>{% t home.offers_apps_b1 %}</li>
+          <li>{% t home.offers_apps_b2 %}</li>
+          <li>{% t home.offers_apps_b3 %}</li>
+        </ul>
+        <a href="{{ '/tefter-apps/' | relative_url }}" class="arrow-link" style="display: inline-block; margin-top: 14px;">→ {% t home.offers_apps_cta %}</a>
+      </div>
+      <div class="card">
+        <h3>{% t home.offers_combo_title %}</h3>
+        <p>{% t home.offers_combo_desc %}</p>
+        <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.8; margin-top: 12px;">
+          <li>{% t home.offers_combo_b1 %}</li>
+          <li>{% t home.offers_combo_b2 %}</li>
+          <li>{% t home.offers_combo_b3 %}</li>
+        </ul>
+        <a href="{{ '/contact/' | relative_url }}" class="arrow-link" style="display: inline-block; margin-top: 14px;">→ {% t home.offers_combo_cta %}</a>
+      </div>
     </div>
   </div>
 </section>
