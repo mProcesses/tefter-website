@@ -8,7 +8,7 @@
   <meta name="description" content="{{ page.description | default: site.description }}">
   
   <!-- SEO meta tags -->
-  <meta name="keywords" content="{{ page.keywords | default: 'operational continuity, B2B trade, transaction continuity, business-owned exception resolution, replayable execution, B2B order processing, invoice automation, partner onboarding, supply chain operations' }}">
+  <meta name="keywords" content="{{ page.keywords | default: 'wholesale distribution, B2B order processing, customer portal, EDI integration, distribution automation, mobile warehouse, supply chain operations' }}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   
@@ -64,12 +64,34 @@
         </label>
         <div class="trigger">
           <a class="page-link" href="{{ '/' | relative_url }}">{% t nav.home %}</a>
-          <a class="page-link" href="{{ '/tefter-exchange/' | relative_url }}">{% t nav.tx %}</a>
-          <a class="page-link" href="{{ '/tefter-apps/' | relative_url }}">{% t nav.apps %}</a>
-          <a class="page-link" href="{{ '/partner-edge/' | relative_url }}">{% t nav.partner_edge %}</a>
-          <a class="page-link" href="{{ '/solutions/' | relative_url }}">{% t nav.solutions %}</a>
+          <div class="dropdown">
+            <span class="page-link dropbtn">{% t nav.solutions %}</span>
+            <div class="dropdown-content">
+              <a href="{{ '/solutions/wholesale-distribution/' | relative_url }}">{% t nav.solutions_wholesale %}</a>
+              <a href="{{ '/solutions/food-beverage/' | relative_url }}">{% t nav.solutions_food_beverage %}</a>
+              <a href="{{ '/solutions/manufacturing-supply-chain/' | relative_url }}">{% t nav.solutions_manufacturing %}</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <span class="page-link dropbtn">{% t nav.products %}</span>
+            <div class="dropdown-content">
+              <a href="{{ '/products/customer-portal/' | relative_url }}">{% t nav.products_customer_portal %}</a>
+              <a href="{{ '/products/mobile-operations/' | relative_url }}">{% t nav.products_mobile_ops %}</a>
+              <a href="{{ '/products/integration-engine/' | relative_url }}">{% t nav.products_integration_engine %}</a>
+            </div>
+          </div>
+          <a class="page-link" href="{{ '/customers/' | relative_url }}">{% t nav.customers %}</a>
+          <a class="page-link" href="{{ '/pricing/' | relative_url }}">{% t nav.pricing %}</a>
+          <div class="dropdown">
+            <span class="page-link dropbtn">{% t nav.resources %}</span>
+            <div class="dropdown-content">
+              <a href="{{ '/customers/mmm-lasta/' | relative_url }}">{% t nav.resources_case_study %}</a>
+              <a href="{{ '/contact/' | relative_url }}">{% t nav.resources_contact %}</a>
+            </div>
+          </div>
           <a class="page-link" href="{{ '/security/' | relative_url }}">{% t nav.security %}</a>
-          <a class="page-link cta" href="{{ '/contact/' | relative_url }}">{% t nav.contact %}</a>
+          <a class="page-link cta" href="{{ '/contact/' | relative_url }}">{% t nav.book_demo %}</a>
+          <a class="page-link secondary" href="https://tx.tefter.com" target="_blank" rel="noopener">{% t nav.login %}</a>
         </div>
       </nav>
       
@@ -154,6 +176,14 @@
 
   <footer class="site-footer">
     <div class="wrapper">
+      <div class="footer-links">
+        <a href="{{ '/solutions/wholesale-distribution/' | relative_url }}">{% t nav.solutions_wholesale %}</a>
+        <a href="{{ '/products/customer-portal/' | relative_url }}">{% t nav.products_customer_portal %}</a>
+        <a href="{{ '/pricing/' | relative_url }}">{% t nav.pricing %}</a>
+        <a href="{{ '/customers/' | relative_url }}">{% t nav.customers %}</a>
+        <a href="{{ '/security/' | relative_url }}">{% t nav.security %}</a>
+        <a href="{{ '/contact/' | relative_url }}">{% t nav.contact %}</a>
+      </div>
       <p>{% t footer.copyright year=site.time | date: "%Y" %}</p>
     </div>
   </footer>
@@ -171,7 +201,7 @@
     "operatingSystem": "Cloud",
     "offers": {
       "@type": "Offer",
-      "category": "Operational Continuity Platform for B2B Trade"
+      "category": "Distribution Automation Platform"
     },
     "provider": {
       "@type": "Organization",

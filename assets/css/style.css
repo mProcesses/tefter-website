@@ -236,6 +236,18 @@ body {
   background-color: #0052a3;
 }
 
+.page-link.secondary {
+  border: 1px solid #0066cc;
+  color: #0066cc;
+  border-radius: 6px;
+  padding: 8px 14px;
+}
+
+.page-link.secondary:hover {
+  background-color: #0066cc;
+  color: #fff;
+}
+
 /* Dropdown Menu */
 .dropdown {
   position: relative;
@@ -735,6 +747,345 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: #555;
+}
+
+/* New Reposition Styles */
+.hero-split {
+  text-align: left;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.hero-split .cta-buttons {
+  justify-content: flex-start;
+}
+
+.hero-visual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.hero-visual-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-visual-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+  font-weight: 700;
+}
+
+.hero-visual-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.hero-visual-card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.hero-visual-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.hero-visual-card li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.logo-ticker .logo-track {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.logo-ticker img {
+  height: 60px;
+  width: auto;
+  filter: grayscale(100%);
+  opacity: 0.75;
+}
+
+.layer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.layer-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.layer-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.layer-outcome {
+  font-weight: 600;
+  color: #0066cc;
+  margin-top: 12px;
+}
+
+.proof-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.proof-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.proof-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #0066cc;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.proof-metrics {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0;
+}
+
+.proof-metrics li {
+  margin-bottom: 8px;
+}
+
+.proof-quote {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.step-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.step-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e8e8e8;
+  padding: 24px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.step-number {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #0066cc;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.pricing-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 28px;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0 24px;
+}
+
+.pricing-card li {
+  margin-bottom: 10px;
+}
+
+.pricing-tier {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0066cc;
+  letter-spacing: 0.5px;
+}
+
+.pricing-subtitle {
+  color: #555;
+  margin-top: 10px;
+}
+
+.pricing-price {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 14px;
+}
+
+.pricing-card.featured {
+  border: 2px solid #0066cc;
+  transform: translateY(-6px);
+}
+
+.pricing-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #0066cc;
+  color: #fff;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.solution-split {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.solution-visual {
+  background: #f1f4f8;
+  border: 1px dashed #cdd6e1;
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  color: #666;
+  font-weight: 600;
+}
+
+.solution-quote {
+  font-style: italic;
+  color: #555;
+  margin-top: 12px;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  gap: 30px;
+  align-items: start;
+}
+
+.contact-form .form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  padding: 12px 14px;
+  border: 1px solid #d7dbe0;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-sidebar .card {
+  padding: 24px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.footer-links a {
+  color: #cfd4da;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.metric-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.featured-card {
+  border: 2px solid #0066cc;
+}
+
+.compact-cards .card {
+  padding: 24px;
 }
 
 /* Page Wrapper */
@@ -1275,6 +1626,32 @@ a.arrow-link:hover {
   
   .card:hover {
     transform: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero-grid,
+  .solution-split,
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-card.featured {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-ticker img {
+    height: 48px;
+  }
+
+  .footer-links {
+    flex-direction: column;
   }
 }
 

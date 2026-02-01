@@ -24,9 +24,8 @@ google_analytics: ""  # e.g., "G-XXXXXXXXXX"
 title: Tefter
 email: contact@tefter.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Operational Continuity for B2B trade. Tefter keeps orders, invoices, and shipping documents
-  moving when partners send mismatched data or systems go offline — with business-owned resolution,
-  full audit trails, and replayable execution.
+  Eliminate manual order processing for wholesale distributors. Customer portal, mobile operations,
+  and smart EDI integration in one platform.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tefter.io" # CHANGE THIS to your actual domain, e.g., https://yourdomain.com
 

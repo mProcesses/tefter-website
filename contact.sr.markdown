@@ -2,153 +2,73 @@
 layout: page
 lang: sr
 page_id: contact
-title: Kontakt / Demo
+title: Kontakt - Zakažite demo | Tefter
 permalink: /contact/
-description: Vidi Tefter u akciji — zakaži demo
+description: Zakažite demo od 30 minuta i pogledajte kako Tefter eliminiše ručni unos porudžbina u distribuciji.
+keywords: kontakt, demo, automatizacija distribucije
 ---
 <section class="section">
   <div class="wrapper section-center">
-    <h1 class="section-title">{% t contact.main_heading %}</h1>
-    <p class="section-copy">
-      {% t contact.intro %}
-    </p>
-    <ul class="feature-list" style="max-width: 800px; margin: 30px auto;">
-      <li>{% t contact.show_1 %}</li>
-      <li>{% t contact.show_2 %}</li>
-      <li>{% t contact.show_3 %}</li>
-      <li>{% t contact.show_4 %}</li>
-    </ul>
+    <h1 class="section-title">Hajde da razgovaramo o vašim izazovima u distribuciji</h1>
+    <p class="section-copy">Zakažite demo od 30 minuta ili nam pošaljite poruku. Pokazaćemo kako Tefter eliminiše ručni unos porudžbina.</p>
   </div>
 </section>
 
 <section class="section">
   <div class="wrapper">
-    <h2 class="section-title">{% t contact.format_title %}</h2>
-    
-    <div class="two-column">
-      <div class="column">
-        <div class="card">
-          <h3>{% t contact.live_demo_title %}</h3>
-          <p>{% t contact.live_demo_desc %}</p>
-          <p style="margin-top: 20px;"><strong>{% t contact.expect_title %}</strong></p>
-          <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-            <li>{% t contact.expect_1 %}</li>
-            <li>{% t contact.expect_2 %}</li>
-            <li>{% t contact.expect_3 %}</li>
-            <li>{% t contact.expect_4 %}</li>
-            <li>{% t contact.expect_5 %}</li>
-          </ul>
-          <a href="mailto:demo@tefter.com?subject=Demo Request" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">{% t cta.schedule_demo %}</a>
+    <div class="contact-layout">
+      <form class="contact-form" action="{{ '/contact/' | relative_url }}" method="post">
+        <div class="form-row">
+          <label for="full-name">Ime i prezime *</label>
+          <input id="full-name" name="full_name" type="text" required>
         </div>
-      </div>
-      
-      <div class="column">
-        <div class="card">
-          <h3>{% t contact.expert_title %}</h3>
-          <p>{% t contact.expert_desc %}</p>
-          <p style="margin-top: 20px;"><strong>{% t contact.discuss_title %}</strong></p>
-          <ul style="margin-top: 10px; list-style-type: disc; padding-left: 20px; line-height: 1.8;">
-            <li>{% t contact.discuss_1 %}</li>
-            <li>{% t contact.discuss_2 %}</li>
-            <li>{% t contact.discuss_3 %}</li>
-            <li>{% t contact.discuss_4 %}</li>
-            <li>{% t contact.discuss_5 %}</li>
-          </ul>
-          <a href="mailto:experts@tefter.com?subject=Expert Consultation" class="btn btn-primary" style="margin-top: 20px; display: inline-block;">{% t cta.request_consultation %}</a>
+        <div class="form-row">
+          <label for="email">Email *</label>
+          <input id="email" name="email" type="email" required>
         </div>
-      </div>
+        <div class="form-row">
+          <label for="company">Naziv kompanije *</label>
+          <input id="company" name="company_name" type="text" required>
+        </div>
+        <div class="form-row">
+          <label for="phone">Telefon</label>
+          <input id="phone" name="phone" type="tel">
+        </div>
+        <div class="form-row">
+          <label for="company-size">Veličina kompanije</label>
+          <select id="company-size" name="company_size">
+            <option value="1-10">1-10 zaposlenih</option>
+            <option value="11-50">11-50 zaposlenih</option>
+            <option value="51-200">51-200 zaposlenih</option>
+            <option value="201+">201+ zaposlenih</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="interest">Šta vas zanima?</label>
+          <select id="interest" name="interest">
+            <option value="customer-portal">Korisnički portal</option>
+            <option value="mobile-operations">Mobilne operacije</option>
+            <option value="integration-engine">Integracioni engine</option>
+            <option value="full-platform">Cela platforma</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="message">Opišite izazove</label>
+          <textarea id="message" name="message" rows="5" placeholder="npr. Imamo 50+ kupaca koji poručuju emailom i želimo automatizaciju..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Pošalji poruku</button>
+      </form>
+
+      <aside class="contact-sidebar">
+        <div class="card">
+          <h3>Kontakt informacije</h3>
+          <p><strong>Email:</strong> office@tefter.com</p>
+          <p><strong>Platforma:</strong> <a href="https://tx.tefter.com" target="_blank" rel="noopener">tx.tefter.com</a></p>
+          <p><strong>Lokacija:</strong> Beograd, Srbija</p>
+          <p><strong>EU data residency:</strong> Brisel, Belgija</p>
+          <p><strong>Vreme odgovora:</strong> Obično odgovaramo u roku od 24 sata (radni dani)</p>
+        </div>
+      </aside>
     </div>
   </div>
 </section>
-
-<section class="section">
-  <div class="wrapper">
-    <h2 class="section-title">{% t contact.direct_title %}</h2>
-    
-    <div class="card-grid">
-      <div class="card">
-        <h3>{% t contact.sales_title %}</h3>
-        <p>{% t contact.sales_desc %}</p>
-        <p style="margin-top: 15px;">
-          <a href="mailto:sales@tefter.com" class="arrow-link">sales@tefter.com</a>
-        </p>
-      </div>
-      
-      <div class="card">
-        <h3>{% t contact.tech_title %}</h3>
-        <p>{% t contact.tech_desc %}</p>
-        <p style="margin-top: 15px;">
-          <a href="mailto:tech@tefter.com" class="arrow-link">tech@tefter.com</a>
-        </p>
-      </div>
-      
-      <div class="card">
-        <h3>{% t contact.partners_title %}</h3>
-        <p>{% t contact.partners_desc %}</p>
-        <p style="margin-top: 15px;">
-          <a href="mailto:partnerships@tefter.com" class="arrow-link">partnerships@tefter.com</a>
-        </p>
-      </div>
-      
-      <div class="card">
-        <h3>{% t contact.general_title %}</h3>
-        <p>{% t contact.general_desc %}</p>
-        <p style="margin-top: 15px;">
-          <a href="mailto:info@tefter.com" class="arrow-link">info@tefter.com</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrapper section-center">
-    <h2 class="section-title">{% t contact.faq_title %}</h2>
-    
-    <div style="max-width: 900px; margin: 0 auto; text-align: left;">
-      <div class="card">
-        <h3>{% t contact.q1 %}</h3>
-        <p>{% t contact.a1 %}</p>
-      </div>
-      
-      <div class="card">
-        <h3>{% t contact.q2 %}</h3>
-        <p>{% t contact.a2 %}</p>
-      </div>
-      
-      <div class="card">
-        <h3>{% t contact.q3 %}</h3>
-        <p>{% t contact.a3 %}</p>
-      </div>
-      
-      <div class="card">
-        <h3>{% t contact.q4 %}</h3>
-        <p>{% t contact.a4 %}</p>
-      </div>
-      
-      <div class="card">
-        <h3>{% t contact.q5 %}</h3>
-        <p>{% t contact.a5 %} <a href="{{ '/security/' | relative_url }}" style="color: #0066cc;">{% t contact.q5_link %}</a> {% t contact.q5_end %}</p>
-      </div>
-      
-      <div class="card">
-        <h3>{% t contact.q6 %}</h3>
-        <p>{% t contact.a6 %}</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrapper">
-    <div class="cta-box">
-      <h2>{% t cta.ready_to_start %}</h2>
-      <div class="cta-buttons">
-        <a href="mailto:demo@tefter.com?subject=Demo Request" class="btn btn-primary">{% t global.book_demo %}</a>
-        <a href="{{ '/' | relative_url }}" class="btn btn-secondary">{% t global.back_home %}</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
