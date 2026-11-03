@@ -27,7 +27,7 @@ description: >-
   AI Order Control Tower. Tefter helps buyers and suppliers prevent order misunderstandings
   before they become rework, incomplete deliveries and lost sales.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tefter.io" # CHANGE THIS to your actual domain, e.g., https://yourdomain.com
+url: "https://www.tefter.com"
 
 # Multi-language configuration
 languages: ["en", "sr"]
@@ -79,3 +79,4 @@ sass:
 #   - vendor/ruby/
 exclude:
   - docs
+  - AGENTS.md
