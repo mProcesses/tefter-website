@@ -115,7 +115,7 @@
             {% else %}
               {% assign lang_href = '/' | append: lang | append: base_page_url %}
             {% endif %}
-            <a href="{{ lang_href | replace: '//', '/' }}" 
+            <a {% static_href %}href="{{ lang_href | replace: '//', '/' }}"{% endstatic_href %}
                class="language-option {% if active_lang == lang %}active{% endif %}"
                title="{{ site.language_names[lang] }}"
                data-lang="{{ lang }}">
