@@ -1,303 +1,69 @@
 # English translations
 nav:
-  home: "Home"
-  tx: "Continuity Engine (TX)"
-  apps: "Apps"
-  partner_edge: "Partner Edge"
-  solutions: "Solutions"
-  security: "Security"
-  contact: "Contact"
+  contact: "Start a pilot"
 
 global:
-  book_demo: "Book a demo"
+  start_pilot: "Start a pilot"
   see_how: "See how it works"
-  see_product: "See product overview"
-  learn_more: "Learn more"
-  back_home: "Back to home"
-  explore_platform: "Explore the platform"
-  talk_expert: "Talk to an expert"
-  explore_apps: "Explore all apps"
-  find_solution: "Find your solution"
-  see_full_platform: "See full platform"
-  
+
 footer:
   copyright: "© %{year} Tefter. All rights reserved."
-  
+
 hero:
-  tagline: "Operational Continuity for B2B Trade"
-  layers_tagline: "One continuity engine. Optional operational surfaces."
-  exchange_layer: "Continuity Engine: Tefter Exchange (TX)"
-  exchange_desc: "Stateful execution for orders, invoices, and shipments — pause, replay, and resume with full traceability."
-  ops_layer: "Operational Surfaces: Apps (optional)"
-  ops_desc: "Mobile-first workflows for sales, warehouse, procurement — powered by TX underneath."
+  tagline: "Tefter / AI Order Control Tower"
+  title: "Order alignment that helps protect sales and delivery performance"
+  subtitle: "Tefter helps buyers and suppliers prevent order misunderstandings before they become rework, incomplete deliveries and lost sales. The aim is less downstream friction and loss, with stronger protection for on-time, in-full delivery (OTIF)."
+  vision: "A shared AI control layer for B2B trade, across companies of every size, ordering channel and level of digital readiness."
+
+problem:
+  title: "What order misalignment costs"
+  intro: "A store orders 12 cases. The supplier records 12 units. Both teams see “12” and expect a different delivery. Whatever the channel, both sides need to agree on the item, pack size, quantity, delivery location and date."
+  direct_title: "Direct costs"
+  direct_desc: "Time spent clarifying orders, correcting ERP entries and reconciling invoices. After fulfilment starts: repicking, returns and second deliveries."
+  indirect_title: "Sales at risk"
+  indirect_desc: "A short shipment leaves a shelf empty. Excess stock ties up cash. A late delivery misses a promotion. Repeated misses put OTIF and the trading relationship at risk."
+
+how:
+  title: "How it works"
+  intro: "Tefter checks each order before it reaches the ERP, and keeps the original request, the decision and the handoff together."
+  step1_title: "Check the order"
+  step1_desc: "AI matches customer codes, pack sizes, quantities and delivery locations to the supplier’s articles and flags what is uncertain."
+  step2_title: "Agree on the shared order"
+  step2_desc: "The person who can answer — buyer or supplier — confirms, corrects or excludes the line. The decision stays on the order."
+  step3_title: "Release the agreed order"
+  step3_desc: "The checked order goes to the ERP through the agreed interface. Confirmed mappings are reused on the next order."
+
+channels:
+  title: "Every channel, one order process"
+  intro: "Company size should not decide how an order arrives — or whether a partner can take part."
+  connected_title: "EDI and ERP"
+  connected_desc: "Structured orders are matched and checked. Configured rules can pause an order until an unresolved line is decided."
+  documents_title: "Email and attachments"
+  documents_desc: "Email, Excel, PDF, scans and images. AI prepares a draft; an operator reviews it beside the original and approves."
+  phone_title: "Messenger and portal"
+  phone_desc: "Customers order by WhatsApp, Viber, Telegram or B2B portal. Suppliers without an ERP work in the browser."
+
+evidence:
+  baseline_value: "35%"
+  edi_value: "99.9%"
+  email_value: "97.8%"
+  time_value: "~80%"
+  title: "Measured on live orders in 2026"
+  baseline: "of 3,650 orders lost at least one line on one retail chain–supplier EDI connection, over 12 months before Tefter."
+  edi: "of EDI lines matched automatically on one connection in October, up from 93.8% in September."
+  email: "of emailed lines matched automatically (2,439 of 2,495) over two weeks. Operators still approved each order."
+  time: "less email processing time reported in the first five pilot weeks, compared with manual retyping."
+  note: "Separate measurements, not a controlled before-and-after comparison. Matching is not delivery; financial impact requires following lines through fulfilment."
+
+who:
+  title: "Built for both sides of the order"
+  suppliers_title: "Distributors and suppliers"
+  suppliers_desc: "Get checked orders into your ERP. Your team reviews prepared orders instead of retyping them, and asks the buyer when a line is unclear."
+  retailers_title: "Retail purchasing"
+  retailers_desc: "See what your suppliers received. Resolve product, pack and quantity questions before dispatch, with a record of what was agreed."
+  erp_title: "ERP partners"
+  erp_desc: "Offer checked order intake to your clients. Your team owns the ERP interface and relationship; Tefter maintains intake, mappings and exceptions."
 
 cta:
-  book_demo: "Book a demo"
-  talk_expert: "Talk to an expert"
-  see_action: "See Tefter in Action"
-  experience: "Experience Tefter Apps"
-  get_started: "Ready to Get Started?"
-  see_tx: "Learn about TX"
-  talk_security: "Talk to security team"
-  platform_overview: "Platform overview"
-  find_your_solution: "Find Your Solution"
-  experience_difference: "Experience the Difference"
-  experience_tx: "Experience TX in Action"
-  experience_apps: "Experience Tefter Apps"
-  security_questions: "Security Questions?"
-  ready_to_start: "Ready to Get Started?"
-  schedule_demo: "Schedule a demo"
-  request_consultation: "Request consultation"
-
-tx:
-  getting_started_title: "Getting started"
-  getting_started_desc: "Start transacting quickly, then refine mappings and ERP forwarding as needed:"
-  getting_started_step_1: "Register your organization and generate credentials"
-  getting_started_step_2: "Connect partner exchange (EDI, API, files, or email)"
-  getting_started_step_3: "Begin receiving/sending transactions immediately"
-  getting_started_step_4: "Refine mappings and forward to your ERP on the fly (AI-assisted when formats or data don’t match)"
-  
-common:
-  projection: "Projected outcomes based on customer scenarios"
-  outcome: "Outcome"
-  challenge: "Challenge"
-  solution: "Solution"
-  features: "Features"
-  benefits: "Benefits"
-  yes: "Yes"
-  no: "No"
-  limited: "Limited"
-  sometimes: "Sometimes"
-  varies: "Varies"
-  unlimited: "Unlimite  "
-  complete: "Complete"
-  
-# Home page
-home:
-  title: "Home"
-  description: "Transactions don’t fail — they pause, get fixed by business, and continue. Tefter keeps B2B trade moving through mismatched data and outages."
-  main_heading: "Transactions don’t fail. They pause, get fixed by business, and continue."
-  main_subheading: "Keep orders, invoices, and shipping documents moving through mismatched partner data and outages — without IT tickets."
-  
-  new_category_title: "A New Category: Operational Continuity Platform"
-  new_category_desc: "Traditional integration moves data between systems. Traditional ERP runs internal workflows. <strong>Tefter sits in between as a continuity system for B2B trade</strong> — it keeps transactions alive when reality is messy. When something breaks, the business approves the fix with full audit trail, and the transaction resumes automatically (no re-entry, no duplication, no IT backlog)."
-  
-  problem_title: "The Problem We Solve"
-  problem_headline: "EDI works — until something changes."
-  problem_subheadline: "The 99% that flows is invisible. The 1% that breaks is where the real cost hides."
-  problem_reality_intro: "A partner updates their format. A network drops. A product code doesn't match. What happens next?"
-  
-  problem_time_title: "Time"
-  problem_time_desc: "Weeks waiting in IT queues. Every fix requires specialists who aren't available now."
-  
-  problem_cost_title: "Cost"
-  problem_cost_desc: "Expensive consultants billing by the hour. Per-incident charges that add up fast."
-  
-  problem_revenue_title: "Revenue"
-  problem_revenue_desc: "Orders stuck in limbo. Shipments delayed. Customers who can't wait move on."
-  
-  problem_ops_title: "Operations"
-  problem_ops_desc: "Manual workarounds. Data re-entry. Errors that cascade. Teams firefighting instead of executing."
-  
-  problem_current_approaches: "How companies try to manage this today:"
-  
-  path_erp_title: "The ERP-Centric Path"
-  path_erp_desc: "Rely on your ERP for both operations and partner connections."
-  path_erp_reality: "Complex and expensive, requires IT for every partner change, onboarding becomes a project (weeks, not hours), rigid requirements, and manual/opaque recovery when exchange fails."
-  
-  path_edi_title: "The EDI Service Path"
-  path_edi_desc: "Purchase an EDI/integration service to connect partners while using separate systems for operations."
-  path_edi_reality: "Moves data formats, but doesn’t deliver continuity — mappings and exceptions still depend on specialists, cost scales per partner, business users can’t resolve issues quickly, and onboarding still takes weeks."
-  
-  path_custom_title: "The Custom Integration Path"
-  path_custom_desc: "Build your own middleware and integrations between systems."
-  path_custom_reality: "High build and maintenance costs, brittle connections, inconsistent standards, a dedicated team required, and every new partner becomes a bespoke project."
-  
-  path_manual_title: "The Manual Process Path"
-  path_manual_desc: "Rely on phone, email, spreadsheets, and manual data entry."
-  path_manual_reality: "Doesn’t scale, error-prone, no clear visibility or ownership, and recovery is entirely manual — leading to delays and disputes."
-
-  problem_gap: "<strong>The gap:</strong> when transactions break, IT owns reality — and operations waits."
-  problem_solution: "<strong>What you need:</strong> a system where transactions stay alive, and the business can correct reality while the transaction is running."
-  register: "Register"
-  contact_sales: "Contact Sales"
-  
-  business_fix_title: "Business fixes reality — while transactions are running"
-  business_fix_intro: "When a partner sends “Product A / case of 24” and your system expects “PA-24”, most platforms fail and create an IT ticket. Tefter pauses the transaction, routes it to the right business owner, stores the approved decision as a governed rule, then replays and completes automatically."
-  business_fix_step1_title: "Detect mismatch / drift"
-  business_fix_step1_desc: "TX flags what’s wrong and keeps the transaction alive instead of failing it."
-  business_fix_step2_title: "Approve the business decision"
-  business_fix_step2_desc: "Ops approves a correction with role-based access and a full audit trail."
-  business_fix_step3_title: "Replay & resume cleanly"
-  business_fix_step3_desc: "TX resumes from the exact point — no duplication, no manual re-entry."
-  business_fix_closing: "This is the category shift: recovery becomes a business workflow, not a developer workflow."
-
-  breakthrough_title: "The Continuity Engine: Tefter Exchange (TX)"
-  solution_highlight: "We built <strong>Tefter Exchange (TX)</strong> — a stateful execution engine for B2B transactions. It keeps orders/invoices/shipments recoverable, resumes cleanly after failures, and routes data decisions to the business with full traceability."
-  
-  how_works_title: "How Tefter Works — Quick Overview"
-  
-  tx_subtitle: "Tefter Exchange (TX)"
-  tx_desc: "TX is the continuity engine that keeps transactions alive through failures, mismatches, and partner downtime."
-  tx_feature_1: "<strong>Recoverable execution:</strong> pause safely, retry automatically, and resume without re-entry or duplication"
-  tx_feature_2: "<strong>Business-operable fixes:</strong> when data doesn’t match, route the decision to the right role (not an IT queue) and replay the transaction"
-  tx_feature_3: "<strong>Partner reality:</strong> connect via EDI, API, files, or email — without forcing a new “standard”"
-  tx_feature_4: "<strong>Audit + visibility:</strong> see every transaction state, owner, and next action with traceability end-to-end"
-  
-  tx_example_title: "Example"
-  tx_example: "An order arrives with item “Product A / case of 24,” but your system expects “PA-24.” TX flags the mismatch, suggests a correction, the business owner approves, TX stores the governed rule, and the transaction is replayed and completes — without an IT ticket."
-  tx_start_quick: "<strong>Start in minutes:</strong> register your organization, get credentials, and begin transacting. Refine mappings and ERP forwarding as you go."
-  tx_edi_bridge: "<strong>EDI-friendly:</strong> TX can stabilize existing EDI flows or gradually replace legacy EDI over time — reducing IT workload while increasing operational reliability."
-
-  accelerate_title: "More ways to accelerate"
-  accelerate_intro: "TX keeps transactions alive. Operational speed comes from what you can do while they’re running."
-  
-  accelerate_infra_title: "Operational surfaces your teams own"
-  accelerate_infra_desc: "Browser-based and secure by default. These surfaces let the business act on TX (approvals, exceptions, execution) without waiting on IT."
-  
-  accelerate_ai_title: "Decision support where it matters"
-  accelerate_ai_desc: "AI can suggest corrections (SKU/UoM, synonyms, formatting), but the business approves. That’s how continuity stays governed."
-  
-  accelerate_closing: "Continuity is the product. Surfaces and decision support make it usable by operations."
-
-  tx_enables_title: "Operational Apps — Ready Solutions on TX"
-  
-  ops_subtitle: "Ready solutions for daily business operations — standalone or as ERP augmentation:"
-  ops_desc: ""
-  
-  ops_sales_title: "Sales"
-  ops_sales_desc: "Capture orders from customer locations → sync to ERP via TX"
-  
-  ops_procurement_title: "Procurement"
-  ops_procurement_desc: "Create purchase orders → suppliers receive via TX or email"
-  
-  ops_warehouse_title: "Warehouse"
-  ops_warehouse_desc: "Picking, packing, shipping, route management → inventory synced automatically"
-  
-  ops_partner_title: "Partner Management"
-  ops_partner_desc: "Monitor B2B transactions, resolve mapping exceptions, manage EDI contracts"
-  
-  ops_timesheets_title: "Timesheets"
-  ops_timesheets_desc: "QR check-in/out, shift management, approval workflows"
-  
-  ops_expenses_title: "Expenses"
-  ops_expenses_desc: "Capture invoices and receipts with document scanning"
-  
-  ops_marketing_title: "Marketing Campaigns"
-  ops_marketing_desc: "AI-powered campaigns across Google, Facebook, Instagram"
-  
-  ops_catalog_title: "Catalog Manager"
-  ops_catalog_desc: "Centralized article and category management across apps"
-  
-  see_all_modules: "See all apps"
-
-  end_to_end_title: "One End-to-End Scenario"
-  e2e_label_order: "Order"
-  e2e_label_issue: "Issue"
-  e2e_label_recovery: "Recovery"
-  e2e_order: "An order is submitted and sent to a partner system."
-  e2e_issue: "A mapping mismatch is detected (SKU/UoM), and the partner endpoint is temporarily unreachable."
-  e2e_recovery: "TX pauses safely, routes the correction to the business owner (audited), then replays and resumes. If the partner is down, TX retries automatically."
-  e2e_outcome: "Minutes to resolution on the mismatch — and the transaction resumes cleanly when the partner returns, without duplication."
-  
-  outcomes_title: "Quick Outcomes — Projected Impact"
-  outcome_onboarding: "6 weeks → same-day"
-  outcome_onboarding_desc: "Reduce partner onboarding time"
-  outcome_tickets: "90% reduction"
-  outcome_tickets_desc: "Eliminate EDI support tickets"
-  outcome_close: "40% faster"
-  outcome_close_desc: "Cut month-end close time"
-  outcome_entry: "75% reduction"
-  outcome_entry_desc: "Reduce manual data entry"
-
-  who_for_title: "Outcomes by responsibility"
-  who_cio_title: "Governance outcomes"
-  who_cio_1: "Governance and stability across partner exchange"
-  who_cio_2: "Visibility, ownership, and auditability through failures"
-  who_coo_title: "Operational outcomes"
-  who_coo_1: "Continuity when partners fail and data is wrong"
-  who_coo_2: "Business-speed resolution without IT tickets"
-  
-  fmcg_title: "Built for FMCG Operations — From Field to Fulfillment"
-  
-  fmcg_distributor_title: "Distributor Order Management"
-  fmcg_distributor_desc: "Field rep visits retail store, takes order on mobile. Order instantly routed to distributor's ERP via TX. Distributor confirms availability, schedules delivery."
-  fmcg_distributor_outcome: "No phone calls, no order entry errors, same-day processing"
-  
-  fmcg_promo_title: "Promotional Campaigns"
-  fmcg_promo_desc: "Marketing launches promotion with special pricing. TX maps promotional SKUs to distributor systems automatically. Invoicing reflects promotional terms without manual adjustment."
-  fmcg_promo_outcome: "Faster go-to-market, fewer billing disputes"
-  
-  fmcg_multi_title: "Multi-Distributor Management"
-  fmcg_multi_desc: "Single order split across 3 distributors based on product availability. TX handles format differences (one uses EDI, one uses XML, one uses email)."
-  fmcg_multi_outcome: "Simplified operations despite complex partner ecosystem"
-  
-  fmcg_retail_title: "Retail Compliance"
-  fmcg_retail_desc: "Large retailer requires specific invoice formats and delivery windows. TX automatically formats invoices per retailer requirements."
-  fmcg_retail_outcome: "Maintain retail partnerships without manual compliance work"
-  
-  see_more_solutions: "See more FMCG solutions"
-
-# About page
-about:
-  title: "About"
-  content_1: "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at"
-  content_2: "You can find the source code for Minima at GitHub:"
-  content_3: "You can find the source code for Jekyll at GitHub:"
-
-# Contact page  
-contact:
-  title: "Contact / Demo"
-  description: "See Tefter in Action — Book Your Demo"
-  main_heading: "See Tefter in Action — Book Your Demo"
-  intro: "Discover how Tefter can transform your operations in a personalized 30-minute demo. We'll show you:"
-  show_1: "How TX handles your specific partner integration scenarios"
-  show_2: "Mobile apps for your field teams"
-  show_3: "AI-assisted error resolution in real-time"
-  show_4: "Your projected ROI based on your current operations"
-  
-  format_title: "Demo Format"
-  live_demo_title: "Book a Live Demo"
-  live_demo_desc: "30-minute video call with Tefter solution expert, customized to your industry (FMCG, wholesale, manufacturing, logistics)."
-  expect_title: "What to expect:"
-  expect_1: "Live demonstration of platform features"
-  expect_2: "Customized to your use cases"
-  expect_3: "Q&A session with technical and business experts"
-  expect_4: "Follow-up with proposal and implementation timeline"
-  expect_5: "No sales pressure"
-  
-  expert_title: "Talk to an Expert"
-  expert_desc: "Have specific questions about architecture, security, or implementation? Connect with one of our technical experts."
-  discuss_title: "We can discuss:"
-  discuss_1: "Integration architecture"
-  discuss_2: "Security and compliance"
-  discuss_3: "Deployment options"
-  discuss_4: "Pricing and licensing"
-  discuss_5: "Migration planning"
-  
-  direct_title: "Or get in touch directly"
-  sales_title: "Sales Inquiries"
-  sales_desc: "Questions about pricing, licensing, or commercial terms."
-  tech_title: "Technical Questions"
-  tech_desc: "Architecture, integration, or implementation questions."
-  partners_title: "Partnership Opportunities"
-  partners_desc: "Interested in partnering with Tefter?"
-  general_title: "General Information"
-  general_desc: "Any other inquiries or questions."
-  
-  faq_title: "Common Questions Before Demo"
-  q1: "How long does implementation take?"
-  a1: "You can start transacting in minutes: register your organization, get credentials, and begin receiving/sending transactions. Connecting forwarding to your ERP and refining mappings typically takes hours (sometimes days) depending on how custom the partner formats and data rules are."
-  q2: "Can Tefter work alongside our existing EDI system?"
-  a2: "Yes. Tefter can run in parallel with existing systems, allowing gradual migration or permanent coexistence depending on your needs."
-  q3: "What integration formats do you support?"
-  a3: "All major EDI standards (EDIFACT, X12), XML (UBL, GS1), JSON, CSV, email, and custom formats. If you can parse it, Tefter can process it."
-  q4: "Is training required for business users?"
-  a4: "Basic training takes 1-2 hours. The interface is designed for business users, not technical experts. Most users are productive immediately."
-  q5: "What about security and compliance?"
-  a5: "Enterprise-grade security built in. GDPR-compliant, hosted in EU (Brussels). SOC 2 Type II and ISO 27001 in progress. Full details on our"
-  q5_link: "Security & Governance"
-  q5_end: "page."
-  q6: "Do you have a mobile app?"
-  a6: "Yes! All operational modules are mobile-first with offline support. Field sales reps, warehouse teams, and logistics managers can work from their mobile devices."
-
+  title: "Test it on your own orders"
+  desc: "Pick one order flow: one ERP, two or three customers or suppliers, one or two channels. Bring a routine order and one that needed a phone call. We agree the measures up front and review the results together."
