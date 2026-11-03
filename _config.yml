@@ -79,3 +79,5 @@ sass:
 #   - vendor/ruby/
 exclude:
   - docs
+  - AGENTS.md
+  - CLAUDE.md
