@@ -80,4 +80,3 @@ sass:
 exclude:
   - docs
   - AGENTS.md
-  - CLAUDE.md
